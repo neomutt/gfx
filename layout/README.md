@@ -4,7 +4,7 @@ Diagrams of the Window Layout of NeoMutt
 
 ## Index View
 
-- [neomutt1.svg](neomutt1.svg)
+<img align="right" width="320" height="200" src="neomutt1.svg">
 
 - Help Line
 - Sidebar
@@ -14,7 +14,7 @@ Diagrams of the Window Layout of NeoMutt
 
 ## Pager View
 
-- [neomutt2.svg](neomutt2.svg)
+<img align="right" width="320" height="200" src="neomutt2.svg">
 
 - Help Line
 - Sidebar
@@ -26,7 +26,7 @@ Diagrams of the Window Layout of NeoMutt
 
 ## Pager View (status on top)
 
-- [neomutt3.svg](neomutt3.svg)
+<img align="right" width="320" height="200" src="neomutt3.svg">
 
 - Status Bar
 - Sidebar
@@ -38,7 +38,7 @@ Diagrams of the Window Layout of NeoMutt
 
 ## Window Hierarchy
 
-- [neomutt4.svg](neomutt4.svg)
+<img align="right" width="320" height="200" src="neomutt4.svg">
 
 - Vertical container
   - Help Line
@@ -53,7 +53,9 @@ Diagrams of the Window Layout of NeoMutt
 
 ## Multiple Views
 
-- [neomutt5.svg](neomutt5.svg)
+<img align="right" width="320" height="200" src="neomutt5.svg">
+
+An idea, not implemented.
 
 - View Tabs
 - Help Line
@@ -64,10 +66,11 @@ Diagrams of the Window Layout of NeoMutt
 - Pager Bar
 - Command Line / Message Window
 
-
 ## Email Comparison View
 
-- [neomutt6.svg](neomutt6.svg)
+<img align="right" width="320" height="200" src="neomutt6.svg">
+
+An idea, not implemented.
 
 - Help Line
 - Sidebar
@@ -81,7 +84,9 @@ Diagrams of the Window Layout of NeoMutt
 
 ## Widescreen
 
-- [neomutt7.svg](neomutt7.svg)
+<img align="right" width="400" height="200" src="neomutt7.svg">
+
+An idea, not implemented.
 
 - Help Line
 - Sidebar
