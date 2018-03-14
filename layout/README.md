@@ -79,3 +79,15 @@ Diagrams of the Window Layout of NeoMutt
 - Status Bar
 - Command Line / Message Window
 
+## Widescreen
+
+- [neomutt7.svg](neomutt7.svg)
+
+- Help Line
+- Sidebar
+- Index View
+- Pager
+- Status Bar
+- Pager Bar
+- Command Line / Message Window
+
