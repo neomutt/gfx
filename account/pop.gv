@@ -1,0 +1,287 @@
+digraph neomutt
+{
+
+	graph [
+		rankdir="TB"
+		nodesep="0.5"
+		ranksep="0.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="4.5"
+		arrowsize="1.0"
+		color="#c0c0c0"
+	];
+
+	obj_0x56af30 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ffff" port="top"><font color="#000000" point-size="20"><b>AllAccounts</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x19186b0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ffff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Account</b></font> <font point-size="12">(0x19186b0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">magic</td>
+			<td border="0">=</td>
+			<td border="0" align="left">POP</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1939740 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c0c0" port="top" colspan="3"><font color="#000000" point-size="20"><b>PopAccountData</b></font> <font point-size="12">(0x1939740)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">check_time</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"2018-10-22 20:32"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">login</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">user</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"apple"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">pass</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">port</td>
+			<td border="0">=</td>
+			<td border="0" align="left">0</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x195f580 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ff8080" port="top" colspan="3"><font color="#000000" point-size="20"><b>Connection</b></font> <font point-size="12">(0x195f580)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">user</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"apple"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">host</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"10.8.0.1"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">port</td>
+			<td border="0">=</td>
+			<td border="0" align="left">110</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">fd</td>
+			<td border="0">=</td>
+			<td border="0" align="left">-1</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1918760 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1937660 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0x1937660)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">POP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"10.8.0.1:apple"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"10.8.0.1:apple"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0x19186b0</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">desc</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"p-apple"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1918930 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ffff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Account</b></font> <font point-size="12">(0x1918930)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">magic</td>
+			<td border="0">=</td>
+			<td border="0" align="left">POP</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x193bd90 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c0c0" port="top" colspan="3"><font color="#000000" point-size="20"><b>PopAccountData</b></font> <font point-size="12">(0x193bd90)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">check_time</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"2018-10-22 20:32"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">login</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">user</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"banana"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">pass</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">port</td>
+			<td border="0">=</td>
+			<td border="0" align="left">0</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1979c50 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ff8080" port="top" colspan="3"><font color="#000000" point-size="20"><b>Connection</b></font> <font point-size="12">(0x1979c50)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">user</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"banana"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">host</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"10.8.0.1"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">port</td>
+			<td border="0">=</td>
+			<td border="0" align="left">110</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">fd</td>
+			<td border="0">=</td>
+			<td border="0" align="left">6</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x19189e0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1939cb0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0x1939cb0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">POP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"10.8.0.1:banana"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"10.8.0.1:banana"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0x1918930</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">desc</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"p-banana"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1901b20 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ff80ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Context</b></font> <font point-size="12">(0x1901b20)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">mailbox</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ff80">0x1939cb0</td>
+		</tr>
+		</table>>
+	];
+
+	{ rank=same obj_0x1901b20 obj_0x56af30 }
+	{ rank=same obj_0x19186b0 obj_0x1918930 }
+
+	obj_0x56af30 -> obj_0x19186b0 [  edgetooltip="AllAccounts->first" ];
+	obj_0x1939740 -> obj_0x195f580 [  edgetooltip="PopAccountData->conn" ];
+	obj_0x19186b0 -> obj_0x1939740 [  edgetooltip="Account->adata" ];
+	obj_0x19186b0 -> obj_0x1918760 [  edgetooltip="Account->mailboxes" ];
+	obj_0x1918760 -> obj_0x1937660 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0x1918760 obj_0x1937660 };
+	obj_0x193bd90 -> obj_0x1979c50 [  edgetooltip="PopAccountData->conn" ];
+	obj_0x1918930 -> obj_0x193bd90 [  edgetooltip="Account->adata" ];
+	obj_0x1918930 -> obj_0x19189e0 [  edgetooltip="Account->mailboxes" ];
+	obj_0x19189e0 -> obj_0x1939cb0 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0x19189e0 obj_0x1939cb0 };
+	obj_0x19186b0 -> obj_0x1918930 [  edgetooltip="Account->next" ];
+
+}

@@ -1,0 +1,247 @@
+digraph neomutt
+{
+
+	graph [
+		rankdir="TB"
+		nodesep="0.5"
+		ranksep="0.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="4.5"
+		arrowsize="1.0"
+		color="#c0c0c0"
+	];
+
+	obj_0x56af30 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ffff" port="top"><font color="#000000" point-size="20"><b>AllAccounts</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1de8740 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ffff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Account</b></font> <font point-size="12">(0x1de8740)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">magic</td>
+			<td border="0">=</td>
+			<td border="0" align="left">NOTMUCH</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1de8780 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c0c0" port="top" colspan="3"><font color="#000000" point-size="20"><b>NmAccountData</b></font> <font point-size="12">(0x1de8780)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">db</td>
+			<td border="0">=</td>
+			<td border="0" align="left">(nil)</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1de87a0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1e07660 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0x1e07660)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">NOTMUCH</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"?query=dnssec"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"?query=dnssec"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0x1de8740</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">desc</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"dns"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1e5e530 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>NmMboxData</b></font> <font point-size="12">(0x1e5e530)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">db_limit</td>
+			<td border="0">=</td>
+			<td border="0" align="left">0</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1de8920 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1e09740 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0x1e09740)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">NOTMUCH</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"?query=climbing"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"?query=climbing"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0x1de8740</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">desc</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"climb"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1de8b00 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>NmMboxData</b></font> <font point-size="12">(0x1de8b00)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">db_limit</td>
+			<td border="0">=</td>
+			<td border="0" align="left">0</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1de8aa0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1e0b820 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0x1e0b820)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">NOTMUCH</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"?query=neomutt"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"?query=neomutt"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0x1de8740</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">desc</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"neomutt"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1e64c40 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>NmMboxData</b></font> <font point-size="12">(0x1e64c40)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">db_limit</td>
+			<td border="0">=</td>
+			<td border="0" align="left">0</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1dc9a40 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ff80ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Context</b></font> <font point-size="12">(0x1dc9a40)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">mailbox</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ff80">0x1e0b820</td>
+		</tr>
+		</table>>
+	];
+
+	{ rank=same obj_0x1dc9a40 obj_0x56af30 }
+	{ rank=same obj_0x1de8740 }
+
+	obj_0x56af30 -> obj_0x1de8740 [  edgetooltip="AllAccounts->first" ];
+	obj_0x1de8740 -> obj_0x1de8780 [  edgetooltip="Account->adata" ];
+	obj_0x1de8740 -> obj_0x1de87a0 [  edgetooltip="Account->mailboxes" ];
+	obj_0x1e07660 -> obj_0x1e5e530 [  edgetooltip="Mailbox->mdata" ];
+	obj_0x1de87a0 -> obj_0x1e07660 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0x1de87a0 obj_0x1e07660 obj_0x1e5e530 };
+	obj_0x1e09740 -> obj_0x1de8b00 [  edgetooltip="Mailbox->mdata" ];
+	obj_0x1de8920 -> obj_0x1e09740 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0x1de8920 obj_0x1e09740 obj_0x1de8b00 };
+	obj_0x1de87a0 -> obj_0x1de8920 [  edgetooltip="MailboxNode->next" ];
+	obj_0x1e0b820 -> obj_0x1e64c40 [  edgetooltip="Mailbox->mdata" ];
+	obj_0x1de8aa0 -> obj_0x1e0b820 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0x1de8aa0 obj_0x1e0b820 obj_0x1e64c40 };
+	obj_0x1de8920 -> obj_0x1de8aa0 [  edgetooltip="MailboxNode->next" ];
+
+}

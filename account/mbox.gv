@@ -1,0 +1,219 @@
+digraph neomutt
+{
+
+	graph [
+		rankdir="TB"
+		nodesep="0.5"
+		ranksep="0.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="4.5"
+		arrowsize="1.0"
+		color="#c0c0c0"
+	];
+
+	obj_0x56af30 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ffff" port="top"><font color="#000000" point-size="20"><b>AllAccounts</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xc2d960 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ffff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Account</b></font> <font point-size="12">(0xc2d960)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">magic</td>
+			<td border="0">=</td>
+			<td border="0" align="left">MBOX</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xc60f60 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c0c0" port="top" colspan="3"><font color="#000000" point-size="20"><b>MboxAccountData</b></font> <font point-size="12">(0xc60f60)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">fp</td>
+			<td border="0">=</td>
+			<td border="0" align="left">(nil)</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">atime</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"2018-10-22 20:39"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">locked</td>
+			<td border="0">=</td>
+			<td border="0" align="left">false</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">append</td>
+			<td border="0">=</td>
+			<td border="0" align="left">false</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xc2d9a0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xc4c660 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xc4c660)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">MBOX</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"apple.mbox"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"apple.mbox"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xc2d960</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">desc</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"Mapple"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xc508a0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ffff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Account</b></font> <font point-size="12">(0xc508a0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">magic</td>
+			<td border="0">=</td>
+			<td border="0" align="left">MBOX</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xc52ee0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c0c0" port="top" colspan="3"><font color="#000000" point-size="20"><b>MboxAccountData</b></font> <font point-size="12">(0xc52ee0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">fp</td>
+			<td border="0">=</td>
+			<td border="0" align="left">0xb5a280</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">atime</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"2018-10-22 20:39"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">locked</td>
+			<td border="0">=</td>
+			<td border="0" align="left">false</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">append</td>
+			<td border="0">=</td>
+			<td border="0" align="left">false</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xc508e0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xc4e740 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xc4e740)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">MBOX</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"banana.mbox"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"banana.mbox"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xc508a0</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">desc</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"Mbanana"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xc14360 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ff80ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Context</b></font> <font point-size="12">(0xc14360)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">mailbox</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ff80">0xc4e740</td>
+		</tr>
+		</table>>
+	];
+
+	{ rank=same obj_0xc14360 obj_0x56af30 }
+	{ rank=same obj_0xc2d960 obj_0xc508a0 }
+
+	obj_0x56af30 -> obj_0xc2d960 [  edgetooltip="AllAccounts->first" ];
+	obj_0xc2d960 -> obj_0xc60f60 [  edgetooltip="Account->adata" ];
+	obj_0xc2d960 -> obj_0xc2d9a0 [  edgetooltip="Account->mailboxes" ];
+	obj_0xc2d9a0 -> obj_0xc4c660 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xc2d9a0 obj_0xc4c660 };
+	obj_0xc508a0 -> obj_0xc52ee0 [  edgetooltip="Account->adata" ];
+	obj_0xc508a0 -> obj_0xc508e0 [  edgetooltip="Account->mailboxes" ];
+	obj_0xc508e0 -> obj_0xc4e740 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xc508e0 obj_0xc4e740 };
+	obj_0xc2d960 -> obj_0xc508a0 [  edgetooltip="Account->next" ];
+
+}

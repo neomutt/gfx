@@ -1,0 +1,703 @@
+digraph neomutt
+{
+
+	graph [
+		rankdir="TB"
+		nodesep="0.5"
+		ranksep="0.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="4.5"
+		arrowsize="1.0"
+		color="#c0c0c0"
+	];
+
+	obj_0x56af30 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ffff" port="top"><font color="#000000" point-size="20"><b>AllAccounts</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe67720 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ffff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Account</b></font> <font point-size="12">(0xe67720)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">magic</td>
+			<td border="0">=</td>
+			<td border="0" align="left">IMAP</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe89030 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c0c0" port="top" colspan="3"><font color="#000000" point-size="20"><b>ImapAccountData</b></font> <font point-size="12">(0xe89030)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">user</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"apple"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">pass</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">port</td>
+			<td border="0">=</td>
+			<td border="0" align="left">143</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">mailbox</td>
+			<td border="0">=</td>
+			<td border="0" align="left">(nil)</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe89420 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ff8080" port="top" colspan="3"><font color="#000000" point-size="20"><b>Connection</b></font> <font point-size="12">(0xe89420)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">user</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"apple"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">host</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"10.8.0.1"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">port</td>
+			<td border="0">=</td>
+			<td border="0" align="left">143</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">fd</td>
+			<td border="0">=</td>
+			<td border="0" align="left">5</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe89af0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe86660 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xe86660)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">IMAP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"INBOX"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"INBOX"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xe67720</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">desc</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"i-apple"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe3d1b0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>ImapMboxData</b></font> <font point-size="12">(0xe3d1b0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"INBOX"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">munge_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""INBOX""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">real_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">[NULL]</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe47a90 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf3bc70 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xf3bc70)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">IMAP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"abbot"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"abbot"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xe67720</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf42900 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>ImapMboxData</b></font> <font point-size="12">(0xf42900)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"abbot"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">munge_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""abbot""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">real_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"abbot"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe3ef60 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf3dd50 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xf3dd50)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">IMAP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"achebe"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"achebe"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xe67720</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf42b30 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>ImapMboxData</b></font> <font point-size="12">(0xf42b30)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"achebe"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">munge_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""achebe""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">real_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"achebe"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe58150 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf3fe30 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xf3fe30)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">IMAP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"awlinson"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"awlinson"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xe67720</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf42d60 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>ImapMboxData</b></font> <font point-size="12">(0xf42d60)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"awlinson"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">munge_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""awlinson""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">real_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"awlinson"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe8be10 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ffff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Account</b></font> <font point-size="12">(0xe8be10)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">magic</td>
+			<td border="0">=</td>
+			<td border="0" align="left">IMAP</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe8bec0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c0c0" port="top" colspan="3"><font color="#000000" point-size="20"><b>ImapAccountData</b></font> <font point-size="12">(0xe8bec0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">user</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"banana"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">pass</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">port</td>
+			<td border="0">=</td>
+			<td border="0" align="left">143</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">mailbox</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ff80">0xe89c50</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe8c2b0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ff8080" port="top" colspan="3"><font color="#000000" point-size="20"><b>Connection</b></font> <font point-size="12">(0xe8c2b0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">user</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"banana"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">host</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"10.8.0.1"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">port</td>
+			<td border="0">=</td>
+			<td border="0" align="left">143</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">fd</td>
+			<td border="0">=</td>
+			<td border="0" align="left">6</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe8be50 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xe89c50 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xe89c50)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">IMAP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"INBOX"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"INBOX"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xe8be10</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">desc</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"i-banana"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xee1bd0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>ImapMboxData</b></font> <font point-size="12">(0xee1bd0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"INBOX"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">munge_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""INBOX""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">real_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">[NULL]</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf57d20 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xefa090 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xefa090)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">IMAP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"banker"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"banker"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xe8be10</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf00d30 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>ImapMboxData</b></font> <font point-size="12">(0xf00d30)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"banker"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">munge_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""banker""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">real_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"banker"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf465a0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xefc170 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xefc170)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">IMAP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"butterworth"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"butterworth"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xe8be10</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf00e60 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>ImapMboxData</b></font> <font point-size="12">(0xf00e60)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"butterworth"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">munge_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""butterworth""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">real_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"butterworth"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf42f90 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xefe250 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xefe250)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">IMAP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"byrum"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"byrum"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xe8be10</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf00f90 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>ImapMboxData</b></font> <font point-size="12">(0xf00f90)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"byrum"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">munge_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""byrum""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">real_name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"byrum"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf54ba0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ff80ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Context</b></font> <font point-size="12">(0xf54ba0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">mailbox</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ff80">0xe89c50</td>
+		</tr>
+		</table>>
+	];
+
+	{ rank=same obj_0xf54ba0 obj_0x56af30 }
+	{ rank=same obj_0xe67720 obj_0xe8be10 }
+
+	obj_0x56af30 -> obj_0xe67720 [  edgetooltip="AllAccounts->first" ];
+	obj_0xe89030 -> obj_0xe89420 [  edgetooltip="ImapAccountData->conn" ];
+	obj_0xe67720 -> obj_0xe89030 [  edgetooltip="Account->adata" ];
+	obj_0xe67720 -> obj_0xe89af0 [  edgetooltip="Account->mailboxes" ];
+	obj_0xe86660 -> obj_0xe3d1b0 [  edgetooltip="Mailbox->mdata" ];
+	obj_0xe89af0 -> obj_0xe86660 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xe89af0 obj_0xe86660 obj_0xe3d1b0 };
+	obj_0xf3bc70 -> obj_0xf42900 [  edgetooltip="Mailbox->mdata" ];
+	obj_0xe47a90 -> obj_0xf3bc70 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xe47a90 obj_0xf3bc70 obj_0xf42900 };
+	obj_0xe89af0 -> obj_0xe47a90 [  edgetooltip="MailboxNode->next" ];
+	obj_0xf3dd50 -> obj_0xf42b30 [  edgetooltip="Mailbox->mdata" ];
+	obj_0xe3ef60 -> obj_0xf3dd50 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xe3ef60 obj_0xf3dd50 obj_0xf42b30 };
+	obj_0xe47a90 -> obj_0xe3ef60 [  edgetooltip="MailboxNode->next" ];
+	obj_0xf3fe30 -> obj_0xf42d60 [  edgetooltip="Mailbox->mdata" ];
+	obj_0xe58150 -> obj_0xf3fe30 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xe58150 obj_0xf3fe30 obj_0xf42d60 };
+	obj_0xe3ef60 -> obj_0xe58150 [  edgetooltip="MailboxNode->next" ];
+	obj_0xe8bec0 -> obj_0xe8c2b0 [  edgetooltip="ImapAccountData->conn" ];
+	obj_0xe8be10 -> obj_0xe8bec0 [  edgetooltip="Account->adata" ];
+	obj_0xe8be10 -> obj_0xe8be50 [  edgetooltip="Account->mailboxes" ];
+	obj_0xe89c50 -> obj_0xee1bd0 [  edgetooltip="Mailbox->mdata" ];
+	obj_0xe8be50 -> obj_0xe89c50 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xe8be50 obj_0xe89c50 obj_0xee1bd0 };
+	obj_0xefa090 -> obj_0xf00d30 [  edgetooltip="Mailbox->mdata" ];
+	obj_0xf57d20 -> obj_0xefa090 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xf57d20 obj_0xefa090 obj_0xf00d30 };
+	obj_0xe8be50 -> obj_0xf57d20 [  edgetooltip="MailboxNode->next" ];
+	obj_0xefc170 -> obj_0xf00e60 [  edgetooltip="Mailbox->mdata" ];
+	obj_0xf465a0 -> obj_0xefc170 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xf465a0 obj_0xefc170 obj_0xf00e60 };
+	obj_0xf57d20 -> obj_0xf465a0 [  edgetooltip="MailboxNode->next" ];
+	obj_0xefe250 -> obj_0xf00f90 [  edgetooltip="Mailbox->mdata" ];
+	obj_0xf42f90 -> obj_0xefe250 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xf42f90 obj_0xefe250 obj_0xf00f90 };
+	obj_0xf465a0 -> obj_0xf42f90 [  edgetooltip="MailboxNode->next" ];
+	obj_0xe67720 -> obj_0xe8be10 [  edgetooltip="Account->next" ];
+
+}

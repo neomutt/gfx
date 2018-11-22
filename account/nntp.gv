@@ -1,0 +1,208 @@
+digraph neomutt
+{
+
+	graph [
+		rankdir="TB"
+		nodesep="0.5"
+		ranksep="0.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="4.5"
+		arrowsize="1.0"
+		color="#c0c0c0"
+	];
+
+	obj_0x56af30 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ffff" port="top"><font color="#000000" point-size="20"><b>AllAccounts</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xfc56b0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ffff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Account</b></font> <font point-size="12">(0xfc56b0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">magic</td>
+			<td border="0">=</td>
+			<td border="0" align="left">NNTP</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xf9bde0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c0c0" port="top" colspan="3"><font color="#000000" point-size="20"><b>NntpAccountData</b></font> <font point-size="12">(0xf9bde0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">groups_num</td>
+			<td border="0">=</td>
+			<td border="0" align="left">32765</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xff7400 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ff8080" port="top" colspan="3"><font color="#000000" point-size="20"><b>Connection</b></font> <font point-size="12">(0xff7400)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">user</td>
+			<td border="0">=</td>
+			<td border="0" align="left">""</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">host</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"news.gmane.org"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">port</td>
+			<td border="0">=</td>
+			<td border="0" align="left">119</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">fd</td>
+			<td border="0">=</td>
+			<td border="0" align="left">5</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xfc56f0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xfe4660 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xfe4660)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">NNTP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"gmane.mail.mutt.user"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"gmane.mail.mutt.user"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xfc56b0</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x10134f0 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>NntpMboxData</b></font> <font point-size="12">(0x10134f0)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">group</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"gmane.mail.mutt.user"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xefec80 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" bgcolor="#80ff80" port="top"><font color="#000000" point-size="20"><b>MN</b></font></td>
+		</tr>
+		</table>>
+	];
+
+	obj_0xfe6740 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>Mailbox</b></font> <font point-size="12">(0xfe6740)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">NNTP</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">path</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"gmane.mail.mutt.devel"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">realpath</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"gmane.mail.mutt.devel"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">account</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ffff">0xfc56b0</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x108e150 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#60c060" port="top" colspan="3"><font color="#000000" point-size="20"><b>NntpMboxData</b></font> <font point-size="12">(0x108e150)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">group</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"gmane.mail.mutt.devel"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x1cc4040 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ff80ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Context</b></font> <font point-size="12">(0x1cc4040)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">mailbox</td>
+			<td border="0">=</td>
+			<td border="0" align="left" bgcolor="#80ff80">0xfe4660</td>
+		</tr>
+		</table>>
+	];
+
+	{ rank=same obj_0x1cc4040 obj_0x56af30 }
+	{ rank=same obj_0xfc56b0 }
+
+	obj_0x56af30 -> obj_0xfc56b0 [  edgetooltip="AllAccounts->first" ];
+	obj_0xf9bde0 -> obj_0xff7400 [  edgetooltip="NntpAccountData->conn" ];
+	obj_0xfc56b0 -> obj_0xf9bde0 [  edgetooltip="Account->adata" ];
+	obj_0xfc56b0 -> obj_0xfc56f0 [  edgetooltip="Account->mailboxes" ];
+	obj_0xfe4660 -> obj_0x10134f0 [  edgetooltip="Mailbox->mdata" ];
+	obj_0xfc56f0 -> obj_0xfe4660 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xfc56f0 obj_0xfe4660 obj_0x10134f0 };
+	obj_0xfe6740 -> obj_0x108e150 [  edgetooltip="Mailbox->mdata" ];
+	obj_0xefec80 -> obj_0xfe6740 [  edgetooltip="MailboxNode->m" ];
+	{ rank=same obj_0xefec80 obj_0xfe6740 obj_0x108e150 };
+	obj_0xfc56f0 -> obj_0xefec80 [  edgetooltip="MailboxNode->next" ];
+
+}
