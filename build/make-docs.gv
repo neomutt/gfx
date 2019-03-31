@@ -1,0 +1,78 @@
+digraph build {
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="0.3"
+	];
+
+	node [
+		shape="Mrecord"
+		style="solid"
+		height="0.2"
+		penwidth="2.0"
+		color="blue"
+		fontcolor="black"
+		fontsize="18"
+	];
+
+	edge [
+		penwidth="1.5"
+		color="#000000"
+		arrowsize="1.0"
+	];
+
+
+	functions_h      [ label="functions.h" color="red" ]
+	opcodes          [ label="opcodes.h"   color="red" ]
+	init_h           [ label="init.h"      color="red" ]
+
+	lots_1             [ label="\{example.1\}"         ]
+	lots_man           [ label="\{example.man\}"       ]
+	lots_xsl           [ label="\{neomutt.xsl\}"       ]
+	makedoc_src        [ label="makedoc.c"             ]
+	manual_html        [ label="\{manual.html\}"       ]
+	manual_txt         [ label="manual.txt"            ]
+	manual_xml         [ label="manual.xml"            ]
+	manual_xml_head    [ label="manual.xml.head"       ]
+	manual_xml_tail    [ label="manual.xml.tail"       ]
+	neomuttrc          [ label="neomuttrc"             ]
+	neomuttrc_head     [ label="neomuttrc.head"        ]
+	neomuttrc_man      [ label="neomuttrc.5"           ]
+	neomuttrc_man_head [ label="neomuttrc.man.head"    ]
+	neomuttrc_man_tail [ label="neomuttrc.man.tail"    ]
+	neomutt_css        [ label="neomutt.css"           ]
+
+	gen_map_doc   [ label="gen-map-doc" color="green" shape="box" ]
+	makedoc_c     [ label="makedoc -c" color="green" shape="box" ]
+	makedoc_m     [ label="makedoc -m" color="green" shape="box" ]
+	makedoc_s     [ label="makedoc -s" color="green" shape="box" ]
+	xsltproc      [ label="xsltproc" shape="box" ]
+
+	lots_man -> lots_1 [ label="sed" ]
+
+	manual_xml  -> xsltproc
+	lots_xsl    -> xsltproc
+	neomutt_css -> xsltproc
+	xsltproc    -> manual_html
+	manual_html -> manual_txt [ label="w3m/links" ]
+
+	init_h             -> makedoc_m
+	neomuttrc_man_head -> neomuttrc_man
+	makedoc_m          -> neomuttrc_man
+	neomuttrc_man_tail -> neomuttrc_man
+
+	neomuttrc_head -> neomuttrc [ label="sed" ]
+	init_h         -> makedoc_c
+	makedoc_c      -> neomuttrc
+
+	makedoc_src     -> makedoc    [ label="gcc" ]
+	manual_xml_head -> manual_xml [ label="sed" ]
+
+	manual_xml_tail -> gen_map_doc
+	opcodes         -> gen_map_doc
+	gen_map_doc     -> manual_xml
+	init_h          -> makedoc_s [ label="cpp" ]
+	makedoc_s       -> manual_xml
+	functions_h     -> gen_map_doc [ label="cpp" ]
+}
+

@@ -1,0 +1,142 @@
+digraph build {
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="0.3"
+	];
+
+	node [
+		shape="Mrecord"
+		style="solid"
+		height="0.2"
+		penwidth="2.0"
+		color="blue"
+		fontcolor="black"
+		fontsize="18"
+	];
+
+	edge [
+		penwidth="1.5"
+		color="#000000"
+		arrowsize="1.0"
+	];
+
+
+	config_h         [ label="config.h"            ]
+	conststrings_c   [ label="conststrings.c"      ]
+	gitver_c         [ label="gitver.c"            ]
+	mutt_h           [ label="\{hcache deps\}"     ]
+
+	dot_configure [ label=<./configure <font color="red">●</font><font color="green">★</font>> shape="box" ]
+	git           [ label=<git <font color="red">●</font>> shape="box" ]
+	ld_mutt       [ label="ld" shape="box" ]
+
+	lots_obj -> ld_mutt
+	ld_mutt -> neomutt
+
+	dot_configure -> config_h
+	config_h -> generated [ style="dashed" ]
+
+	dot_configure -> conststrings_c
+	conststrings_c -> generated [ style="dashed" ]
+
+	git -> gitver_c
+	gitver_c -> generated [ style="dashed" ]
+
+	config_h -> hcachever_sh
+	mutt_h -> hcachever_sh
+	mutt_h -> compulsory [ style="dashed" ]
+
+	subgraph cluster_libraries {
+		fontcolor="red"
+		label="LIBRARIES: config, conn, email, mutt, ncrypt"
+		color="#ff0000"
+
+		lots_lib_c [ label="\{lib.c\}" ]
+		lots_lib_o [ label="\{lib.o\}" ]
+		lib_a      [ label="lib.a" ]
+
+		lots_lib_c -> lots_lib_o [ label="gcc" ]
+		lots_lib_o -> lib_a      [ label="ar" ]
+	}
+
+	subgraph cluster_backends {
+		fontcolor="red"
+		label="MAIL BACKENDS: imap, maildir, mbox, nntp, notmuch, pop"
+		color="#ff0000"
+
+		lots_backend_c [ label="\{backend.c\}" ]
+		lots_backend_o [ label="\{backend.o\}" ]
+		backend_a      [ label="backend.a"  ]
+
+		lots_backend_c -> lots_backend_o [ label="gcc" ]
+		lots_backend_o -> backend_a      [ label="ar" ]
+	}
+
+	subgraph cluster_hcache {
+		fontcolor="red"
+		label="HCACHE"
+		color="#ff0000"
+
+		lots_hcache_c [ label="\{hcache.c\}"                                                                                  ]
+		lots_hcache_o [ label="\{hcache.o\}"                                                                                  ]
+		backends_c    [ label=<\{backends.c\} <font color="green">★</font>>                                                   ]
+		hcachever_h   [ label="hcachever.h"                                                                                   ]
+		hcachever_sh  [ label=<hcachever.sh <font color="red">●</font><font color="green">★</font>> color="green" shape="box" ]
+		hcache_a      [ label="hcache.a"                                                                                   ]
+
+		hcachever_sh  -> hcachever_h
+		hcachever_h   -> lots_hcache_o
+		backends_c    -> lots_hcache_o [ label="gcc" ]
+		lots_hcache_c -> lots_hcache_o [ label="gcc" ]
+		lots_hcache_o -> hcache_a      [ label="ar"  ]
+	}
+
+	subgraph cluster_source {
+		fontcolor="red"
+		label="SOURCE"
+		color="#ff0000"
+
+		compulsory   [ label="\{compulsory.c\}"                               ]
+		conditional  [ label=<\{conditional.c\} <font color="green">★</font>> ]
+		enviromental [ label="\{enviromental.c\}"                             ]
+		generated    [ label="\{generated.c\}"                                ]
+		lots_obj     [ label="\{source.o\}"                                   ]
+
+		compulsory   -> lots_obj [ label="gcc" ]
+		conditional  -> lots_obj [ label="gcc" ]
+		enviromental -> lots_obj [ label="gcc" ]
+		generated    -> lots_obj [ label="gcc" ]
+	}
+
+	subgraph cluster_messages {
+		fontcolor="red"
+		label="MESSAGES"
+		color="#ff0000"
+
+		lots_mo          [ label="\{lang.mo\}"          ]
+		lots_po          [ label="\{lang.po\}"          ]
+		neomutt_pot      [ label="neomutt.pot"             ]
+		xgettext         [ label="xgettext" shape="box" ]
+
+		POTFILES         -> xgettext
+		compulsory       -> xgettext
+		xgettext         -> neomutt_pot
+		neomutt_pot      -> lots_po [ label="translator" ]
+		lots_po          -> lots_mo [ label="msgfmt" ]
+	}
+
+	subgraph cluster_tools {
+		fontcolor="red"
+		label="TOOLS"
+		color="#ff0000"
+
+		pgpewrap_src [ label="pgpewrap.c" ]
+		pgpewrap_src -> pgpewrap [ label="gcc" ]
+	}
+
+	hcache_a -> ld_mutt
+	lib_a -> ld_mutt
+	backend_a -> ld_mutt
+}
+
