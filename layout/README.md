@@ -2,9 +2,10 @@
 
 Diagrams of the Window Layout of NeoMutt
 
-## Index View
+## Plain Index View
 
-<img align="right" width="320" height="200" src="neomutt1.svg">
+<img align="right" width="320" height="200" src="neomutt02.svg">
+<img align="right" width="320" height="200" src="neomutt01.svg">
 
 - Help Line
 - Sidebar
@@ -12,9 +13,12 @@ Diagrams of the Window Layout of NeoMutt
 - Status Bar
 - Command Line / Message Window
 
-## Pager View
+The second has a shortened index bar (status).
 
-<img align="right" width="320" height="200" src="neomutt2.svg">
+## Index + Pager View
+
+<img align="right" width="320" height="200" src="neomutt04.svg">
+<img align="right" width="320" height="200" src="neomutt03.svg">
 
 - Help Line
 - Sidebar
@@ -24,21 +28,11 @@ Diagrams of the Window Layout of NeoMutt
 - Pager Bar
 - Command Line / Message Window
 
-## Pager View (status on top)
-
-<img align="right" width="320" height="200" src="neomutt3.svg">
-
-- Status Bar
-- Sidebar
-- Index View
-- Pager Bar
-- Pager
-- Help Line
-- Command Line / Message Window
+Second has status_on_top set
 
 ## Window Hierarchy
 
-<img align="right" width="320" height="200" src="neomutt4.svg">
+<img align="right" width="320" height="200" src="neomutt05.svg">
 
 - Vertical container
   - Help Line
@@ -51,24 +45,59 @@ Diagrams of the Window Layout of NeoMutt
   - Pager Bar
   - Command Line / Message Window
 
-## Multiple Views
+## Index + Pager View (shortened index bar)
 
-<img align="right" width="320" height="200" src="neomutt5.svg">
+<img align="right" width="320" height="200" src="neomutt08.svg">
+<img align="right" width="320" height="200" src="neomutt07.svg">
+<img align="right" width="320" height="200" src="neomutt06.svg">
+
+- Status Bar
+- Sidebar
+- Index View
+- Pager Bar
+- Pager
+- Help Line
+- Command Line / Message Window
+
+The third has an extra vertical nest to separate the index from the pager.
+
+## Index + Pager View (status on top, shortened index bar)
+
+<img align="right" width="320" height="200" src="neomutt11.svg">
+<img align="right" width="320" height="200" src="neomutt10.svg">
+<img align="right" width="320" height="200" src="neomutt09.svg">
+
+- Status Bar
+- Sidebar
+- Index View
+- Pager Bar
+- Pager
+- Help Line
+- Command Line / Message Window
+
+The third has an extra vertical nest to separate the index from the pager.
+
+## Widescreen
+
+<img align="right" width="320" height="200" src="neomutt14.svg">
+<img align="right" width="320" height="200" src="neomutt13.svg">
+<img align="right" width="320" height="200" src="neomutt12.svg">
 
 An idea, not implemented.
 
-- View Tabs
 - Help Line
 - Sidebar
 - Index View
-- Status Bar
 - Pager
+- Status Bar
 - Pager Bar
 - Command Line / Message Window
 
+The third has status_on_top set.
+
 ## Email Comparison View
 
-<img align="right" width="320" height="200" src="neomutt6.svg">
+<img align="right" width="320" height="200" src="neomutt15.svg">
 
 An idea, not implemented.
 
@@ -82,17 +111,18 @@ An idea, not implemented.
 - Status Bar
 - Command Line / Message Window
 
-## Widescreen
+## Multiple Views
 
-<img align="right" width="400" height="200" src="neomutt7.svg">
+<img align="right" width="320" height="200" src="neomutt16.svg">
 
 An idea, not implemented.
 
+- View Tabs
 - Help Line
 - Sidebar
 - Index View
-- Pager
 - Status Bar
+- Pager
 - Pager Bar
 - Command Line / Message Window
 
