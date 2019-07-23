@@ -14,8 +14,8 @@
    viewBox="0 0 211.66668 132.29167"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="n3.svg">
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="neomutt15.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,7 +25,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6825"
+     inkscape:zoom="2.066"
      inkscape:cx="400"
      inkscape:cy="250"
      inkscape:document-units="mm"
@@ -68,10 +68,10 @@
      id="layer1"
      transform="translate(12.816628,-77.777028)">
     <rect
-       style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458329;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4533"
        width="29.275272"
-       height="107.15624"
+       height="113.77084"
        x="-10.170794"
        y="87.037437" />
     <rect
@@ -81,13 +81,6 @@
        height="22.536621"
        x="20.256289"
        y="87.037445" />
-    <rect
-       style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458335;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4537"
-       width="87.3125"
-       height="76.729149"
-       x="20.256289"
-       y="117.46452" />
     <rect
        style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4539"
@@ -135,6 +128,13 @@
          x="21.285881"
          y="91.011551"
          style="stroke-width:0.26458332">Index View</tspan></text>
+    <rect
+       style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458335;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4537"
+       width="87.3125"
+       height="76.729149"
+       x="20.256289"
+       y="117.46452" />
     <text
        xml:space="preserve"
        style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -145,33 +145,30 @@
          id="tspan4557"
          x="21.337044"
          y="121.47373"
-         style="stroke-width:0.26458332">Email 1</tspan></text>
-    <rect
-       style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458338;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4537-9"
-       width="87.3125"
-       height="76.729164"
-       x="108.89171"
-       y="117.46454" />
-    <rect
-       style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4539-5"
-       width="87.312492"
-       height="5.2916627"
-       x="20.256289"
-       y="110.84995" />
-    <text
-       xml:space="preserve"
-       style="font-size:3.60131216px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="21.606352"
-       y="112.54753"
-       id="text4578"
-       transform="scale(0.97958121,1.0208444)"><tspan
-         sodipodi:role="line"
-         id="tspan4576"
-         x="21.606352"
+         style="stroke-width:0.26458332">Pager (Email 1)</tspan></text>
+    <g
+       id="g40"
+       transform="translate(1.3822428e-7,84.666661)">
+      <rect
+         y="110.84995"
+         x="20.256289"
+         height="5.2916627"
+         width="87.312492"
+         id="rect4539-5"
+         style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         transform="scale(0.97958121,1.0208444)"
+         id="text4578"
          y="112.54753"
-         style="stroke-width:0.26458332">Pager Bar 1</tspan></text>
+         x="21.606352"
+         style="font-size:3.60131216px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="112.54753"
+           x="21.606352"
+           id="tspan4576"
+           sodipodi:role="line">Pager Bar 1</tspan></text>
+    </g>
     <text
        xml:space="preserve"
        style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -183,35 +180,46 @@
          x="-9.0778446"
          y="206.16182"
          style="stroke-width:0.26458332">Command Line / Message Window</tspan></text>
-    <rect
-       style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4539-5-7"
-       width="87.312492"
-       height="5.2916627"
-       x="108.8917"
-       y="110.84995" />
-    <text
-       xml:space="preserve"
-       style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="109.8006"
-       y="114.73007"
-       id="text4578-3"><tspan
-         sodipodi:role="line"
-         id="tspan4576-6"
-         x="109.8006"
+    <g
+       id="g45"
+       transform="translate(4.5887044e-6,84.666661)">
+      <rect
+         y="110.84995"
+         x="108.8917"
+         height="5.2916627"
+         width="87.312492"
+         id="rect4539-5-7"
+         style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4578-3"
          y="114.73007"
-         style="stroke-width:0.26458332">Pager Bar 2</tspan></text>
+         x="109.8006"
+         style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="114.73007"
+           x="109.8006"
+           id="tspan4576-6"
+           sodipodi:role="line">Pager Bar 2</tspan></text>
+    </g>
+    <rect
+       style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458338;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4537-9"
+       width="87.3125"
+       height="76.729164"
+       x="108.89171"
+       y="117.46453" />
     <text
        xml:space="preserve"
        style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="110.0444"
-       y="121.51769"
+       y="121.51768"
        id="text4559-1"><tspan
          sodipodi:role="line"
          id="tspan4557-2"
          x="110.0444"
-         y="121.51769"
-         style="stroke-width:0.26458332">Email 2</tspan></text>
+         y="121.51768"
+         style="stroke-width:0.26458332">Pager (Email 2)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.52777767px;line-height:1.25;fill:#dc0606;fill-opacity:1;stroke:#ff0000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -226,20 +234,20 @@
     <rect
        style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4539-53"
-       width="206.375"
+       width="175.94792"
        height="5.0777702"
-       x="-10.170794"
-       y="195.7305" />
+       x="20.256289"
+       y="110.84995" />
     <text
        xml:space="preserve"
        style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="-9.0778465"
-       y="199.54723"
+       x="21.349236"
+       y="114.66667"
        id="text4582-5"><tspan
          sodipodi:role="line"
-         id="tspan4580-6"
-         x="-9.0778465"
-         y="199.54723"
-         style="stroke-width:0.26458332">Status Bar</tspan></text>
+         x="21.349236"
+         y="114.66667"
+         style="stroke-width:0.26458332"
+         id="tspan65">Index Bar (Status)</tspan></text>
   </g>
 </svg>
