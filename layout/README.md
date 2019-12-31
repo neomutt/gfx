@@ -13,7 +13,7 @@ Diagrams of the Window Layout of NeoMutt
 - Index Bar (Status)
 - Command Line / Message Window
 
-The second has a shortened Index Bar (Status).
+Second has `status_on_top` set.
 
 ## Index + Pager View
 
@@ -28,11 +28,12 @@ The second has a shortened Index Bar (Status).
 - Pager Bar
 - Command Line / Message Window
 
-Second has `status_on_top` set
+Second has `status_on_top` set.
 
 ## Window Hierarchy
 
-<img align="right" width="320" height="200" src="neomutt05.svg">
+<img align="right" width="320" height="200" src="neomutt11.svg">
+<img align="right" width="320" height="200" src="neomutt08.svg">
 
 - Vertical container
   - Help Bar
@@ -45,37 +46,7 @@ Second has `status_on_top` set
   - Pager Bar
   - Command Line / Message Window
 
-## Index + Pager View (shortened index bar)
-
-<img align="right" width="320" height="200" src="neomutt08.svg">
-<img align="right" width="320" height="200" src="neomutt07.svg">
-<img align="right" width="320" height="200" src="neomutt06.svg">
-
-- Index Bar (Status)
-- Sidebar
-- Index View
-- Pager Bar
-- Pager
-- Help Bar
-- Command Line / Message Window
-
-The third has an extra vertical nest to separate the Index from the Pager.
-
-## Index + Pager View (status on top, shortened index bar)
-
-<img align="right" width="320" height="200" src="neomutt11.svg">
-<img align="right" width="320" height="200" src="neomutt10.svg">
-<img align="right" width="320" height="200" src="neomutt09.svg">
-
-- Index Bar (Status)
-- Sidebar
-- Index View
-- Pager Bar
-- Pager
-- Help Bar
-- Command Line / Message Window
-
-The third has an extra vertical nest to separate the Index from the Pager.
+Second has `status_on_top` set.
 
 ## Widescreen
 

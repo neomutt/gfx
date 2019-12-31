@@ -26,7 +26,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.655"
-     inkscape:cx="401.20846"
+     inkscape:cx="402.41692"
      inkscape:cy="250"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -71,7 +71,7 @@
        style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4533"
        width="29.275272"
-       height="107.15625"
+       height="113.77084"
        x="-10.170794"
        y="87.037445" />
     <rect
@@ -93,7 +93,7 @@
        id="rect4539"
        width="206.375"
        height="5.0777702"
-       x="-10.170794"
+       x="-10.170796"
        y="202.34509" />
     <rect
        style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -138,20 +138,20 @@
     <rect
        style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4539-5"
-       width="206.375"
+       width="175.94792"
        height="5.0777702"
-       x="-10.170794"
-       y="195.7305" />
+       x="20.256289"
+       y="195.51662" />
     <text
        xml:space="preserve"
        style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="-8.9701557"
-       y="199.49072"
+       x="21.456926"
+       y="199.27684"
        id="text4578"><tspan
          sodipodi:role="line"
          id="tspan4576"
-         x="-8.9701557"
-         y="199.49072"
+         x="21.456926"
+         y="199.27684"
          style="stroke-width:0.26458332">Pager Bar</tspan></text>
     <text
        xml:space="preserve"

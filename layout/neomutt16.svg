@@ -26,7 +26,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6825"
-     inkscape:cx="401.18871"
+     inkscape:cx="402.37742"
      inkscape:cy="250"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -71,7 +71,7 @@
        style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4533"
        width="29.275272"
-       height="103.18748"
+       height="109.80206"
        x="-11.493711"
        y="92.32914" />
     <rect
@@ -147,24 +147,28 @@
          x="21.606045"
          y="120.11468"
          style="stroke-width:0.26458332">Pager</tspan></text>
-    <rect
-       style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458329;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4539-5"
-       width="209.02083"
-       height="5.0777702"
-       x="-11.493711"
-       y="197.05342" />
-    <text
-       xml:space="preserve"
-       style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="-10.293074"
-       y="200.81364"
-       id="text4578"><tspan
-         sodipodi:role="line"
-         id="tspan4576"
-         x="-10.293074"
+    <g
+       id="g625"
+       transform="translate(1.40979e-6,-80.91181)">
+      <rect
+         y="197.05342"
+         x="18.933371"
+         height="5.0777702"
+         width="178.59375"
+         id="rect4539-5"
+         style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458329;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4578"
          y="200.81364"
-         style="stroke-width:0.26458332">Index Bar (Status)</tspan></text>
+         x="20.134008"
+         style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="200.81364"
+           x="20.134008"
+           id="tspan4576"
+           sodipodi:role="line">Index Bar (Status)</tspan></text>
+    </g>
     <text
        xml:space="preserve"
        style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -275,23 +279,27 @@
          d="M 7.0271218,84.391611 9.6729551,79.099945 H 24.225038 l 2.645833,5.291666"
          style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
-    <rect
-       style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4539-5-2"
-       width="178.59375"
-       height="5.0777702"
-       x="18.933372"
-       y="116.14161" />
-    <text
-       xml:space="preserve"
-       style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="19.858778"
-       y="120.09525"
-       id="text4559-9"><tspan
-         sodipodi:role="line"
-         id="tspan4557-1"
-         x="19.858778"
+    <g
+       id="g630"
+       transform="translate(-4.975586e-7,80.697919)">
+      <rect
+         y="116.14161"
+         x="18.933372"
+         height="5.0777702"
+         width="178.59375"
+         id="rect4539-5-2"
+         style="fill:#d3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4559-9"
          y="120.09525"
-         style="stroke-width:0.26458332">Pager Bar</tspan></text>
+         x="19.858778"
+         style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="120.09525"
+           x="19.858778"
+           id="tspan4557-1"
+           sodipodi:role="line">Pager Bar</tspan></text>
+    </g>
   </g>
 </svg>
