@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="neomutt1.svg">
+   sodipodi:docname="neomutt02.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6825"
-     inkscape:cx="403.56612"
+     inkscape:cx="404.75483"
      inkscape:cy="266.8178"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -103,7 +103,7 @@
          id="tspan4545"
          x="-9.1151657"
          y="84.179787"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Help Line</tspan></text>
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Help Bar</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.52777767px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

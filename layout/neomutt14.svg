@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="neomutt7.svg">
+   sodipodi:docname="neomutt14.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.808"
-     inkscape:cx="401.10619"
+     inkscape:zoom="1.742"
+     inkscape:cx="400"
      inkscape:cy="250"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3777"
      showgrid="true"
      inkscape:showpageshadow="false"
      showguides="true"
@@ -113,7 +113,7 @@
              id="tspan1730"
              x="-6.1580801"
              y="86.921539"
-             style="stroke-width:0.26499999">Help Line</tspan></text>
+             style="stroke-width:0.26499999">Help Bar</tspan></text>
       </g>
     </g>
     <rect

@@ -7,40 +7,40 @@ Diagrams of the Window Layout of NeoMutt
 <img align="right" width="320" height="200" src="neomutt02.svg">
 <img align="right" width="320" height="200" src="neomutt01.svg">
 
-- Help Line
+- Help Bar
 - Sidebar
 - Index View
-- Status Bar
+- Index Bar (Status)
 - Command Line / Message Window
 
-The second has a shortened index bar (status).
+The second has a shortened Index Bar (Status).
 
 ## Index + Pager View
 
 <img align="right" width="320" height="200" src="neomutt04.svg">
 <img align="right" width="320" height="200" src="neomutt03.svg">
 
-- Help Line
+- Help Bar
 - Sidebar
 - Index View
-- Status Bar
+- Index Bar (Status)
 - Pager
 - Pager Bar
 - Command Line / Message Window
 
-Second has status_on_top set
+Second has `status_on_top` set
 
 ## Window Hierarchy
 
 <img align="right" width="320" height="200" src="neomutt05.svg">
 
 - Vertical container
-  - Help Line
+  - Help Bar
   - Horizontal container
     - Sidebar
     - Vertical container
       - Index View
-      - Status Bar
+      - Index Bar (Status)
       - Pager
   - Pager Bar
   - Command Line / Message Window
@@ -51,15 +51,15 @@ Second has status_on_top set
 <img align="right" width="320" height="200" src="neomutt07.svg">
 <img align="right" width="320" height="200" src="neomutt06.svg">
 
-- Status Bar
+- Index Bar (Status)
 - Sidebar
 - Index View
 - Pager Bar
 - Pager
-- Help Line
+- Help Bar
 - Command Line / Message Window
 
-The third has an extra vertical nest to separate the index from the pager.
+The third has an extra vertical nest to separate the Index from the Pager.
 
 ## Index + Pager View (status on top, shortened index bar)
 
@@ -67,15 +67,15 @@ The third has an extra vertical nest to separate the index from the pager.
 <img align="right" width="320" height="200" src="neomutt10.svg">
 <img align="right" width="320" height="200" src="neomutt09.svg">
 
-- Status Bar
+- Index Bar (Status)
 - Sidebar
 - Index View
 - Pager Bar
 - Pager
-- Help Line
+- Help Bar
 - Command Line / Message Window
 
-The third has an extra vertical nest to separate the index from the pager.
+The third has an extra vertical nest to separate the Index from the Pager.
 
 ## Widescreen
 
@@ -85,15 +85,15 @@ The third has an extra vertical nest to separate the index from the pager.
 
 An idea, not implemented.
 
-- Help Line
+- Help Bar
 - Sidebar
 - Index View
 - Pager
-- Status Bar
+- Index Bar (Status)
 - Pager Bar
 - Command Line / Message Window
 
-The third has status_on_top set.
+The third has `status_on_top` set.
 
 ## Email Comparison View
 
@@ -101,14 +101,14 @@ The third has status_on_top set.
 
 An idea, not implemented.
 
-- Help Line
+- Help Bar
 - Sidebar
 - Index View
 - Pager Bar 1
 - Pager Bar 2
 - Pager 1
 - Pager 2
-- Status Bar
+- Index Bar (Status)
 - Command Line / Message Window
 
 ## Multiple Views
@@ -118,10 +118,10 @@ An idea, not implemented.
 An idea, not implemented.
 
 - View Tabs
-- Help Line
+- Help Bar
 - Sidebar
 - Index View
-- Status Bar
+- Index Bar (Status)
 - Pager
 - Pager Bar
 - Command Line / Message Window
