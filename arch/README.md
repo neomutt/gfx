@@ -8,6 +8,12 @@ Assorted diagrams showing how NeoMutt is assembled.
 
 ![arch.svg](arch.svg)
 
+**[config-arch-key.svg](config-arch-key.svg)** **[config-arch.svg](config-arch.svg)**
+
+![config-arch-key.svg](config-arch-key.svg)
+
+![config-arch.svg](config-arch.svg)
+
 **[components.svg](components.svg)**
 
 ![components.svg](components.svg)
