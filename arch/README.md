@@ -14,6 +14,10 @@ Assorted diagrams showing how NeoMutt is assembled.
 
 ![config-arch.svg](config-arch.svg)
 
+**[notify.gv](notify.gv)** **[notify.svg](notify.svg)**
+
+![notify.svg](notify.svg)
+
 **[components.svg](components.svg)**
 
 ![components.svg](components.svg)

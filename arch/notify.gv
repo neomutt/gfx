@@ -1,0 +1,121 @@
+digraph notify
+{
+	graph [
+		rankdir="BT"
+		nodesep="0.2"
+		ranksep="0.5"
+		overlap="false"
+		splines="true"
+		compound="true"
+	];
+
+	node [
+		shape="box"
+		fontsize="12"
+		style="rounded,filled"
+		height="0.2"
+		penwidth="1.0"
+		color="#000000"
+		fillcolor="#ffffff"
+	];
+
+	edge [
+		penwidth="1.0"
+		color="#000000"
+		arrowsize="0.5"
+	];
+
+
+	NeoMutt [ fontcolor="#ffffff" fillcolor="#404040" ]
+
+	subgraph cluster_window
+	{
+		fontcolor="#000000"
+		color="#e0e0e0"
+		fillcolor="#ffffff"
+		style="dashed"
+
+		node [ fillcolor="#ffffc0" ]
+
+		root_win     [ label="Root Window" ]
+		win1         [ label="Window" ]
+		win2         [ label="Window" ]
+		win_dlg      [ label="All Dialogs" ]
+		dlg1         [ label="Dialog" ]
+		dlg1_win1    [ label="Window" ]
+		dlg1_win2    [ label="Window" ]
+		root_win -> NeoMutt
+		win1 -> root_win
+		win2 -> win1
+
+		win_dlg -> root_win
+		dlg1 -> win_dlg
+		dlg1_win1 -> dlg1
+		dlg1_win2 -> dlg1
+	}
+
+
+	subgraph cluster_data
+	{
+		fontcolor="#000000"
+		color="#e0e0e0"
+		fillcolor="#ffffff"
+		style="dashed"
+
+		node [ fillcolor="#ffc0c0" ]
+
+		AConfig [ label="Config (Account)" ]
+		MConfig [ label="Config (Mailbox)" ]
+
+		node [ fillcolor="#c0c0ff" ]
+
+		AccountView
+		EmailView
+		MailboxView
+
+		node [ fillcolor="#c0ffc0" ]
+
+		Account
+		Mailbox
+		Email
+
+		Account     -> NeoMutt
+		AccountView -> Account
+		Mailbox     -> Account
+		MailboxView -> Mailbox
+		Email       -> Mailbox
+		EmailView   -> Email
+
+		Account -> AConfig [ dir="back" ]
+		Mailbox -> MConfig [ dir="back" ]
+
+		{ rank=same Account AccountView AConfig }
+		{ rank=same Mailbox MailboxView MConfig }
+		{ rank=same Email EmailView }
+
+	}
+
+
+	node [ fillcolor="#ffc0c0" ]
+
+	NConfig [ label="Config (Global)"  ]
+
+	node [ fillcolor="#c0ffff" ]
+
+	Colour      -> NeoMutt
+	Context     -> NeoMutt
+
+	NeoMutt -> NConfig [ dir="back" ]
+	AConfig -> NConfig [ style="dashed" color="#d0d0d0" ]
+	MConfig -> AConfig [ style="dashed" color="#d0d0d0" ]
+
+	{ rank=same NeoMutt NConfig }
+
+	node [ color="#e0e0e0" fillcolor="#ffffff" ]
+
+	Alias       -> NeoMutt
+	Command     -> NeoMutt
+	Global      -> NeoMutt
+
+}
+
