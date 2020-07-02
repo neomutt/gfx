@@ -27,8 +27,6 @@ digraph libmutt
 	envlist -> string
 	file    -> string
 	hash    -> string
-	history -> charset
-	history -> hash
 	list    -> string
 	logging -> file
 	logging -> message
@@ -40,9 +38,12 @@ digraph libmutt
 	memory  -> exit
 	memory  -> logging
 	path    -> string
+	random  -> exit
+	random  -> logging
+	random  -> message
 	regex   -> mbyte
 	signal  -> message
 	string  -> memory
 
-	{ rank=same file message queue sha1 md5 }
+	{ rank=same file message queue md5 }
 }
