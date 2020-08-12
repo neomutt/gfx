@@ -1,8 +1,8 @@
 # NeoMutt Screenshots
 
-| Description        | Folder                             |
-| :----------------- | :--------------------------------- |
-| Schematic Diagrams | [schematic](schematic/README.md)   |
-| Screenshots        | [screenshot](screenshot/README.md) |
-| Window Layouts     | [window](window/README.md)         |
-| Misc Pictures      | [misc](misc/README.md)             |
+| Folder                             | Description                                |
+| :--------------------------------- | :----------------------------------------- |
+| [schematic](schematic/README.md)   | Diagrams showing the appearence of dialogs |
+| [screenshot](screenshot/README.md) | Pictures of dialogs in SVG and PNG         |
+| [window](window/README.md)         | Window layout diagrams                     |
+| [misc](misc/README.md)             | Junk                                       |
