@@ -1,3 +1,7 @@
+# Screenshots of NeoMutt
+
+Pictures of NeoMutt dialogs in two screen sizes.
+
 | Dialog               | SVG (100x30)                                     | PNG (100x30)                                     | SVG (80x24)                                    | PNG (80x24)                                    |
 | :------------------- | :----------------------------------------------- | :----------------------------------------------- | :--------------------------------------------- | :--------------------------------------------- |
 | Alias Selection      | [dlg-alias-100.svg](dlg-alias-100.svg)           | [dlg-alias-100.png](dlg-alias-100.png)           | [dlg-alias-80.svg](dlg-alias-80.svg)           | [dlg-alias-80.png](dlg-alias-80.png)           |
@@ -16,3 +20,7 @@
 | Query Selection      | [dlg-query-100.svg](dlg-query-100.svg)           | [dlg-query-100.png](dlg-query-100.png)           | [dlg-query-80.svg](dlg-query-80.svg)           | [dlg-query-80.png](dlg-query-80.png)           |
 | Attachment Selection | [dlg-recv-100.svg](dlg-recv-100.svg)             | [dlg-recv-100.png](dlg-recv-100.png)             | [dlg-recv-80.svg](dlg-recv-80.svg)             | [dlg-recv-80.png](dlg-recv-80.png)             |
 | Verify Certificate   | [dlg-verifycert-100.svg](dlg-verifycert-100.svg) | [dlg-verifycert-100.png](dlg-verifycert-100.png) | [dlg-verifycert-80.svg](dlg-verifycert-80.svg) | [dlg-verifycert-80.png](dlg-verifycert-80.png) |
+
+Sample: Index View + Sidebar
+
+![dlg-index2-100.svg](dlg-index2-100.svg)

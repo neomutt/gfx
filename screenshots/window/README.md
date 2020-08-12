@@ -1,3 +1,7 @@
+# Window Layouts for NeoMutt
+
+These show the nested Windows making up each dialog in NeoMutt.
+
 | Dialog                         | SVG                                                                        |
 | :----------------------------- | :------------------------------------------------------------------------- |
 | Alias Selection                | [dlg-alias-selection.svg](dlg-alias-selection.svg)                         |
@@ -26,3 +30,7 @@
 | Pager - GPGME Verify SMIME Key | [pager-gpgme-verify-smime-key.svg](pager-gpgme-verify-smime-key.svg)       |
 | Pager - Verify PGP Key         | [pager-pgp-verify-key.svg](pager-pgp-verify-key.svg)                       |
 | Pager - Verify SMIME Key       | [pager-verify-smime-key.svg](pager-verify-smime-key.svg)                   |
+
+Sample: Index View + Pager + Sidebar
+
+![dlg-index-pager-sidebar.svg](dlg-index-pager-sidebar.svg)
