@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 640 410" width="640" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="80" rows="24"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="640" height="408" viewBox="0 0 640 408" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="520" class="foreground">   1     Jul 23 apple           (0.5K) Elephant Seal             </text></g><g id="g2"><text x="0" textLength="520" class="foreground">   2     Jul 24 ugli            (0.6K) African Palm Civet        </text></g><g id="g3"><text x="0" textLength="520" class="foreground">   3     Jul 25 fig             (0.6K) Bull Shark                </text></g><g id="g4"><text x="0" textLength="520" class="foreground">   4     Jul 26 lemon           (0.6K) Bear                      </text></g><g id="g5"><text x="0" textLength="520" class="foreground">   5     Jul 27 ziziphus        (0.2K) Stick Insect              </text></g><g id="g6"><text x="0" textLength="520" class="foreground">   6     Jul 28 elderberry      (0.7K) Leopard Tortoise          </text></g><g id="g7"><text x="0" textLength="520" class="foreground">   7     Jul 29 hawthorn        (0.2K) Keel Billed Toucan        </text></g><g id="g8"><text x="0" textLength="520" class="foreground">   8     Jul 30 tangerine       (0.3K) Greenland Dog             </text></g><g id="g9"><text x="0" textLength="520" class="foreground">   9     Jul 31 mango           (0.7K) Bloodhound                </text></g><g id="g10"><text x="0" textLength="520" class="foreground">  10     Aug 01 cherry          (0.9K) Birman                    </text></g><g id="g11"><text x="0" textLength="520" class="foreground">  11     Aug 02 strawberry      (0.7K) X-Ray Tetra               </text></g><g id="g12"><text x="0" textLength="520" class="foreground">  12     Aug 03 xigua           (0.5K) Uguisu                    </text></g><g id="g13"><text x="0" textLength="520" class="foreground">  13     Aug 04 raspberry       (0.8K) Mouse                     </text></g><g id="g14"><text x="0" textLength="520" class="foreground">  14     Aug 05 kumquat         (0.3K) Opossum                   </text></g><g id="g15"><text x="0" textLength="520" class="foreground">  15     Aug 06 quince          (0.7K) Gila Monster              </text></g><g id="g16"><text x="0" textLength="520" class="foreground">  16     Aug 07 yew             (0.9K) Emu                       </text></g><g id="g17"><text x="0" textLength="520" class="foreground">  17     Aug 08 vanilla         (0.6K) Mouse                     </text></g><g id="g18"><text x="0" textLength="640" class="foreground">                                                                                </text></g><g id="g19"><text x="0" textLength="640" class="color7">---NeoMutt: =fruit/nectarine [Msgs:17 11K]---(threads/date)-------------(all)---</text></g></defs><g><use xlink:href="#g1" y="0"/><use xlink:href="#g2" y="17"/><use xlink:href="#g3" y="34"/><use xlink:href="#g4" y="51"/><use xlink:href="#g5" y="68"/><use xlink:href="#g6" y="85"/><use xlink:href="#g7" y="102"/><use xlink:href="#g8" y="119"/><use xlink:href="#g9" y="136"/><use xlink:href="#g10" y="153"/><rect x="0" y="170" width="512" height="17" fill="#00005f"/><use xlink:href="#g11" y="170"/><use xlink:href="#g12" y="187"/><use xlink:href="#g13" y="204"/><use xlink:href="#g14" y="221"/><use xlink:href="#g15" y="238"/><use xlink:href="#g16" y="255"/><use xlink:href="#g17" y="272"/><use xlink:href="#g18" y="289"/><use xlink:href="#g18" y="306"/><use xlink:href="#g18" y="323"/><use xlink:href="#g18" y="340"/><use xlink:href="#g18" y="357"/><rect x="0" y="374" width="640" height="17" fill="#3a3a3a"/><use xlink:href="#g19" y="374"/><use xlink:href="#g18" y="391"/></g></svg>
+</svg>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="p.svg"
+   id="svg1167"
+   viewBox="0 0 211.67 132.29"
+   version="1.1"
+   height="500"
+   width="800">
+  <metadata
+     id="metadata1173">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1171" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg1167"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="250"
+     inkscape:cx="400"
+     inkscape:zoom="1.682"
+     showgrid="false"
+     id="namedview1169"
+     inkscape:window-height="1080"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     id="g1165"
+     transform="translate(12.817 -77.777)">
+    <g
+       id="g1103"
+       stroke-width=".26458">
+      <rect
+         id="rect1097"
+         stroke-dasharray="0.79374995,0.79374995"
+         stroke="#f00"
+         fill="none"
+         height="127"
+         width="206.38"
+         y="80.423"
+         x="-10.171" />
+      <rect
+         id="rect1099"
+         stroke-dasharray="0.79374995, 0.79374995"
+         stroke="#008000"
+         fill="none"
+         height="105.83"
+         width="201.08"
+         y="91.006"
+         x="-7.525" />
+      <rect
+         id="rect1101"
+         stroke="#000"
+         fill="#d3ffff"
+         height="5.2917"
+         width="201.08"
+         y="199.49"
+         x="-7.525" />
+    </g>
+    <g
+       id="g1113"
+       transform="translate(29.104 84.667)">
+      <g
+         id="g1111"
+         transform="translate(-29.104 -84.667)">
+        <rect
+           id="rect1105"
+           stroke-width=".26458"
+           stroke="#000"
+           fill="#d3ffff"
+           height="5.2917"
+           width="201.08"
+           y="83.069"
+           x="-7.525" />
+        <text
+           id="text1109"
+           xml:space="preserve"
+           style="line-height:1.25"
+           stroke-width=".265"
+           font-size="3.5278px"
+           fill="#000000"
+           y="86.921539"
+           x="-6.1580801"><tspan
+             id="tspan1107"
+             stroke-width=".265"
+             y="86.921539"
+             x="-6.1580801">Help Bar</tspan></text>
+      </g>
+    </g>
+    <rect
+       id="rect1115"
+       stroke-width=".26006"
+       stroke="#000"
+       fill="#d3ffff"
+       height="87.313"
+       width="190.5"
+       y="96.298"
+       x="-2.2333" />
+    <text
+       id="text1119"
+       xml:space="preserve"
+       style="line-height:1.25"
+       stroke-width="0.265"
+       font-size="3.5278px"
+       fill="#000000"
+       y="100.47038"
+       x="-0.92236584"><tspan
+         id="tspan1117"
+         stroke-width="0.265"
+         y="100.47038"
+         x="-0.92236584">Pager - Verify SMIME Key</tspan></text>
+    <text
+       id="text1123"
+       xml:space="preserve"
+       style="line-height:1.25"
+       stroke-width=".265"
+       font-size="3.5278px"
+       fill="#000000"
+       y="203.2303"
+       x="-6.6017165"><tspan
+         id="tspan1121"
+         stroke-width=".265"
+         y="203.2303"
+         x="-6.6017165">Command Line / Message Window</tspan></text>
+    <g
+       id="g1131"
+       transform="translate(-17.988 8.4706)">
+      <ellipse
+         id="ellipse1125"
+         stroke-width=".26458"
+         stroke="#f00"
+         fill="#fff"
+         ry="1.9958"
+         rx="1.9958"
+         cy="71.973"
+         cx="7.8353" />
+      <text
+         id="text1129"
+         xml:space="preserve"
+         style="line-height:1.25"
+         stroke-width=".265"
+         font-size="3.5278px"
+         fill="#000000"
+         y="73.425766"
+         x="6.6165857"><tspan
+           id="tspan1127"
+           stroke-width=".265"
+           fill="#000000"
+           y="73.425766"
+           x="6.6165857">R</tspan></text>
+    </g>
+    <g
+       id="g1139"
+       transform="translate(-20.578 18.93)">
+      <ellipse
+         id="ellipse1133"
+         stroke-width=".26458"
+         stroke="#008000"
+         fill="#fff"
+         ry="1.9966"
+         rx="1.9896"
+         cy="71.959"
+         cx="13.13" />
+      <text
+         id="text1137"
+         xml:space="preserve"
+         style="line-height:1.25"
+         stroke-width=".265"
+         font-size="3.5278px"
+         fill="#000000"
+         y="73.305481"
+         x="11.841201"><tspan
+           id="tspan1135"
+           stroke-width=".265"
+           fill="#000000"
+           y="73.305481"
+           x="11.841201">A</tspan></text>
+    </g>
+    <rect
+       id="rect1141"
+       stroke-width=".26006"
+       stroke="#000"
+       fill="#d3ffff"
+       height="5.2917"
+       width="190.5"
+       y="186.26"
+       x="-2.2333" />
+    <text
+       id="text1145"
+       xml:space="preserve"
+       style="line-height:1.25"
+       stroke-width=".265"
+       font-size="3.5278px"
+       fill="#000000"
+       y="189.97694"
+       x="-1.0308063"><tspan
+         id="tspan1143"
+         stroke-width=".265"
+         y="189.97694"
+         x="-1.0308063">Pager Bar</tspan></text>
+    <rect
+       id="rect1147"
+       stroke-width=".2293"
+       stroke-dasharray="0.687897, 0.687897"
+       stroke="#f00"
+       fill="none"
+       height="100.54"
+       width="195.79"
+       y="93.652"
+       x="-4.8791" />
+    <g
+       id="g1163"
+       transform="translate(-12.696 21.7)">
+      <ellipse
+         id="ellipse1149"
+         stroke-width=".26458"
+         stroke="#f00"
+         fill="#fff"
+         ry="1.9958"
+         rx="1.9958"
+         cy="71.973"
+         cx="7.8353" />
+      <text
+         id="text1153"
+         xml:space="preserve"
+         style="line-height:1.25"
+         stroke-width=".265"
+         font-size="3.5278px"
+         fill="#000000"
+         y="73.425766"
+         x="6.6165857"><tspan
+           id="tspan1151"
+           stroke-width=".265"
+           fill="#000000"
+           y="73.425766"
+           x="6.6165857">D</tspan></text>
+      <g
+         id="g1161"
+         font-size="10.583px"
+         font-family="sans-serif">
+        <text
+           id="text1155"
+           xml:space="preserve"
+           style="line-height:1.25;shape-inside:url(#rect374);white-space:pre;" />
+        <text
+           id="text1157"
+           xml:space="preserve"
+           style="line-height:1.25;shape-inside:url(#rect380);white-space:pre;" />
+        <text
+           id="text1159"
+           xml:space="preserve"
+           style="line-height:1.25;shape-inside:url(#rect386);white-space:pre;" />
+      </g>
+    </g>
+  </g>
+</svg>

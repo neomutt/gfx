@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 640 410" width="640" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="80" rows="24"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="640" height="408" viewBox="0 0 640 408" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="640" class="foreground">This certificate belongs to:                                                    </text></g><g id="g2"><text x="24" textLength="88" class="foreground">flatcap.org</text></g><g id="g3"><text x="0" textLength="248" class="foreground">This certificate was issued by:</text></g><g id="g4"><text x="24" textLength="208" class="foreground">Let's Encrypt Authority X3</text></g><g id="g5"><text x="24" textLength="104" class="foreground">Let's Encrypt</text></g><g id="g6"><text x="24" textLength="16" class="foreground">US</text></g><g id="g7"><text x="0" textLength="200" class="foreground">This certificate is valid</text></g><g id="g8"><text x="24" textLength="264" class="foreground">from Wed, 5 Aug 2020 00:25:15 UTC</text></g><g id="g9"><text x="40" textLength="248" class="foreground">to Tue, 3 Nov 2020 00:25:15 UTC</text></g><g id="g10"><text x="0" textLength="536" class="foreground">SHA1 Fingerprint: 98C7 B506 F799 9AE2 5714 D0A6 5B87 1366 2C95 8FCA</text></g><g id="g11"><text x="0" textLength="472" class="foreground">SHA256 Fingerprint: 7DBF A060 662D 23E4 D5F8 4B9A 2AAC DBAB</text></g><g id="g12"><text x="160" textLength="312" class="foreground">2814 806E 2597 0BCA 38DB D992 093A F031</text></g><g id="g13"><text x="0" textLength="640" class="color7">-- NeoMutt: SSL Certificate check (certificate 1 of 1 in chain)                 </text></g><g id="g14"><text x="0" textLength="640" class="foreground">(r)eject, accept (o)nce, (a)ccept always                                        </text></g></defs><g><use xlink:href="#g1" y="0"/><use xlink:href="#g2" y="17"/><use xlink:href="#g3" y="51"/><use xlink:href="#g4" y="68"/><use xlink:href="#g5" y="85"/><use xlink:href="#g6" y="102"/><use xlink:href="#g7" y="136"/><use xlink:href="#g8" y="153"/><use xlink:href="#g9" y="170"/><use xlink:href="#g10" y="204"/><use xlink:href="#g11" y="221"/><use xlink:href="#g12" y="238"/><rect x="0" y="374" width="640" height="17" fill="#3a3a3a"/><use xlink:href="#g13" y="374"/><use xlink:href="#g14" y="391"/></g></svg>
+</svg>

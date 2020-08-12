@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 800 512" width="800" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="100" rows="30"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="800" height="510" viewBox="0 0 800 510" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="800" class="foreground">Cate Blanchett &lt;cb@elderberry.com&gt;, Charlton Heston &lt;ch@raspberry.com&gt;                              </text></g><g id="g2"><text x="0" textLength="800" class="foreground">Al Pacino &lt;ap@mango.com&gt;                                                                            </text></g><g id="g3"><text x="0" textLength="800" class="foreground">Alan Bergman &lt;ab@jackfruit.com&gt;                                                                     </text></g><g id="g4"><text x="0" textLength="216" class="foreground">Faye Dunaway &lt;fd@ilama.com&gt;</text></g><g id="g5"><text x="0" textLength="800" class="foreground">Aishwarya Rai &lt;ar@kumquat.com&gt;, Bruce Willis &lt;bw@wolfberry.com&gt;, James Earl Jones &lt;jej@fig.com&gt;, Kat</text></g><g id="g6"><text x="0" textLength="800" class="color7">-- NeoMutt: History ''                                                                              </text></g><g id="g7"><text x="0" textLength="800" class="foreground">                                                                                                    </text></g></defs><g><use xlink:href="#g1" y="0"/><use xlink:href="#g2" y="17"/><rect x="0" y="34" width="800" height="17" fill="#00005f"/><use xlink:href="#g3" y="34"/><use xlink:href="#g4" y="51"/><use xlink:href="#g5" y="68"/><rect x="0" y="476" width="800" height="17" fill="#3a3a3a"/><use xlink:href="#g6" y="476"/><use xlink:href="#g7" y="493"/></g></svg>
+</svg>

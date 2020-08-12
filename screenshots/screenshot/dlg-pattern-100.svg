@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 800 512" width="800" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="100" rows="30"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="800" height="510" viewBox="0 0 800 510" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="800" class="foreground"> 1 ~A               all messages                                                                    </text></g><g id="g2"><text x="8" textLength="792" class="foreground">2 ~b EXPR          messages whose body matches EXPR                                                </text></g><g id="g3"><text x="0" textLength="800" class="foreground"> 3 ~B EXPR          messages whose body or headers match EXPR                                       </text></g><g id="g4"><text x="0" textLength="456" class="foreground"> 4 ~c EXPR          messages whose CC header matches EXPR</text></g><g id="g5"><text x="0" textLength="456" class="foreground"> 5 ~C EXPR          messages whose recipient matches EXPR</text></g><g id="g6"><text x="0" textLength="800" class="foreground"> 6 ~d DATERANGE     messages sent in DATERANGE                                                      </text></g><g id="g7"><text x="0" textLength="40" class="foreground"> 7 ~D</text><text x="160" textLength="128" class="foreground">deleted messages</text></g><g id="g8"><text x="0" textLength="80" class="foreground"> 8 ~e EXPR</text><text x="160" textLength="328" class="foreground">messages whose Sender header matches EXPR</text></g><g id="g9"><text x="0" textLength="40" class="foreground"> 9 ~E</text><text x="160" textLength="128" class="foreground">expired messages</text></g><g id="g10"><text x="0" textLength="80" class="foreground">10 ~f EXPR</text><text x="160" textLength="312" class="foreground">messages whose From header matches EXPR</text></g><g id="g11"><text x="0" textLength="40" class="foreground">11 ~F</text><text x="160" textLength="128" class="foreground">flagged messages</text></g><g id="g12"><text x="0" textLength="800" class="foreground">12 ~g               cryptographically signed messages                                               </text></g><g id="g13"><text x="0" textLength="40" class="foreground">13 ~G</text><text x="160" textLength="288" class="foreground">cryptographically encrypted messages</text></g><g id="g14"><text x="0" textLength="80" class="foreground">14 ~h EXPR</text><text x="160" textLength="272" class="foreground">messages whose header matches EXPR</text></g><g id="g15"><text x="0" textLength="80" class="foreground">15 ~H EXPR</text><text x="160" textLength="288" class="foreground">messages whose spam tag matches EXPR</text></g><g id="g16"><text x="0" textLength="80" class="foreground">16 ~i EXPR</text><text x="160" textLength="304" class="foreground">messages whose Message-ID matches EXPR</text></g><g id="g17"><text x="0" textLength="88" class="foreground">17 ~I QUERY</text><text x="160" textLength="640" class="foreground">messages whose Message-ID is included in the results returned from an external s</text></g><g id="g18"><text x="0" textLength="40" class="foreground">18 ~k</text><text x="160" textLength="240" class="foreground">messages which contain PGP key</text></g><g id="g19"><text x="0" textLength="40" class="foreground">19 ~l</text><text x="160" textLength="328" class="foreground">messages addressed to known mailing lists</text></g><g id="g20"><text x="0" textLength="80" class="foreground">20 ~L EXPR</text><text x="160" textLength="360" class="foreground">messages whose From/Sender/To/CC matches EXPR</text></g><g id="g21"><text x="0" textLength="88" class="foreground">21 ~m RANGE</text><text x="160" textLength="264" class="foreground">messages whose number is in RANGE</text></g><g id="g22"><text x="0" textLength="80" class="foreground">22 ~M EXPR</text><text x="160" textLength="336" class="foreground">messages with a Content-Type matching EXPR</text></g><g id="g23"><text x="0" textLength="88" class="foreground">23 ~n RANGE</text><text x="160" textLength="256" class="foreground">messages whose score is in RANGE</text></g><g id="g24"><text x="0" textLength="40" class="foreground">24 ~N</text><text x="160" textLength="96" class="foreground">new messages</text></g><g id="g25"><text x="0" textLength="40" class="foreground">25 ~O</text><text x="160" textLength="96" class="foreground">old messages</text></g><g id="g26"><text x="0" textLength="40" class="foreground">26 ~p</text><text x="160" textLength="200" class="foreground">messages addressed to you</text></g><g id="g27"><text x="0" textLength="40" class="foreground">27 ~P</text><text x="160" textLength="136" class="foreground">messages from you</text></g><g id="g28"><text x="0" textLength="40" class="foreground">28 ~Q</text><text x="160" textLength="280" class="foreground">messages which have been replied to</text></g><g id="g29"><text x="0" textLength="800" class="color7">-- NeoMutt: Patterns                                                                                </text></g><g id="g30"><text x="0" textLength="800" class="foreground">                                                                                                    </text></g></defs><g><use xlink:href="#g1" y="0"/><use xlink:href="#g2" y="17"/><use xlink:href="#g3" y="34"/><use xlink:href="#g4" y="51"/><use xlink:href="#g5" y="68"/><use xlink:href="#g6" y="85"/><use xlink:href="#g7" y="102"/><use xlink:href="#g8" y="119"/><use xlink:href="#g9" y="136"/><use xlink:href="#g10" y="153"/><use xlink:href="#g11" y="170"/><rect x="0" y="187" width="800" height="17" fill="#00005f"/><use xlink:href="#g12" y="187"/><use xlink:href="#g13" y="204"/><use xlink:href="#g14" y="221"/><use xlink:href="#g15" y="238"/><use xlink:href="#g16" y="255"/><use xlink:href="#g17" y="272"/><use xlink:href="#g18" y="289"/><use xlink:href="#g19" y="306"/><use xlink:href="#g20" y="323"/><use xlink:href="#g21" y="340"/><use xlink:href="#g22" y="357"/><use xlink:href="#g23" y="374"/><use xlink:href="#g24" y="391"/><use xlink:href="#g25" y="408"/><use xlink:href="#g26" y="425"/><use xlink:href="#g27" y="442"/><use xlink:href="#g28" y="459"/><rect x="0" y="476" width="800" height="17" fill="#3a3a3a"/><use xlink:href="#g29" y="476"/><use xlink:href="#g30" y="493"/></g></svg>
+</svg>

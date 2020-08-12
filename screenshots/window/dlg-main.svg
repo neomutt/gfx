@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" version="1.1" viewBox="0 0 211.67 132.29" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(12.817 -77.777)">
+  <g stroke-width=".26458">
+   <rect x="-10.171" y="80.423" width="206.38" height="127" fill="none" stroke="#f00" stroke-dasharray="0.79374995,0.79374995"/>
+   <rect x="-7.525" y="91.006" width="201.08" height="105.83" fill="none" stroke="#008000" stroke-dasharray="0.79374995, 0.79374995"/>
+   <rect x="-7.525" y="199.49" width="201.08" height="5.2917" fill="#d3ffff" stroke="#000"/>
+  </g>
+  <rect x="-4.8791" y="93.652" width="195.79" height="100.54" fill="none" stroke="#f00" stroke-dasharray="0.860259, 0.860259" stroke-width=".28675"/>
+  <g transform="translate(29.104 84.667)">
+   <g transform="translate(-29.104 -84.667)">
+    <rect x="-7.525" y="83.069" width="201.08" height="5.2917" fill="#d3ffff" stroke="#000" stroke-width=".26458"/>
+    <text x="-6.1580801" y="86.921539" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="-6.1580801" y="86.921539" stroke-width=".265">Help Bar</tspan></text>
+   </g>
+  </g>
+  <rect x=".41253" y="98.944" width="185.21" height="82.021" fill="#d3ffff" stroke="#000" stroke-width=".28819"/>
+  <text x="1.7234548" y="103.1162" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="1.7234548" y="103.1162" stroke-width=".265">Index</tspan></text>
+  <text x="-6.6017165" y="203.2303" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="-6.6017165" y="203.2303" stroke-width=".265">Command Line / Message Window</tspan></text>
+  <g transform="translate(-17.988 8.4706)">
+   <ellipse cx="7.8353" cy="71.973" rx="1.9958" ry="1.9958" fill="#fff" stroke="#f00" stroke-width=".26458"/>
+   <text x="6.6165857" y="73.425766" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="6.6165857" y="73.425766" fill="#000000" stroke-width=".265">R</tspan></text>
+  </g>
+  <g transform="translate(-20.578 18.93)">
+   <ellipse cx="13.13" cy="71.959" rx="1.9896" ry="1.9966" fill="#fff" stroke="#008000" stroke-width=".26458"/>
+   <text x="11.841201" y="73.305481" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="11.841201" y="73.305481" fill="#000000" stroke-width=".265">A</tspan></text>
+  </g>
+  <g transform="translate(-12.689 21.684)">
+   <ellipse cx="7.8353" cy="71.973" rx="1.9958" ry="1.9958" fill="#fff" stroke="#f00" stroke-width=".26458"/>
+   <text x="6.6165857" y="73.425766" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="6.6165857" y="73.425766" fill="#000000" stroke-width=".265">D</tspan></text>
+  </g>
+  <rect x=".41254" y="183.61" width="185.21" height="5.2917" fill="#d3ffff" stroke="#000" stroke-width=".28819"/>
+  <text x="1.6150253" y="187.33112" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="1.6150253" y="187.33112" stroke-width=".265">Index Bar (Status)</tspan></text>
+  <rect x="-2.2333" y="96.298" width="190.5" height="95.25" fill="none" stroke="#f00" stroke-dasharray="0.862352, 0.862352" stroke-width=".28745"/>
+  <ellipse cx="-2.1784" cy="96.281" rx="1.9958" ry="1.9958" fill="#fff" stroke="#f00" stroke-width=".26458"/>
+  <text x="-2.9271502" y="97.567444" fill="#000000" font-family="serif" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="-2.9271502" y="97.567444" fill="#000000" font-family="serif" stroke-width=".265">I</tspan></text>
+ </g>
+</svg>

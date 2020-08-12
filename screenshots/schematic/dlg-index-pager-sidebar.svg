@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" version="1.1" viewBox="0 0 211.67 132.29" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(12.817 -77.777)">
+  <rect x="-10.171" y="80.423" width="206.37" height="5.2917" fill="#e9e9e9"/>
+  <g fill="#d3ffff" stroke="#000">
+   <rect x="-10.171" y="87.037" width="29.275" height="113.77" stroke-width=".26458"/>
+   <rect x="20.256" y="87.037" width="175.95" height="26.458" stroke-width=".26458"/>
+   <rect x="20.256" y="121.43" width="175.95" height="72.76" stroke-width=".26458"/>
+  </g>
+  <g>
+   <text x="-8.9677801" y="91.098122" fill="#000000" font-size="3.5278px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="-8.9677801" y="91.098122" stroke-width=".26458">Sidebar</tspan></text>
+   <text x="21.285881" y="91.011551" fill="#000000" font-size="3.5278px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="21.285881" y="91.011551" stroke-width=".26458">Index View</tspan></text>
+   <rect x="20.256" y="195.52" width="175.95" height="5.0778" fill="#d3ffff" stroke="#000" stroke-width=".26458"/>
+   <text x="21.456926" y="199.27684" fill="#000000" font-size="3.5278px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="21.456926" y="199.27684" stroke-width=".26458">Pager Bar</tspan></text>
+   <rect x="20.256" y="115.03" width="175.95" height="5.0778" fill="#d3ffff" stroke="#000" stroke-width=".26458"/>
+  </g>
+  <g stroke-width=".26458">
+   <text x="21.269812" y="118.82106" fill="#000000" font-size="3.5278px" style="line-height:1.25" xml:space="preserve"><tspan x="21.269812" y="118.82106" stroke-width=".26458">Index Bar (Status)</tspan></text>
+   <text x="21.190386" y="125.4532" fill="#000000" font-size="3.5278px" style="line-height:1.25" xml:space="preserve"><tspan x="21.190386" y="125.4532" stroke-width=".26458">Pager</tspan></text>
+   <text x="-9.1151524" y="84.179787" fill="#7f7f7f" font-size="3.5278px" style="line-height:1.25" xml:space="preserve"><tspan x="-9.1151524" y="84.179787" fill="#7f7f7f" stroke-width=".26458">Help Bar</tspan></text>
+  </g>
+  <rect x="-10.171" y="202.35" width="206.38" height="5.0778" fill="#e8eaea"/>
+  <text x="-9.0778465" y="206.16182" fill="#7f7f7f" font-size="3.5278px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="-9.0778465" y="206.16182" fill="#7f7f7f" stroke-width=".26458">Command Line / Message Window</tspan></text>
+ </g>
+</svg>

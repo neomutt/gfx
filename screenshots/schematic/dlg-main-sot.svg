@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" version="1.1" viewBox="0 0 211.67 132.29" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(12.817 -77.777)">
+  <path d="m-10.171 87.037v107.16h206.37v-107.16z" fill="#d3ffff" stroke="#000" stroke-width=".26458"/>
+  <rect x="-10.171" y="202.35" width="206.38" height="5.0778" fill="#d3ffff" stroke="#000" stroke-width=".26458"/>
+  <g transform="translate(-1.1333e-6 115.09)">
+   <rect x="-10.171" y="80.423" width="206.37" height="5.2917" fill="#d3ffff" stroke="#000" stroke-width=".26458"/>
+   <text x="-9.1151657" y="84.179787" fill="#000000" font-size="3.5278px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="-9.1151657" y="84.179787" fill="#000000" stroke-width=".26458">Help Bar</tspan></text>
+  </g>
+  <g stroke-width=".26458">
+   <text x="-9.141202" y="91.011551" fill="#000000" font-size="3.5278px" style="line-height:1.25" xml:space="preserve"><tspan x="-9.141202" y="91.011551" stroke-width=".26458">Index View</tspan></text>
+   <rect x="-10.171" y="80.423" width="206.38" height="5.0778" fill="#d3ffff" stroke="#000"/>
+   <text x="-8.9701567" y="84.183083" fill="#000000" font-size="3.5278px" style="line-height:1.25" xml:space="preserve"><tspan x="-8.9701567" y="84.183083" stroke-width=".26458">Index Bar (Status)</tspan></text>
+   <text x="-9.0778446" y="206.16182" fill="#000000" font-size="3.5278px" style="line-height:1.25" xml:space="preserve"><tspan x="-9.0778446" y="206.16182" stroke-width=".26458">Command Line / Message Window</tspan></text>
+  </g>
+ </g>
+</svg>
