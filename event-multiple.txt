@@ -1,5 +1,4 @@
-# event-multiple
-title NeoMutt
+title event-multiple
 
 entryspacing 0.1
 

@@ -1,5 +1,4 @@
-# event-index-pager
-title NeoMutt
+title event-index-pager
 
 entryspacing 0.1
 

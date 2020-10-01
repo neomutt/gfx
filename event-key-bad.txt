@@ -1,5 +1,4 @@
-# event-key-bad
-title NeoMutt
+title event-key-bad
 
 entryspacing 0.1
 

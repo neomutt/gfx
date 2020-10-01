@@ -1,5 +1,4 @@
-# func-index-pager
-title NeoMutt
+title func-index-pager
 
 autoactivation on
 entryspacing 0.1

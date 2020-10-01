@@ -1,5 +1,4 @@
-# event-multikey
-title NeoMutt
+title event-multikey
 
 entryspacing 0.1
 

@@ -1,5 +1,4 @@
-# event-dialog
-title NeoMutt
+title event-dialog
 
 entryspacing 0.1
 
