@@ -31,18 +31,18 @@ deactivate win
 main->getch: mutt_getch()
 activate getch
 space
-note over getch#ffffc0: ""<enter>""
-main<--getch: ""<enter>""
+note over getch#ffffc0: Pressed: '<enter>'
+main<--getch: '<enter>'
 deactivate getch
 
 space
-main->win: win.key(""<enter>"")
+main->win: win.key('<enter>')
 activate win
 win->win: get_focus()
-win->index: win.key(""<enter>"")
+win->index: win.key('<enter>')
 deactivate win
 
-index->index: lookup(""<enter>"")\nOP_DISPLAY_MESSAGE
+index->index: lookup('<enter>')\nOP_DISPLAY_MESSAGE
 space
 
 index->pager: mutt_display_message()
@@ -68,18 +68,18 @@ space
 main->getch: mutt_getch()
 activate getch
 space
-note over getch#ffffc0: ""q""
-main<--getch: ""q""
+note over getch#ffffc0: Pressed: 'q'
+main<--getch: 'q'
 deactivate getch
 
 space
-main->win: win.key(""q"")
+main->win: win.key('q')
 activate win
 win->win: get_focus()
-win->pager: win.key(""q"")
+win->pager: win.key('q')
 deactivate win
 
-pager->pager: lookup(""q"")\nOP_EXIT
+pager->pager: lookup('q')\nOP_EXIT
 pager->pager: set_invisible()
 pager->pager: restore_focus()
 deactivate pager
@@ -96,18 +96,18 @@ deactivate win
 main->getch: mutt_getch()
 activate getch
 space
-note over getch#ffffc0: ""q""
-main<--getch: ""q""
+note over getch#ffffc0: Pressed: 'q'
+main<--getch: 'q'
 deactivate getch
 
 space
-main->win: win.key(""q"")
+main->win: win.key('q')
 activate win
 win->win: get_focus()
-win->index: win.key(""q"")
+win->index: win.key('q')
 deactivate win
 
-index->index: lookup(""q"")\nOP_EXIT
+index->index: lookup('q')\nOP_EXIT
 index->index: set_invisible()
 index->index: restore_focus()
 deactivate index

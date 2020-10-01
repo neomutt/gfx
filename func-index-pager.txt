@@ -16,7 +16,7 @@ note over index#ffffc0: Email list displayed
 index->menu: km_do_key(INDEX)
 menu->getch: mutt_getch()
 space
-note over getch#ffffc0: ""<enter>""
+note over getch#ffffc0: <enter>
 menu<--getch: OP_DISPLAY_MESSAGE
 index<--menu: OP_DISPLAY_MESSAGE
 
@@ -28,7 +28,7 @@ note over pager#ffffc0: First message displayed
 pager->menu: km_do_key(PAGER)
 menu->getch: mutt_getch()
 space
-note over getch#ffffc0: ""<down>""
+note over getch#ffffc0: <down>
 menu<--getch: OP_NEXT_ENTRY
 pager<--menu: OP_NEXT_ENTRY
 index<--pager: OP_NEXT_ENTRY

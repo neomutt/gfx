@@ -27,7 +27,7 @@ deactivate win
 main->getch: mutt_getch()
 activate getch
 space
-note over getch#ffffc0: 'X'
+note over getch#ffffc0: Pressed: 'X'
 main<--getch: 'X'
 deactivate getch
 
