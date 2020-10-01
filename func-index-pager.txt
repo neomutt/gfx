@@ -1,4 +1,4 @@
-# https://sequencediagram.org/
+# func-index-pager
 title NeoMutt
 
 autoactivation on

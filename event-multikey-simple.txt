@@ -1,4 +1,4 @@
-# https://sequencediagram.org/
+# event-multikey-simple
 title NeoMutt
 
 entryspacing 0.1
