@@ -1,0 +1,33 @@
+# https://sequencediagram.org/
+title NeoMutt
+
+entryspacing 0.1
+
+participant "Main" as main
+participant "Dialog 1" as dlg1
+participant "Dialog 2" as dlg2
+
+activate main
+activate dlg1
+activate dlg2
+space 2
+
+loop #b0ffff Event Loop
+
+note right of main#ffffc0: Pressed: 'X'
+
+space
+main->dlg1: key_press('X')
+dlg1->dlg1: lookup('X'):\n<color:#red>OP_NULL</color>
+main<#red--dlg1: <color:#red>NO MATCH</color>
+
+space
+main->dlg2: key_press('X')
+dlg2->dlg2: lookup('X'):\n<color:#red>OP_NULL</color>
+main<#red--dlg2: <color:#red>NO MATCH</color>
+
+space
+note right of main#ffffc0: Error: 'X'
+
+space 2
+end

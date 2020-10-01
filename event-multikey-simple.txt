@@ -1,0 +1,34 @@
+# https://sequencediagram.org/
+title NeoMutt
+
+entryspacing 0.1
+
+participant "Main" as main
+participant "Dialog" as dlg
+
+activate main
+activate dlg
+space 2
+
+loop #b0ffff Event Loop
+
+note right of main#ffffc0: Pressed: 'X'
+main->dlg: key_press('X')win->dlg: key_press('X')
+dlg->dlg: lookup('X'):\n<color:#red>OP_NULL</color>
+main<#red--dlg: <color:#red>LONGER MATCH</color>
+
+space 2
+note right of main#ffffc0: Pressed: '""Y""'
+main->dlg: key_press('""XY""')
+dlg->dlg: lookup('""XY""'):\n<color:#red>OP_NULL</color>
+main<#red--dlg: <color:#red>LONGER MATCH</color>
+
+space 2
+note right of main#ffffc0: Pressed: '""Z""'
+main->dlg: key_press('""XYZ""')
+dlg->dlg: lookup('""XYZ""'):\n<color:#red>OP_XYZ</color>
+dlg->dlg: perform_XYZ()
+main<--dlg: KEY CONSUMED
+
+space 2
+end

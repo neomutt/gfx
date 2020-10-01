@@ -1,0 +1,119 @@
+# https://sequencediagram.org/
+title NeoMutt
+
+entryspacing 0.1
+
+participant "Main" as main
+participant "User" as getch
+participant "Window" as win
+participant "Index" as index
+participant "Pager" as pager
+
+activate main
+main->index: mutt_index_menu()
+activate index
+space 2
+
+loop #b0ffff Event Loop
+
+index->index: set_visible()
+index->index: set_focus()
+space
+note over index#ffffc0: Focussed
+
+main->win: redraw()
+activate win
+win->win: reflow()
+win->index: recalc()
+win->index: repaint()
+deactivate win
+
+main->getch: mutt_getch()
+activate getch
+space
+note over getch#ffffc0: ""<enter>""
+main<--getch: ""<enter>""
+deactivate getch
+
+space
+main->win: win.key(""<enter>"")
+activate win
+win->win: get_focus()
+win->index: win.key(""<enter>"")
+deactivate win
+
+index->index: lookup(""<enter>"")\nOP_DISPLAY_MESSAGE
+space
+
+index->pager: mutt_display_message()
+activate pager
+pager->pager: set_visible()
+pager->pager: set_focus()
+
+space
+note over pager#ffffc0: Focussed
+
+main->win: redraw()
+activate win
+win->win: reflow()
+win->index: recalc()
+win->pager: recalc()
+space
+win->index: repaint()
+win->pager: repaint()
+deactivate win
+
+space
+
+main->getch: mutt_getch()
+activate getch
+space
+note over getch#ffffc0: ""q""
+main<--getch: ""q""
+deactivate getch
+
+space
+main->win: win.key(""q"")
+activate win
+win->win: get_focus()
+win->pager: win.key(""q"")
+deactivate win
+
+pager->pager: lookup(""q"")\nOP_EXIT
+pager->pager: set_invisible()
+pager->pager: restore_focus()
+deactivate pager
+
+note over index#ffffc0: Focussed
+
+main->win: redraw()
+activate win
+win->win: reflow()
+win->index: recalc()
+win->index: repaint()
+deactivate win
+
+main->getch: mutt_getch()
+activate getch
+space
+note over getch#ffffc0: ""q""
+main<--getch: ""q""
+deactivate getch
+
+space
+main->win: win.key(""q"")
+activate win
+win->win: get_focus()
+win->index: win.key(""q"")
+deactivate win
+
+index->index: lookup(""q"")\nOP_EXIT
+index->index: set_invisible()
+index->index: restore_focus()
+deactivate index
+
+note over main#ffffc0: No Focussed\nWindow
+space 1
+deactivate main
+space 2
+end

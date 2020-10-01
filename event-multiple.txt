@@ -1,0 +1,56 @@
+# https://sequencediagram.org/
+title NeoMutt
+
+entryspacing 0.1
+
+participant "Main" as main
+participant "User" as getch
+participant "Window" as win
+participant "Dialog 1" as dlg1
+participant "Dialog 2" as dlg2
+
+activate main
+activate dlg1
+activate dlg2
+space 2
+
+loop #b0ffff Event Loop
+
+space
+note over dlg1#ffffc0: Focussed
+
+main->win: redraw()
+activate win
+win->win: reflow()
+win->dlg1: recalc()
+win->dlg2: recalc()
+win->dlg1: repaint()
+win->dlg2: repaint()
+deactivate win
+
+main->getch: mutt_getch()
+activate getch
+space
+note over getch#ffffc0: Pressed: 'X'
+main<--getch: 'X'
+deactivate getch
+
+space
+main->win: key_press('X')
+activate win
+win->win: get_focus()
+win->dlg1: key_press('X')
+
+dlg1->dlg1: lookup('X'):\n<color:#red>OP_NULL</color>
+win<#red--dlg1: <color:#red>NO MATCH</color>
+
+space
+win->win: get_next_win()
+win->dlg2: key_press('X')
+dlg2->dlg2: lookup('X'):\nOP_ACTION
+dlg2->dlg2: perform_action()
+win<--dlg2: KEY CONSUMED
+deactivate win
+
+space 2
+end

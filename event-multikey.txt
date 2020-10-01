@@ -1,0 +1,72 @@
+# https://sequencediagram.org/
+title NeoMutt
+
+entryspacing 0.1
+
+participant "Main" as main
+participant "User" as getch
+participant "Window" as win
+participant "Dialog" as dlg
+
+activate main
+activate dlg
+space 2
+
+loop #b0ffff Event Loop
+
+main->getch: mutt_getch()
+activate getch
+space
+note over getch#ffffc0: Pressed: 'X'
+main<--getch: 'X'
+deactivate getch
+
+space
+main->win: key_press('X')
+activate win
+win->dlg: key_press('X')
+
+dlg->dlg: lookup('X'):\n<color:#red>OP_NULL</color>
+win<#red--dlg: <color:#red>LONGER MATCH</color>
+main<#red--win: <color:#red>LONGER MATCH</color>
+deactivate win
+
+space 2
+main->getch: mutt_getch()
+activate getch
+space
+note over getch#ffffc0: Pressed: '""Y""'
+main<--getch: '""Y""'
+deactivate getch
+
+space 2
+main->win: key_press('""XY""')
+activate win
+win->dlg: key_press('""XY""')
+
+dlg->dlg: lookup('""XY""'):\n<color:#red>OP_NULL</color>
+win<#red--dlg: <color:#red>LONGER MATCH</color>
+main<#red--win: <color:#red>LONGER MATCH</color>
+deactivate win
+
+space 2
+main->getch: mutt_getch()
+activate getch
+space
+note over getch#ffffc0: Pressed: '""Z""'
+main<--getch: '""Z""'
+deactivate getch
+
+space 2
+main->win: key_press('""XYZ""')
+activate win
+win->dlg: key_press('""XYZ""')
+
+dlg->dlg: lookup('""XYZ""'):\n<color:#red>OP_XYZ</color>
+dlg->dlg: perform_XYZ()
+win<--dlg: KEY CONSUMED
+main<--win: KEY CONSUMED
+deactivate win
+
+space 2
+end
