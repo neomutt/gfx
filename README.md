@@ -10,5 +10,6 @@
 | [layout](layout/README.md)           | Window Layout of NeoMutt                         |
 | [logo](logo/README.md)               | NeoMutt logos                                    |
 | [screenshots](screenshots/README.md) | Random pictures of NeoMutt development           |
+| [seq](seq/README.md)                 | Sequence Diagrams                                |
 | [teams](teams/README.md)             | GitHub Team Forum logos                          |
 
