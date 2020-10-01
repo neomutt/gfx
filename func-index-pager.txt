@@ -1,5 +1,3 @@
-title func-index-pager
-
 autoactivation on
 entryspacing 0.1
 

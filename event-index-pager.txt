@@ -1,5 +1,3 @@
-title event-index-pager
-
 entryspacing 0.1
 
 participant "Main" as main
