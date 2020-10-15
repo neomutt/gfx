@@ -4,19 +4,29 @@ Assorted diagrams showing how NeoMutt is assembled.
 
 ## Data and Views
 
-**[arch-key.svg](arch-key.svg)** **[arch.svg](arch.svg)**
-
-![arch-key.svg](arch-key.svg)
-
-![arch.svg](arch.svg)
+<table>
+  <tr>
+    <td valign="top"><img width="750" src="arch.svg"></td>
+    <td valign="top"><b>Key</b><br><img width="250" src="arch-key.svg"></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="arch.svg">svg source</a></td>
+    <td valign="top"><a href="arch-key.svg">svg source</a></td>
+  </tr>
+</table>
 
 ## Config and Inheritance
 
-**[config-arch-key.svg](config-arch-key.svg)** **[config-arch.svg](config-arch.svg)**
-
-![config-arch-key.svg](config-arch-key.svg)
-
-![config-arch.svg](config-arch.svg)
+<table>
+  <tr>
+    <td valign="top"><img width="500" src="config-arch.svg"></td>
+    <td valign="top"><b>Key</b><br><img width="250" src="config-arch-key.svg"></td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="config-arch.svg">svg source</a></td>
+    <td valign="top"><a href="config-arch-key.svg">svg source</a></td>
+  </tr>
+</table>
 
 ## Notifications
 
