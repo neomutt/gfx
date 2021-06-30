@@ -53,5 +53,5 @@ digraph libmutt
 	slist   -> list
 	string  -> memory
 
-	{ rank=same file message queue md5 }
+	{ rank=same array file message queue md5 }
 }
