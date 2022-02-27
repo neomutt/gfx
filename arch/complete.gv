@@ -1,0 +1,41 @@
+digraph callgraph {
+	graph [
+		rankdir="LR"
+		nodesep="0.2"
+		ranksep="0.2"
+		compound="true"
+	]
+
+	node [
+		shape="Mrecord"
+		fontsize="12"
+		fillcolor="#d0ffff"
+		style="filled"
+		height="0.2"
+		penwidth="1.0"
+		color="black"
+	]
+
+	edge [
+		penwidth="2.0"
+		arrowsize="1.0"
+	]
+
+	index   [ label="Index Dialog" ]
+	alias   [ label="Alias Dialog" ]
+	to      [ label="To: (prompt)" ]
+	subject [ label="Subject: (prompt)" ]
+	editor  [ label="Editor" ]
+	compose [ label="Compose Dialog" ]
+
+	index   -> to      [ label="<mail>" ]
+	to      -> alias   [ label="<complete>" ]
+	alias   -> to      [ label="<select-entry> / <mail>" ]
+	alias   -> to      [ label="<exit>" fontcolor="#c00000" color="#ff0000" ]
+	to      -> subject [ label="empty/abort" ]
+	subject -> editor  [ label="<enter>" ]
+	editor  -> compose [ label="quit" ]
+	compose -> index   [ label="<send>" ]
+	compose -> index   [ label="<exit>" fontcolor="#c00000" color="#ff0000" ]
+
+}

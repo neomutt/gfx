@@ -58,3 +58,16 @@ Assorted diagrams showing how NeoMutt is assembled.
 
 ![observer.svg](observer.svg)
 
+## Alias / Query - Dialog / Completion
+
+The Alias and Query Dialogs work the same way as each other.
+These state diagrams show how direct access and auto-completion work.
+
+**[direct.gv](direct.gv)** **[direct.svg](direct.svg)**
+
+![direct.svg](direct.svg)
+
+**[complete.gv](complete.gv)** **[complete.svg](complete.svg)**
+
+![complete.svg](complete.svg)
+
