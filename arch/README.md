@@ -71,3 +71,16 @@ These state diagrams show how direct access and auto-completion work.
 
 ![complete.svg](complete.svg)
 
+## Auto-Completion
+
+Auto-completion starts deep in the `enter_string()` function.
+This function diagram shows all the callers and dependencies.
+
+**[enter-field.gv](enter-field.gv)** **[enter-field.svg](enter-field.svg)**
+
+![enter-field](enter-field.svg)
+
+**[enter-field-key.gv](enter-field-key.gv)** **[enter-field-key.svg](enter-field-key.svg)**
+
+![enter-field-key](enter-field-key.svg)
+
