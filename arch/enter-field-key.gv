@@ -22,20 +22,14 @@ digraph enter_field
 		arrowsize="0.5"
 	]
 
-	subgraph cluster_key
-	{
-		fontcolor="black"
-		color="#8080ff"
-		fillcolor="#ccccff"
-		style="filled"
-		node [ color="invis" nodesep="0.0" ranksep="0.0" ]
-		edge [ style="invis" ]
+	fontcolor="black"
+	node [ color="invis" nodesep="0.0" ranksep="0.0" ]
+	edge [ style="invis" ]
 
-		ArrayOfFiles    [ label=<<font color="red">●</font> ArrayOfFiles> ]
-		CompletionFlags [ label=<<font color="blue">♣</font> CompletionFlags> ]
-		Mailbox         [ label=<<font color="magenta">▼</font> Mailbox> ]
-		Multiple        [ label=<<font color="#00c000">★</font> Multiple> ]
+	ArrayOfFiles    [ label=<<font color="red">●</font> ArrayOfFiles> ]
+	CompletionFlags [ label=<<font color="blue">♣</font> CompletionFlags> ]
+	Mailbox         [ label=<<font color="magenta">▼</font> Mailbox> ]
+	Multiple        [ label=<<font color="#00c000">★</font> Multiple> ]
 
-		CompletionFlags -> ArrayOfFiles -> Mailbox -> Multiple
-	}
+	CompletionFlags -> ArrayOfFiles -> Mailbox -> Multiple
 }

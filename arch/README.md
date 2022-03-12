@@ -80,7 +80,7 @@ This function diagram shows all the callers and dependencies.
 
 ![enter-field](enter-field.svg)
 
-**[enter-field-key.gv](enter-field-key.gv)** **[enter-field-key.svg](enter-field-key.svg)**
-
 ![enter-field-key](enter-field-key.svg)
+
+**[enter-field-key.gv](enter-field-key.gv)** **[enter-field-key.svg](enter-field-key.svg)**
 
