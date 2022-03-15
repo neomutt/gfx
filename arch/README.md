@@ -67,6 +67,10 @@ These state diagrams show how direct access and auto-completion work.
 
 ![alias.svg](alias.svg)
 
+**[query.gv](query.gv)** **[query.svg](query.svg)**
+
+![query.svg](query.svg)
+
 ## Auto-Completion
 
 Auto-completion starts deep in the `enter_string()` function.

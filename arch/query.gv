@@ -1,0 +1,56 @@
+digraph workflow {
+	graph [
+		rankdir="LR"
+		nodesep="0.2"
+		ranksep="0.0"
+		compound="true"
+	]
+
+	node [
+		shape="Mrecord"
+		fontsize="12"
+		fillcolor="#d0ffff"
+		style="filled"
+		height="0.2"
+		penwidth="1.0"
+		color="black"
+	]
+
+	edge [
+		penwidth="2.0"
+		arrowsize="1.0"
+	]
+
+	index   [ label="Index Dialog" ]
+	query_c [ label="Query Completion" ]
+	query_d [ label="Query Dialog" ]
+	compose [ label="Compose Dialog" ]
+	editor  [ label="Editor" ]
+	subject [ label="Subject: (prompt)" ]
+	to      [ label="To: (prompt)" ]
+
+	query_c -> to      [ label="<select-entry>" ]
+	query_d -> to      [ label="<select-entry>" ]
+	compose -> index   [ label="<send>" ]
+	editor  -> compose [ label="save, exit" ]
+	index   -> query_d [ label="<query>" ]
+	index   -> to      [ label="<mail>" ]
+	subject -> editor  [ label="<enter>" ]
+	to      -> query_c [ label="<complete-query>" ]
+	to      -> subject [ label="<enter>" ]
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		style="dashed"
+		fontcolor="#c00000"
+		color="#ff8080"
+	]
+
+	query_c -> to      [ label="<exit>" ]
+	query_d -> index   [ label="<exit>" ]
+	compose -> index   [ label="<exit>" ]
+	subject -> index   [ label="empty/abort" ]
+	to      -> index   [ label="empty/abort" ]
+
+}
