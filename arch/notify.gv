@@ -27,6 +27,11 @@ digraph notify
 
 
 	NeoMutt [ fontcolor="#ffffff" fillcolor="#404040" ]
+	NeoMuttView [ fontcolor="#ffffff" fillcolor="#404040" ]
+
+	NeoMuttView -> NeoMutt
+
+	{ rank=same NeoMuttView NeoMutt }
 
 	subgraph cluster_window
 	{
@@ -44,7 +49,7 @@ digraph notify
 		dlg1         [ label="Dialog" ]
 		dlg1_win1    [ label="Window" ]
 		dlg1_win2    [ label="Window" ]
-		root_win -> NeoMutt
+		root_win -> NeoMuttView
 		win1 -> root_win
 		win2 -> win1
 
@@ -67,12 +72,6 @@ digraph notify
 		AConfig [ label="Config (Account)" ]
 		MConfig [ label="Config (Mailbox)" ]
 
-		node [ fillcolor="#c0c0ff" ]
-
-		AccountView
-		EmailView
-		MailboxView
-
 		node [ fillcolor="#c0ffc0" ]
 
 		Account
@@ -80,21 +79,22 @@ digraph notify
 		Email
 
 		Account     -> NeoMutt
-		AccountView -> Account
 		Mailbox     -> Account
-		MailboxView -> Mailbox
 		Email       -> Mailbox
-		EmailView   -> Email
 
 		Account -> AConfig [ dir="back" ]
 		Mailbox -> MConfig [ dir="back" ]
 
-		{ rank=same Account AccountView AConfig }
-		{ rank=same Mailbox MailboxView MConfig }
-		{ rank=same Email EmailView }
+		{ rank=same Account AConfig }
+		{ rank=same Mailbox MConfig }
 
 	}
 
+	node [ fillcolor="#c0c0ff" ]
+
+	AccountView -> NeoMuttView
+	MailboxView -> AccountView
+	EmailView   -> MailboxView
 
 	node [ fillcolor="#ffc0c0" ]
 
@@ -102,8 +102,7 @@ digraph notify
 
 	node [ fillcolor="#c0ffff" ]
 
-	Colour      -> NeoMutt
-	Context     -> NeoMutt
+	Colour      -> NeoMuttView
 
 	NeoMutt -> NConfig [ dir="back" ]
 	AConfig -> NConfig [ style="dashed" color="#d0d0d0" ]
