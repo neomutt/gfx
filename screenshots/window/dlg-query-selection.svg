@@ -1,43 +1,299 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="800" height="500" version="1.1" viewBox="0 0 211.67 132.29" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(12.817 -77.777)">
-  <g stroke-width=".26458">
-   <rect x="-10.171" y="80.423" width="206.38" height="127" fill="none" stroke="#f00" stroke-dasharray="0.79374995,0.79374995"/>
-   <rect x="-7.525" y="91.006" width="201.08" height="105.83" fill="none" stroke="#008000" stroke-dasharray="0.79374995, 0.79374995"/>
-   <rect x="-7.525" y="199.49" width="201.08" height="5.2917" fill="#d3ffff" stroke="#000"/>
-  </g>
-  <g transform="translate(29.104 84.667)">
-   <g transform="translate(-29.104 -84.667)">
-    <rect x="-7.525" y="83.069" width="201.08" height="5.2917" fill="#d3ffff" stroke="#000" stroke-width=".26458"/>
-    <text x="-6.1580801" y="86.921539" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="-6.1580801" y="86.921539" stroke-width=".265">Help Bar</tspan></text>
-   </g>
-  </g>
-  <g>
-   <rect x="-2.2333" y="96.298" width="190.5" height="87.313" fill="#d3ffff" stroke="#000" stroke-width=".26006"/>
-   <text x="-0.92236584" y="100.47038" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="-0.92236584" y="100.47038" stroke-width=".265">Query Selection</tspan></text>
-   <text x="-6.6017165" y="203.2303" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="-6.6017165" y="203.2303" stroke-width=".265">Command Line / Message Window</tspan></text>
-  </g>
-  <g transform="translate(-17.988 8.4706)">
-   <ellipse cx="7.8353" cy="71.973" rx="1.9958" ry="1.9958" fill="#fff" stroke="#f00" stroke-width=".26458"/>
-   <text x="6.6165857" y="73.425766" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="6.6165857" y="73.425766" fill="#000000" stroke-width=".265">R</tspan></text>
-  </g>
-  <g transform="translate(-20.578 18.93)">
-   <ellipse cx="13.13" cy="71.959" rx="1.9896" ry="1.9966" fill="#fff" stroke="#008000" stroke-width=".26458"/>
-   <text x="11.841201" y="73.305481" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="11.841201" y="73.305481" fill="#000000" stroke-width=".265">A</tspan></text>
-  </g>
-  <g>
-   <rect x="-2.2333" y="186.26" width="190.5" height="5.2917" fill="#d3ffff" stroke="#000" stroke-width=".26006"/>
-   <text x="-1.0308063" y="189.97694" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="-1.0308063" y="189.97694" stroke-width=".265">Simple Bar</tspan></text>
-   <rect x="-4.8791" y="93.652" width="195.79" height="100.54" fill="none" stroke="#f00" stroke-dasharray="0.687897, 0.687897" stroke-width=".2293"/>
-  </g>
-  <g transform="translate(-12.696 21.7)">
-   <ellipse cx="7.8353" cy="71.973" rx="1.9958" ry="1.9958" fill="#fff" stroke="#f00" stroke-width=".26458"/>
-   <text x="6.6165857" y="73.425766" fill="#000000" font-size="3.5278px" stroke-width=".265" style="line-height:1.25" xml:space="preserve"><tspan x="6.6165857" y="73.425766" fill="#000000" stroke-width=".265">D</tspan></text>
-   <g fill="black" font-family="sans-serif" font-size="10.583px">
-    <text style="line-height:1.25;shape-inside:url(#rect374);white-space:pre" xml:space="preserve"/>
-    <text style="line-height:1.25;shape-inside:url(#rect380);white-space:pre" xml:space="preserve"/>
-    <text style="line-height:1.25;shape-inside:url(#rect386);white-space:pre" xml:space="preserve"/>
-   </g>
-  </g>
- </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="500"
+   version="1.1"
+   viewBox="0 0 211.67 132.29"
+   id="svg15"
+   sodipodi:docname="dlg-query-selection.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs15" />
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="2.6684442"
+     inkscape:cx="393.67509"
+     inkscape:cy="319.28717"
+     inkscape:window-width="3600"
+     inkscape:window-height="2363"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15">
+    <inkscape:grid
+       id="grid15"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.2645875"
+       spacingy="0.26458"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <rect
+     x="2.6460004"
+     y="2.6459966"
+     width="206.38"
+     height="127"
+     fill="none"
+     stroke="#ff0000"
+     stroke-dasharray="0.79375, 0.79375"
+     id="rect1"
+     style="stroke-width:0.26458" />
+  <rect
+     x="5.2919998"
+     y="13.228996"
+     width="201.08"
+     height="100.54189"
+     fill="none"
+     stroke="#008000"
+     stroke-dasharray="0.79375, 0.79375"
+     id="rect2"
+     style="stroke-width:0.26458" />
+  <rect
+     x="5.2919998"
+     y="5.2920003"
+     width="201.08"
+     height="5.2916999"
+     fill="#d3ffff"
+     stroke="#000000"
+     stroke-width="0.26458"
+     id="rect4" />
+  <text
+     x="6.6589198"
+     y="9.1445389"
+     fill="#000000"
+     font-size="3.5278px"
+     stroke-width="0.265"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text4"><tspan
+       x="6.6589198"
+       y="9.1445389"
+       stroke-width="0.265"
+       id="tspan4">Help Bar</tspan></text>
+  <rect
+     x="10.5837"
+     y="18.520996"
+     width="190.5"
+     height="82.020386"
+     fill="#d3ffff"
+     stroke="#000000"
+     stroke-width="0.26006"
+     id="rect5" />
+  <text
+     x="11.894634"
+     y="22.693382"
+     fill="#000000"
+     font-size="3.5278px"
+     stroke-width="0.265"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text5"><tspan
+       x="11.894634"
+       y="22.693382"
+       stroke-width="0.265"
+       id="tspan5">Query Selection</tspan></text>
+  <circle
+     cx="2.6643"
+     cy="2.6665995"
+     fill="#ffffff"
+     stroke="#ff0000"
+     stroke-width="0.26458"
+     id="ellipse6"
+     r="1.9958" />
+  <text
+     x="1.4455857"
+     y="4.1193662"
+     fill="#000000"
+     font-size="3.5278px"
+     stroke-width="0.265"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text7"><tspan
+       x="1.4455857"
+       y="4.1193662"
+       fill="#000000"
+       stroke-width="0.265"
+       id="tspan7">R</tspan></text>
+  <ellipse
+     cx="5.369"
+     cy="13.112"
+     rx="1.9895999"
+     ry="1.9966"
+     fill="#ffffff"
+     stroke="#008000"
+     stroke-width="0.26458"
+     id="ellipse7" />
+  <text
+     x="4.0802007"
+     y="14.458481"
+     fill="#000000"
+     font-size="3.5278px"
+     stroke-width="0.265"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text8"><tspan
+       x="4.0802007"
+       y="14.458481"
+       fill="#000000"
+       stroke-width="0.265"
+       id="tspan8">A</tspan></text>
+  <rect
+     x="10.456464"
+     y="103.05727"
+     width="190.5"
+     height="5.2916999"
+     fill="#d3ffff"
+     stroke="#000000"
+     stroke-width="0.26006"
+     id="rect8" />
+  <text
+     x="11.658957"
+     y="106.7742"
+     fill="#000000"
+     font-size="3.5278px"
+     stroke-width="0.265"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text9"><tspan
+       x="11.658957"
+       y="106.7742"
+       stroke-width="0.265"
+       id="tspan9">Simple Bar</tspan></text>
+  <rect
+     x="7.9379001"
+     y="15.875"
+     width="195.78999"
+     height="95.249878"
+     fill="none"
+     stroke="#ff0000"
+     stroke-dasharray="0.687897, 0.687897"
+     stroke-width="0.2293"
+     id="rect9" />
+  <circle
+     cx="7.9562998"
+     cy="15.896"
+     fill="#ffffff"
+     stroke="#ff0000"
+     stroke-width="0.26458"
+     id="ellipse9"
+     r="1.9958" />
+  <text
+     x="6.7375855"
+     y="17.348766"
+     fill="#000000"
+     font-size="3.5278px"
+     stroke-width="0.265"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text10"><tspan
+       x="6.7375855"
+       y="17.348766"
+       fill="#000000"
+       stroke-width="0.265"
+       id="tspan10">D</tspan></text>
+  <text
+     style="font-size:10.583px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect374);fill:#000000"
+     xml:space="preserve"
+     id="text11"
+     transform="translate(0.121,-56.077)" />
+  <text
+     style="font-size:10.583px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect380);fill:#000000"
+     xml:space="preserve"
+     id="text12"
+     transform="translate(0.121,-56.077)" />
+  <text
+     style="font-size:10.583px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect386);fill:#000000"
+     xml:space="preserve"
+     id="text13"
+     transform="translate(0.121,-56.077)" />
+  <rect
+     x="5.1947122"
+     y="116.57157"
+     width="201.08"
+     height="10.583501"
+     fill="none"
+     stroke="#008000"
+     stroke-dasharray="0.79375, 0.79375"
+     id="rect2-3"
+     style="stroke-width:0.26458" />
+  <rect
+     x="7.9074244"
+     y="119.06256"
+     width="195.82495"
+     height="5.2916999"
+     fill="#d3ffff"
+     stroke="#000000"
+     id="rect3"
+     style="stroke-width:0.26458" />
+  <text
+     x="8.8307066"
+     y="122.80286"
+     fill="#000000"
+     font-size="3.5278px"
+     stroke-width="0.265"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text6"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       x="-30.431564"
+       y="-55.123676"
+       style="stroke-width:0.265"><tspan
+         x="8.8307066"
+         y="122.80286"
+         stroke-width="0.265"
+         id="tspan6" /></tspan><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="8.8307066"
+       y="122.80286"
+       style="stroke-width:0.265"><tspan
+         x="8.8307066"
+         y="122.80286"
+         stroke-width="0.265"
+         id="tspan3">Command Line / Message Window</tspan></tspan></text>
+  <ellipse
+     cx="5.292942"
+     cy="116.60581"
+     rx="1.9896001"
+     ry="1.9966002"
+     fill="#ffffff"
+     stroke="#008000"
+     stroke-width="0.26458"
+     id="ellipse7-5" />
+  <text
+     x="3.6930826"
+     y="117.86523"
+     fill="#000000"
+     font-size="3.5278px"
+     stroke-width="0.265"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text8-3"><tspan
+       x="3.6930826"
+       y="117.86523"
+       fill="#000000"
+       stroke-width="0.265"
+       id="tspan8-5">M</tspan></text>
 </svg>
