@@ -1,0 +1,58 @@
+entryspacing 0.1
+
+participant "Dialog" as dlg
+participant "getch()" as getch
+participant "Timeouts" as timeout
+participant "Mailbox" as mbox
+participant "Notify" as notify
+
+activate dlg
+
+dlg->getch: Wait for key
+activate getch
+
+space
+note over getch#ffffc0: No keys waiting
+
+note over timeout#ffffc0: inotify
+getch->>timeout: <color:#red>NT_TIMEOUT</color>
+activate timeout
+timeout->mbox: New File
+activate mbox
+mbox->mbox: Update
+mbox->>notify: <color:#red>NT_MAILBOX</color>
+activate notify
+timeout<--mbox:
+deactivate timeout
+deactivate mbox
+notify->notify: Queue
+
+space 2
+
+note over timeout#ffffc0: mbox_check()
+getch->>timeout: <color:#red>NT_TIMEOUT</color>
+activate timeout
+timeout->mbox: New Mail
+activate mbox
+mbox->mbox: Update
+mbox->>notify: <color:#red>NT_MAILBOX</color>
+timeout<--mbox:
+deactivate mbox
+deactivate timeout
+notify->notify: Queue
+
+space 2
+
+note over timeout#ffffc0: Notify User
+getch->>timeout: <color:#red>NT_TIMEOUT</color>
+activate timeout
+timeout->notify: Notify User
+notify->]: "New Mail in X"
+notify->]: New Mail Command
+notify->]: Beep!
+timeout<--notify:
+deactivate notify
+deactivate timeout
+
+dlg<--getch: REPAINT
+deactivate getch
