@@ -16,9 +16,10 @@ The **current** and **hoped-for** behaviour of the **Index and Pager**.
 
 **Miscellaneous Diagrams**:
 
-| Description                               | SVG                                                                     | Source                                                                 |
-| :---------------------------------------- | :---------------------------------------------------------------------- | :--------------------------------------------------------------------- |
-| Checking for, and notifying of, New Mail  | [newmail.svg](https://github.com/neomutt/gfx/raw/main/seq/newmail.svg)  | [newmail.txt](https://github.com/neomutt/gfx/raw/main/seq/newmail.txt) |
+| Description                               | SVG                                                                         | Source                                                                     |
+| :---------------------------------------- | :-------------------------------------------------------------------------- | :------------------------------------------------------------------------- |
+| Checking for New Mail                     | [new-mail1.svg](https://github.com/neomutt/gfx/raw/main/seq/new-mail1.svg)  | [new-mail1.txt](https://github.com/neomutt/gfx/raw/main/seq/new-mail1.txt) |
+| Checking for New Mail (more)              | [new-mail2.svg](https://github.com/neomutt/gfx/raw/main/seq/new-mail2.svg)  | [new-mail2.txt](https://github.com/neomutt/gfx/raw/main/seq/new-mail2.txt) |
 
 ## Generator
 
