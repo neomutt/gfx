@@ -1,6 +1,8 @@
 # Sequence Diagrams
 
-These [Sequence Diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) show the current and hoped-for behaviour of the Index and Pager.
+These [Sequence Diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) show:
+
+The **current** and **hoped-for** behaviour of the **Index and Pager**.
 
 | Description                                        | SVG                                                                                                      | Source                                                                                                   |
 | :------------------------------------------------- | :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
@@ -12,7 +14,7 @@ These [Sequence Diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) show t
 | Event-driven mulit-key binding lookup (simplified) | [6-event-multikey-simple.svg](https://github.com/neomutt/gfx/raw/main/seq/6-event-multikey-simple.svg)   | [6-event-multikey-simple.txt](https://github.com/neomutt/gfx/raw/main/seq/6-event-multikey-simple.txt)   |
 | Event-driven unbound key lookup (simplified)       | [7-event-key-bad.svg](https://github.com/neomutt/gfx/raw/main/seq/7-event-key-bad.svg)                   | [7-event-key-bad.txt](https://github.com/neomutt/gfx/raw/main/seq/7-event-key-bad.txt)                   |
 
-Miscellanneous Diagrams
+**Miscellaneous Diagrams**:
 
 | Description                               | SVG                                                                     | Source                                                                 |
 | :---------------------------------------- | :---------------------------------------------------------------------- | :--------------------------------------------------------------------- |
