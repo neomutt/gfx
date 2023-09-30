@@ -20,6 +20,7 @@ The **current** and **hoped-for** behaviour of the **Index and Pager**.
 | :---------------------------------------- | :-------------------------------------------------------------------------- | :------------------------------------------------------------------------- |
 | Checking for New Mail                     | [new-mail1.svg](https://github.com/neomutt/gfx/raw/main/seq/new-mail1.svg)  | [new-mail1.txt](https://github.com/neomutt/gfx/raw/main/seq/new-mail1.txt) |
 | Checking for New Mail (more)              | [new-mail2.svg](https://github.com/neomutt/gfx/raw/main/seq/new-mail2.svg)  | [new-mail2.txt](https://github.com/neomutt/gfx/raw/main/seq/new-mail2.txt) |
+| Checking for New Mail (still more)        | [new-mail3.svg](https://github.com/neomutt/gfx/raw/main/seq/new-mail3.svg)  | [new-mail3.txt](https://github.com/neomutt/gfx/raw/main/seq/new-mail3.txt) |
 
 ## Generator
 

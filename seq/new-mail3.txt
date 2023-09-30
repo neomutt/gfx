@@ -1,0 +1,129 @@
+entryspacing 0.1
+
+participant "Index\nDialog" as dlg
+participant "Get Key" as getch
+participant "Timeout\nObservers" as timeout
+participant "Mailbox\nBackend" as mbox
+participant "Window" as window
+
+participant "Index" as index
+participant "IBar" as ibar
+participant "Sidebar" as sidebar
+participant "Notifier" as notify
+
+
+activate dlg
+activate index
+activate ibar
+activate sidebar
+
+space
+note over dlg#ffffc0: Event Loop
+
+dlg->getch: Wait for key
+activate getch
+
+space
+note over getch#ffffc0: No keys waiting
+
+note over timeout#ffffc0: Monitor
+getch-#red>>timeout: <color:#red>NT_TIMEOUT</color>
+activate timeout
+timeout->timeout: poll_fs()
+space
+timeout->mbox: callback()
+activate mbox
+mbox->mbox: Update
+space
+
+group #d0ffff Notification: NT_MAILBOX
+mbox-#red>>index:
+index->index: Update
+mbox-#red>>ibar:
+ibar->ibar: Update
+mbox-#red>>sidebar:
+sidebar->sidebar: Update
+mbox-#red>>notify:
+activate notify
+notify->notify: Queue
+space
+end
+
+timeout<--mbox:
+deactivate timeout
+deactivate mbox
+
+space 2
+
+note over timeout#ffffc0: Mail Check
+getch-#red>>timeout: <color:#red>NT_TIMEOUT</color>
+activate timeout
+timeout->mbox: mbox_check()
+activate mbox
+mbox->mbox: Update
+
+space
+group #d0ffff Notification: NT_MAILBOX
+mbox-#red>>index:
+index->index: Update
+mbox-#red>>ibar:
+ibar->ibar: Update
+mbox-#red>>sidebar:
+sidebar->sidebar: Update
+mbox-#red>>notify:
+notify->notify: Queue
+space
+end
+
+timeout<--mbox:
+deactivate mbox
+deactivate timeout
+
+space 2
+
+note over timeout#ffffc0: Notify User
+getch-#red>>timeout: <color:#red>NT_TIMEOUT</color>
+activate timeout
+timeout->notify: Notify User
+notify->]: "New Mail in X"
+notify->]: New Mail Command
+notify->]: Beep!
+timeout<--notify:
+deactivate notify
+deactivate timeout
+
+dlg<--getch: OP_TIMEOUT
+deactivate getch
+space
+
+
+entryspacing 0
+dlg->window: window_redraw()
+activate window
+space
+
+group #d0ffff Window.recalc()
+window->index:
+window->ibar:
+window->sidebar:
+space
+end
+space
+
+group #d0ffff Window.repaint()
+window->index:
+window->ibar:
+window->sidebar:
+space
+end
+
+space
+window->window: refresh()
+dlg<--window:
+deactivate window
+space
+
+deactivate dlg
+deactivate index
+deactivate ibar
+deactivate sidebar
