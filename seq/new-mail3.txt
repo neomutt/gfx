@@ -7,7 +7,7 @@ participant "Mailbox\nBackend" as mbox
 participant "Window" as window
 
 participant "Index" as index
-participant "IBar" as ibar
+participant "Index Bar\n--(status)--" as ibar
 participant "Sidebar" as sidebar
 participant "Notifier" as notify
 
