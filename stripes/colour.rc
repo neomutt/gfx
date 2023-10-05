@@ -1,0 +1,4 @@
+set help_alternate = yes
+set help = no
+color pager_odd  blue  cyan
+color pager_even black white

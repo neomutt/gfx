@@ -11,5 +11,6 @@
 | [logo](logo/README.md)               | NeoMutt logos                                    |
 | [screenshots](screenshots/README.md) | Random pictures of NeoMutt development           |
 | [seq](seq/README.md)                 | Sequence Diagrams                                |
+| [stripes](stripes/README.md)         | Striped highlighting                             |
 | [teams](teams/README.md)             | GitHub Team Forum logos                          |
 
