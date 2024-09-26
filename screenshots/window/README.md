@@ -18,7 +18,6 @@ These show the nested Windows making up each dialog in NeoMutt.
 | Index View                     | [dlg-index.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-index.svg)                             |
 | Main View - Status on top      | [dlg-main-sot.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-main-sot.svg)                       |
 | Main View                      | [dlg-main.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-main.svg)                               |
-| Mixmaster Chain Selection      | [dlg-mixmaster.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-mixmaster.svg)                     |
 | Message Container 1            | [msgcont1.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/msgcont1.svg)                               |
 | Message Container 2            | [msgcont2.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/msgcont2.svg)                               |
 | Message Container 3            | [msgcont3.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/msgcont3.svg)                               |

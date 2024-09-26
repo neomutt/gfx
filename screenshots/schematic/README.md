@@ -18,7 +18,6 @@ These show the appearance of NeoMutt, labelling each part.
 | Index View                     | [dlg-index.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-index.svg) |
 | Main View - Status on top      | [dlg-main-sot.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-main-sot.svg) |
 | Main View                      | [dlg-main.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-main.svg) |
-| Mixmaster Chain Selection      | [dlg-mixmaster.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-mixmaster.svg) |
 | Pager                          | [dlg-pager.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-pager.svg) |
 | Pattern Selection              | [dlg-pattern-selection.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-pattern-selection.svg) |
 | PGP Key Selection              | [dlg-pgp-key-selection.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-pgp-key-selection.svg) |
