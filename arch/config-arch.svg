@@ -398,9 +398,9 @@
      showgrid="true"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="400.94485"
-     inkscape:cx="302.82135"
-     inkscape:zoom="1.0649844"
+     inkscape:cy="426.04157"
+     inkscape:cx="406.3997"
+     inkscape:zoom="2.138289"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -1136,11 +1136,11 @@
        inkscape:transform-center-x="2.6005934"
        inkscape:transform-center-y="3.4509659" />
     <rect
-       style="fill:#dcdcdc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.529166;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#dcdcdc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.529167;stroke-dashoffset:0;stroke-opacity:1"
        id="rect7022-5"
-       width="17.026646"
+       width="23.020031"
        height="6.614584"
-       x="212.97331"
+       x="212.97993"
        y="305.46671" />
     <text
        xml:space="preserve"
@@ -1152,11 +1152,11 @@
          id="tspan6817-9"
          x="214.14426"
          y="310.0513"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.9389px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';stroke-width:0.264583">[var]</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.9389px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';stroke-width:0.264583">[value]</tspan></text>
     <rect
-       style="fill:#dcdcdc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.529166;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#dcdcdc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.529167;stroke-dashoffset:0;stroke-opacity:1"
        id="rect7022-5-3"
-       width="17.026646"
+       width="23.020031"
        height="6.614584"
        x="212.9545"
        y="260.37012" />
@@ -1176,7 +1176,7 @@
          id="tspan6817-9-7"
          x="214.10916"
          y="264.95471"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.9389px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';stroke-width:0.264583">[var]</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.9389px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';stroke-width:0.264583">[value]</tspan></text>
     <rect
        style="fill:#dcdcdc;fill-opacity:1;stroke:none;stroke-width:0.264584;stroke-miterlimit:4;stroke-dasharray:0.264584, 0.529166;stroke-dashoffset:0;stroke-opacity:1"
        id="rect7022-5-3-3"
@@ -1209,9 +1209,9 @@
        sodipodi:nodetypes="cc" />
     <rect
        y="350.44589"
-       x="212.97331"
+       x="212.97993"
        height="6.614584"
-       width="17.026648"
+       width="23.020035"
        id="rect7022-5-8"
        style="fill:#dcdcdc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.529167;stroke-dashoffset:0;stroke-opacity:1" />
     <text
@@ -1224,7 +1224,7 @@
          y="355.03049"
          x="214.14426"
          id="tspan6817-9-9"
-         sodipodi:role="line">[var]</tspan></text>
+         sodipodi:role="line">[value]</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -1250,6 +1250,6 @@
        id="text1"><tspan
          sodipodi:role="line"
          id="tspan1"
-         style="stroke-width:0.264583"></tspan></text>
+         style="stroke-width:0.264583" /></text>
   </g>
 </svg>
