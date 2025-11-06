@@ -125,12 +125,12 @@ digraph build {
 		label="Source"
 		color="#ff0000"
 
-		compulsory   [ label="\{compulsory.c\}"   ]
-		conditional  [ label="\{conditional.c\}"  ]
-		enviromental [ label="\{enviromental.c\}" ]
-		foreign      [ label="\{foreign.c\}"      ]
-		generated    [ label="\{generated.c\}"    ]
-		shared       [ label="\{shared.c\}"       ]
+		compulsory    [ label="\{compulsory.c\}"    ]
+		conditional   [ label="\{conditional.c\}"   ]
+		environmental [ label="\{environmental.c\}" ]
+		foreign       [ label="\{foreign.c\}"       ]
+		generated     [ label="\{generated.c\}"     ]
+		shared        [ label="\{shared.c\}"        ]
 	}
 
 	imap_a -> ld
