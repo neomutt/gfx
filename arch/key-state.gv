@@ -1,0 +1,98 @@
+digraph key_state_machine
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.2"
+		ranksep="0.5"
+		compound="true"
+	]
+
+	node [
+		shape="Mrecord"
+		fontsize="12"
+		fillcolor="#ffffff"
+		style="filled"
+		height="0.2"
+		penwidth="1.5"
+		color="black"
+	]
+
+	edge [
+		penwidth="1.0"
+		arrowsize="0.5"
+	]
+
+	start     [ label="start"     ]
+	counter   [ label="counter"   ]
+	need_more [ label="need more" ]
+	match     [ label="match"     ]
+	no_match  [ label="no match"  ]
+
+	// Event: key
+	// Match: 1 exact match, 0 longer matches
+	need_more -> match     [ label="key"     fontcolor="#00c000" color="#00c000" ]
+
+	// Event: key
+	// Match: 1 exact match, no longer matches
+	start     -> match     [ label="key"     fontcolor="#00c000" color="#00c000" ]
+
+	// Event: key
+	// Match: 0 exact matches, 0 longer matches
+	start     -> no_match  [ label="key"     fontcolor="#c00000" color="#c00000" ]
+
+	// Event: digit
+	// Match: 0 exact matches, no longer matches
+	start     -> counter   [ label="digit"   fontcolor="#00c000" color="#00c000" ]
+
+	// Event: key
+	// Match: 0 exact matches, 0 longer matches
+	counter   -> no_match  [ label="key"     fontcolor="#c00000" color="#c00000" ]
+
+	// Event: digit
+	// Match: 0 exact matches, no longer matches
+	// Notes: counter increased; still below maximum
+	counter   -> counter   [ label="digit"   fontcolor="#00c000" color="#00c000" ]
+
+	// Event: timeout
+	// Match: n/a
+	start     -> no_match  [ label="timeout" fontcolor="#c000c0" color="#c000c0" ]
+
+	// Event: timeout
+	// Match: n/a
+	counter   -> no_match  [ label="timeout" fontcolor="#c000c0" color="#c000c0" ]
+
+	// Event: digit
+	// Match: 0 exact matches, no longer matches
+	// Notes: counter exceeds maximum
+	counter   -> no_match  [ label="digit"   fontcolor="#c00000" color="#c00000" ]
+
+	// Event: key
+	// Match: >0 longer matches
+	counter   -> need_more [ label="key"     fontcolor="#00c000" color="#00c000" ]
+
+	// Event: key
+	// Match: 0 exact matches, 0 longer matches
+	need_more -> no_match  [ label="key"     fontcolor="#c00000" color="#c00000" ]
+
+	// Event: timeout
+	// Match: 0 exact matches, >0 longer matches
+	need_more -> no_match  [ label="timeout" fontcolor="#c000c0" color="#c000c0" ]
+
+	// Event: timeout
+	// Match: 1 exact match, >0 longer matches
+	need_more -> match     [ label="timeout" fontcolor="#c000c0" color="#c000c0" ]
+
+	// Event: key
+	// Match: >0 longer matches
+	start     -> need_more [ label="key"     fontcolor="#00c000" color="#00c000" ]
+
+	// Event: key
+	// Match: >0 longer matches
+	need_more -> need_more [ label="key"     fontcolor="#00c000" color="#00c000" ]
+
+	// Event: key
+	// Match: 1 exact match, 0 longer matches
+	counter   -> match     [ label="key"     fontcolor="#00c000" color="#00c000" ]
+
+
+}

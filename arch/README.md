@@ -84,3 +84,11 @@ This function diagram shows all the callers and dependencies.
 
 **[enter-field-key.gv](enter-field-key.gv)** **[enter-field-key.svg](enter-field-key.svg)**
 
+## Keybinding State Machine
+
+The State Machine behind `km_dokey()`
+
+**[key-state.gv](key-state.gv)** **[key-state.svg](key-state.svg)**
+
+![key-state.svg](key-state.svg)
+
