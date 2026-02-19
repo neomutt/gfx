@@ -55,11 +55,11 @@ digraph key_state_machine
 
 	// Event: timeout
 	// Match: n/a
-	start     -> no_match  [ label="timeout" fontcolor="#c000c0" color="#c000c0" ]
+	start     -> no_match  [ label="timeout" fontcolor="#0040ff" color="#0040ff" ]
 
 	// Event: timeout
 	// Match: n/a
-	counter   -> no_match  [ label="timeout" fontcolor="#c000c0" color="#c000c0" ]
+	counter   -> no_match  [ label="timeout" fontcolor="#0040ff" color="#0040ff" ]
 
 	// Event: digit
 	// Match: 0 exact matches, no longer matches
@@ -76,11 +76,11 @@ digraph key_state_machine
 
 	// Event: timeout
 	// Match: 0 exact matches, >0 longer matches
-	need_more -> no_match  [ label="timeout" fontcolor="#c000c0" color="#c000c0" ]
+	need_more -> no_match  [ label="timeout" fontcolor="#0040ff" color="#0040ff" ]
 
 	// Event: timeout
 	// Match: 1 exact match, >0 longer matches
-	need_more -> match     [ label="timeout" fontcolor="#c000c0" color="#c000c0" ]
+	need_more -> match     [ label="timeout" fontcolor="#0040ff" color="#0040ff" ]
 
 	// Event: key
 	// Match: >0 longer matches

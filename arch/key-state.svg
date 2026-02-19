@@ -70,9 +70,9 @@
 <!-- start&#45;&gt;no_match -->
 <g id="edge7" class="edge">
 <title>start&#45;&gt;no_match</title>
-<path fill="none" stroke="#c000c0" d="M46.89,-181.41C110.07,-218.67 316.44,-326.99 430.25,-226.78 451.37,-208.18 471.41,-126.02 479.55,-88.99"/>
-<polygon fill="#c000c0" stroke="#c000c0" points="481.26,-89.36 480.61,-84.1 477.84,-88.62 481.26,-89.36"/>
-<text xml:space="preserve" text-anchor="middle" x="231.25" y="-267.94" font-family="Times,serif" font-size="14.00" fill="#c000c0">timeout</text>
+<path fill="none" stroke="#0040ff" d="M46.89,-181.41C110.07,-218.67 316.44,-326.99 430.25,-226.78 451.37,-208.18 471.41,-126.02 479.55,-88.99"/>
+<polygon fill="#0040ff" stroke="#0040ff" points="481.26,-89.36 480.61,-84.1 477.84,-88.62 481.26,-89.36"/>
+<text xml:space="preserve" text-anchor="middle" x="231.25" y="-267.94" font-family="Times,serif" font-size="14.00" fill="#0040ff">timeout</text>
 </g>
 <!-- counter&#45;&gt;counter -->
 <g id="edge6" class="edge">
@@ -105,9 +105,9 @@
 <!-- counter&#45;&gt;no_match -->
 <g id="edge8" class="edge">
 <title>counter&#45;&gt;no_match</title>
-<path fill="none" stroke="#c000c0" d="M169.79,-82.96C179.04,-75.85 191.49,-67.01 203.5,-60.78 234.29,-44.81 242.82,-40.45 277,-34.53 344.64,-22.81 364.33,-34.61 430.25,-53.78 433.97,-54.86 437.83,-56.02 441.69,-57.21"/>
-<polygon fill="#c000c0" stroke="#c000c0" points="441,-58.82 446.29,-58.64 442.03,-55.48 441,-58.82"/>
-<text xml:space="preserve" text-anchor="middle" x="316.88" y="-38.48" font-family="Times,serif" font-size="14.00" fill="#c000c0">timeout</text>
+<path fill="none" stroke="#0040ff" d="M169.79,-82.96C179.04,-75.85 191.49,-67.01 203.5,-60.78 234.29,-44.81 242.82,-40.45 277,-34.53 344.64,-22.81 364.33,-34.61 430.25,-53.78 433.97,-54.86 437.83,-56.02 441.69,-57.21"/>
+<polygon fill="#0040ff" stroke="#0040ff" points="441,-58.82 446.29,-58.64 442.03,-55.48 441,-58.82"/>
+<text xml:space="preserve" text-anchor="middle" x="316.88" y="-38.48" font-family="Times,serif" font-size="14.00" fill="#0040ff">timeout</text>
 </g>
 <!-- counter&#45;&gt;no_match -->
 <g id="edge9" class="edge">
@@ -133,9 +133,9 @@
 <!-- need_more&#45;&gt;match -->
 <g id="edge13" class="edge">
 <title>need_more&#45;&gt;match</title>
-<path fill="none" stroke="#c000c0" d="M329.07,-152.36C339.88,-162.94 357.14,-178.33 374.75,-187.78 387.89,-194.84 423.47,-205.08 450.36,-212.28"/>
-<polygon fill="#c000c0" stroke="#c000c0" points="449.89,-213.97 455.18,-213.56 450.79,-210.59 449.89,-213.97"/>
-<text xml:space="preserve" text-anchor="middle" x="402.5" y="-210.21" font-family="Times,serif" font-size="14.00" fill="#c000c0">timeout</text>
+<path fill="none" stroke="#0040ff" d="M329.07,-152.36C339.88,-162.94 357.14,-178.33 374.75,-187.78 387.89,-194.84 423.47,-205.08 450.36,-212.28"/>
+<polygon fill="#0040ff" stroke="#0040ff" points="449.89,-213.97 455.18,-213.56 450.79,-210.59 449.89,-213.97"/>
+<text xml:space="preserve" text-anchor="middle" x="402.5" y="-210.21" font-family="Times,serif" font-size="14.00" fill="#0040ff">timeout</text>
 </g>
 <!-- need_more&#45;&gt;no_match -->
 <g id="edge11" class="edge">
@@ -147,9 +147,9 @@
 <!-- need_more&#45;&gt;no_match -->
 <g id="edge12" class="edge">
 <title>need_more&#45;&gt;no_match</title>
-<path fill="none" stroke="#c000c0" d="M337.49,-128.92C343.86,-124.74 350.81,-119.82 356.75,-114.78 365.68,-107.19 364.59,-101.36 374.75,-95.53 386.11,-89 415.89,-82.45 441.39,-77.73"/>
-<polygon fill="#c000c0" stroke="#c000c0" points="441.68,-79.45 446.28,-76.84 441.05,-76.01 441.68,-79.45"/>
-<text xml:space="preserve" text-anchor="middle" x="402.5" y="-99.48" font-family="Times,serif" font-size="14.00" fill="#c000c0">timeout</text>
+<path fill="none" stroke="#0040ff" d="M337.49,-128.92C343.86,-124.74 350.81,-119.82 356.75,-114.78 365.68,-107.19 364.59,-101.36 374.75,-95.53 386.11,-89 415.89,-82.45 441.39,-77.73"/>
+<polygon fill="#0040ff" stroke="#0040ff" points="441.68,-79.45 446.28,-76.84 441.05,-76.01 441.68,-79.45"/>
+<text xml:space="preserve" text-anchor="middle" x="402.5" y="-99.48" font-family="Times,serif" font-size="14.00" fill="#0040ff">timeout</text>
 </g>
 </g>
 </svg>
