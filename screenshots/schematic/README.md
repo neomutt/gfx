@@ -9,6 +9,7 @@ These show the appearance of NeoMutt, labelling each part.
 | Autocrypt Account Selection    | [dlg-autocrypt-account-selection.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-autocrypt-account-selection.svg) |
 | Browser                        | [dlg-browser.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-browser.svg) |
 | Compose                        | [dlg-compose.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-compose.svg) |
+| Compose + Preview              | [dlg-compose-preview.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-compose-preview.svg) |
 | GPGME PGP Key Selection        | [dlg-gpgme-pgp-key-selection.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-gpgme-pgp-key-selection.svg) |
 | GPGME SMIME Key Selection      | [dlg-gpgme-smime-key-selection.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-gpgme-smime-key-selection.svg) |
 | History Selection              | [dlg-history-selection.svg](https://github.com/neomutt/gfx/raw/main/screenshots/schematic/dlg-history-selection.svg) |

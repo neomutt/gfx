@@ -9,6 +9,7 @@ These show the nested Windows making up each dialog in NeoMutt.
 | Autocrypt Account Selection    | [dlg-autocrypt.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-autocrypt.svg)                     |
 | Browser                        | [dlg-browser.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-browser.svg)                         |
 | Compose                        | [dlg-compose.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-compose.svg)                         |
+| Compose + Preview              | [dlg-compose-preview.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-compose-preview.svg)         |
 | GPGME PGP Key Selection        | [dlg-gpgme-pgp.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-gpgme-pgp.svg)                     |
 | GPGME SMIME Key Selection      | [dlg-gpgme-smime.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-gpgme-smime.svg)                 |
 | History Selection              | [dlg-history.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-history.svg)                         |
