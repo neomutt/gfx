@@ -19,9 +19,8 @@ These show the nested Windows making up each dialog in NeoMutt.
 | Index View                     | [dlg-index.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-index.svg)                             |
 | Main View - Status on top      | [dlg-main-sot.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-main-sot.svg)                       |
 | Main View                      | [dlg-main.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-main.svg)                               |
-| Message Container 1            | [msgcont1.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/msgcont1.svg)                               |
-| Message Container 2            | [msgcont2.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/msgcont2.svg)                               |
-| Message Container 3            | [msgcont3.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/msgcont3.svg)                               |
+| Message Window                 | [message-window.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/message-window.svg)                   |
+| Message Window + Key Window    | [message-window-keywin.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/message-window-keywin.svg)     |
 | Pager                          | [dlg-pager.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-pager.svg)                             |
 | Pattern Selection              | [dlg-pattern.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-pattern.svg)                         |
 | PGP Key Selection              | [dlg-pgp.svg](https://github.com/neomutt/gfx/raw/main/screenshots/window/dlg-pgp.svg)                                 |
