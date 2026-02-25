@@ -1,0 +1,231 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_index [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpIndex[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">alias-dialog</td> <td border="0" align="left">OP_ALIAS_DIALOG</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">autocrypt-acct-menu</td> <td border="0" align="left">OP_AUTOCRYPT_ACCT_MENU</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">bounce-message</td> <td border="0" align="left">OP_BOUNCE_MESSAGE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">break-thread</td> <td border="0" align="left">OP_MAIN_BREAK_THREAD</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">catchup</td> <td border="0" align="left">OP_CATCHUP</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+112 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="left" colspan="2">change-folder</td> <td border="0" align="left">OP_MAIN_CHANGE_FOLDER</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">change-folder-readonly</td> <td border="0" align="left">OP_MAIN_CHANGE_FOLDER_READONLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">change-newsgroup</td> <td border="0" align="left">OP_MAIN_CHANGE_GROUP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">change-newsgroup-readonly</td> <td border="0" align="left">OP_MAIN_CHANGE_GROUP_READONLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">change-vfolder</td> <td border="0" align="left">OP_MAIN_CHANGE_VFOLDER</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">check-traditional-pgp</td> <td border="0" align="left">OP_CHECK_TRADITIONAL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">clear-flag</td> <td border="0" align="left">OP_MAIN_CLEAR_FLAG</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">collapse-all</td> <td border="0" align="left">OP_MAIN_COLLAPSE_ALL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">collapse-thread</td> <td border="0" align="left">OP_MAIN_COLLAPSE_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">compose-to-sender</td> <td border="0" align="left">OP_COMPOSE_TO_SENDER</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">copy-message</td> <td border="0" align="left">OP_COPY_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">create-alias</td> <td border="0" align="left">OP_CREATE_ALIAS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">decode-copy</td> <td border="0" align="left">OP_DECODE_COPY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">decode-save</td> <td border="0" align="left">OP_DECODE_SAVE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">decrypt-copy</td> <td border="0" align="left">OP_DECRYPT_COPY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">decrypt-save</td> <td border="0" align="left">OP_DECRYPT_SAVE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">delete-message</td> <td border="0" align="left">OP_DELETE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">delete-pattern</td> <td border="0" align="left">OP_MAIN_DELETE_PATTERN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">delete-subthread</td> <td border="0" align="left">OP_DELETE_SUBTHREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">delete-thread</td> <td border="0" align="left">OP_DELETE_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">display-address</td> <td border="0" align="left">OP_DISPLAY_ADDRESS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">display-message</td> <td border="0" align="left">OP_DISPLAY_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">display-toggle-weed</td> <td border="0" align="left">OP_DISPLAY_HEADERS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit</td> <td border="0" align="left">OP_EDIT_RAW_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-label</td> <td border="0" align="left">OP_EDIT_LABEL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-or-view-raw-message</td> <td border="0" align="left">OP_EDIT_OR_VIEW_RAW_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-raw-message</td> <td border="0" align="left">OP_EDIT_RAW_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-type</td> <td border="0" align="left">OP_ATTACHMENT_EDIT_TYPE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">entire-thread</td> <td border="0" align="left">OP_MAIN_ENTIRE_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">exit</td> <td border="0" align="left">OP_EXIT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">extract-keys</td> <td border="0" align="left">OP_EXTRACT_KEYS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">fetch-mail</td> <td border="0" align="left">OP_MAIN_FETCH_MAIL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">flag-message</td> <td border="0" align="left">OP_FLAG_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">followup-message</td> <td border="0" align="left">OP_FOLLOWUP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">forget-passphrase</td> <td border="0" align="left">OP_FORGET_PASSPHRASE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">forward-message</td> <td border="0" align="left">OP_FORWARD_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">forward-to-group</td> <td border="0" align="left">OP_FORWARD_TO_GROUP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">get-children</td> <td border="0" align="left">OP_GET_CHILDREN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">get-message</td> <td border="0" align="left">OP_GET_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">get-parent</td> <td border="0" align="left">OP_GET_PARENT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">group-chat-reply</td> <td border="0" align="left">OP_GROUP_CHAT_REPLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">group-reply</td> <td border="0" align="left">OP_GROUP_REPLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">imap-fetch-mail</td> <td border="0" align="left">OP_MAIN_IMAP_FETCH</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">imap-logout-all</td> <td border="0" align="left">OP_MAIN_IMAP_LOGOUT_ALL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">limit</td> <td border="0" align="left">OP_MAIN_LIMIT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">limit-current-thread</td> <td border="0" align="left">OP_LIMIT_CURRENT_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">link-threads</td> <td border="0" align="left">OP_MAIN_LINK_THREADS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">list-reply</td> <td border="0" align="left">OP_LIST_REPLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">list-subscribe</td> <td border="0" align="left">OP_LIST_SUBSCRIBE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">list-unsubscribe</td> <td border="0" align="left">OP_LIST_UNSUBSCRIBE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">mail</td> <td border="0" align="left">OP_MAIL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">mail-key</td> <td border="0" align="left">OP_MAIL_KEY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">mailbox-list</td> <td border="0" align="left">OP_MAILBOX_LIST</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">mark-message</td> <td border="0" align="left">OP_MARK_MSG</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">modify-labels</td> <td border="0" align="left">OP_MAIN_MODIFY_TAGS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">modify-labels-then-hide</td> <td border="0" align="left">OP_MAIN_MODIFY_TAGS_THEN_HIDE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">modify-tags</td> <td border="0" align="left">OP_MAIN_MODIFY_TAGS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">modify-tags-then-hide</td> <td border="0" align="left">OP_MAIN_MODIFY_TAGS_THEN_HIDE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">next-new</td> <td border="0" align="left">OP_MAIN_NEXT_NEW</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">next-new-then-unread</td> <td border="0" align="left">OP_MAIN_NEXT_NEW_THEN_UNREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">next-subthread</td> <td border="0" align="left">OP_MAIN_NEXT_SUBTHREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">next-thread</td> <td border="0" align="left">OP_MAIN_NEXT_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">next-undeleted</td> <td border="0" align="left">OP_MAIN_NEXT_UNDELETED</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">next-unread</td> <td border="0" align="left">OP_MAIN_NEXT_UNREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">next-unread-mailbox</td> <td border="0" align="left">OP_MAIN_NEXT_UNREAD_MAILBOX</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">parent-message</td> <td border="0" align="left">OP_MAIN_PARENT_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">pipe-entry</td> <td border="0" align="left">OP_PIPE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">pipe-message</td> <td border="0" align="left">OP_PIPE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">post-message</td> <td border="0" align="left">OP_POST</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">previous-new</td> <td border="0" align="left">OP_MAIN_PREV_NEW</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">previous-new-then-unread</td> <td border="0" align="left">OP_MAIN_PREV_NEW_THEN_UNREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">previous-subthread</td> <td border="0" align="left">OP_MAIN_PREV_SUBTHREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">previous-thread</td> <td border="0" align="left">OP_MAIN_PREV_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">previous-undeleted</td> <td border="0" align="left">OP_MAIN_PREV_UNDELETED</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">previous-unread</td> <td border="0" align="left">OP_MAIN_PREV_UNREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">print-message</td> <td border="0" align="left">OP_PRINT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">purge-message</td> <td border="0" align="left">OP_PURGE_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">purge-thread</td> <td border="0" align="left">OP_PURGE_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">quasi-delete</td> <td border="0" align="left">OP_MAIN_QUASI_DELETE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">query</td> <td border="0" align="left">OP_QUERY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">quit</td> <td border="0" align="left">OP_QUIT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">read-subthread</td> <td border="0" align="left">OP_MAIN_READ_SUBTHREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">read-thread</td> <td border="0" align="left">OP_MAIN_READ_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">recall-message</td> <td border="0" align="left">OP_RECALL_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">reconstruct-thread</td> <td border="0" align="left">OP_RECONSTRUCT_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">reply</td> <td border="0" align="left">OP_REPLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">resend-message</td> <td border="0" align="left">OP_RESEND</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">root-message</td> <td border="0" align="left">OP_MAIN_ROOT_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">save-message</td> <td border="0" align="left">OP_SAVE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">set-flag</td> <td border="0" align="left">OP_MAIN_SET_FLAG</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">show-limit</td> <td border="0" align="left">OP_MAIN_SHOW_LIMIT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sort-mailbox</td> <td border="0" align="left">OP_SORT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sort-reverse</td> <td border="0" align="left">OP_SORT_REVERSE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sync-mailbox</td> <td border="0" align="left">OP_MAIN_SYNC_FOLDER</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">tag-pattern</td> <td border="0" align="left">OP_MAIN_TAG_PATTERN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">tag-subthread</td> <td border="0" align="left">OP_TAG_SUBTHREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">tag-thread</td> <td border="0" align="left">OP_TAG_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">toggle-new</td> <td border="0" align="left">OP_TOGGLE_NEW</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">toggle-read</td> <td border="0" align="left">OP_TOGGLE_READ</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">toggle-write</td> <td border="0" align="left">OP_TOGGLE_WRITE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">undelete-message</td> <td border="0" align="left">OP_UNDELETE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">undelete-pattern</td> <td border="0" align="left">OP_MAIN_UNDELETE_PATTERN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">undelete-subthread</td> <td border="0" align="left">OP_UNDELETE_SUBTHREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">undelete-thread</td> <td border="0" align="left">OP_UNDELETE_THREAD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">untag-pattern</td> <td border="0" align="left">OP_MAIN_UNTAG_PATTERN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">vfolder-from-query</td> <td border="0" align="left">OP_MAIN_VFOLDER_FROM_QUERY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">vfolder-from-query-readonly</td> <td border="0" align="left">OP_MAIN_VFOLDER_FROM_QUERY_READONLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">vfolder-window-backward</td> <td border="0" align="left">OP_MAIN_WINDOWED_VFOLDER_BACKWARD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">vfolder-window-forward</td> <td border="0" align="left">OP_MAIN_WINDOWED_VFOLDER_FORWARD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">vfolder-window-reset</td> <td border="0" align="left">OP_MAIN_WINDOWED_VFOLDER_RESET</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-attachments</td> <td border="0" align="left">OP_VIEW_ATTACHMENTS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-raw-message</td> <td border="0" align="left">OP_VIEW_RAW_MESSAGE</td> </tr> -->
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>IndexDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="right">A</td> <td>→</td> <td border="0" align="left">autocrypt-acct-menu</td> </tr>
+		<tr> <td border="0" align="right">b</td> <td>→</td> <td border="0" align="left">bounce-message</td> </tr>
+		<tr> <td border="0" align="right">#</td> <td>→</td> <td border="0" align="left">break-thread</td> </tr>
+		<tr> <td border="0" align="right">c</td> <td>→</td> <td border="0" align="left">change-folder</td> </tr>
+		<tr> <td border="0" align="right">&lt;Alt-c&gt;</td> <td>→</td> <td border="0" align="left">change-folder-readonly</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+76 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="right">i</td> <td>→</td> <td border="0" align="left">change-newsgroup</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-i&gt;</td> <td>→</td> <td border="0" align="left">change-newsgroup-readonly</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-P&gt;</td> <td>→</td> <td border="0" align="left">check-traditional-pgp</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">W</td> <td>→</td> <td border="0" align="left">clear-flag</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-V&gt;</td> <td>→</td> <td border="0" align="left">collapse-all</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-v&gt;</td> <td>→</td> <td border="0" align="left">collapse-thread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">C</td> <td>→</td> <td border="0" align="left">copy-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">a</td> <td>→</td> <td border="0" align="left">create-alias</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-C&gt;</td> <td>→</td> <td border="0" align="left">decode-copy</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-s&gt;</td> <td>→</td> <td border="0" align="left">decode-save</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">d</td> <td>→</td> <td border="0" align="left">delete-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">D</td> <td>→</td> <td border="0" align="left">delete-pattern</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-d&gt;</td> <td>→</td> <td border="0" align="left">delete-subthread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-D&gt;</td> <td>→</td> <td border="0" align="left">delete-thread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">@</td> <td>→</td> <td border="0" align="left">display-address</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Enter&gt;</td> <td>→</td> <td border="0" align="left">display-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;KeypadEnter&gt;</td> <td>→</td> <td border="0" align="left">display-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Return&gt;</td> <td>→</td> <td border="0" align="left">display-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Space&gt;</td> <td>→</td> <td border="0" align="left">display-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">h</td> <td>→</td> <td border="0" align="left">display-toggle-weed</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">Y</td> <td>→</td> <td border="0" align="left">edit-label</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">e</td> <td>→</td> <td border="0" align="left">edit-or-view-raw-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-E&gt;</td> <td>→</td> <td border="0" align="left">edit-type</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">x</td> <td>→</td> <td border="0" align="left">exit</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-K&gt;</td> <td>→</td> <td border="0" align="left">extract-keys</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">G</td> <td>→</td> <td border="0" align="left">fetch-mail</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">F</td> <td>→</td> <td border="0" align="left">flag-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-F&gt;</td> <td>→</td> <td border="0" align="left">forget-passphrase</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">f</td> <td>→</td> <td border="0" align="left">forward-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">g</td> <td>→</td> <td border="0" align="left">group-reply</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">l</td> <td>→</td> <td border="0" align="left">limit</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&amp;</td> <td>→</td> <td border="0" align="left">link-threads</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">L</td> <td>→</td> <td border="0" align="left">list-reply</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">m</td> <td>→</td> <td border="0" align="left">mail</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-k&gt;</td> <td>→</td> <td border="0" align="left">mail-key</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">.</td> <td>→</td> <td border="0" align="left">mailbox-list</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">~</td> <td>→</td> <td border="0" align="left">mark-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">J</td> <td>→</td> <td border="0" align="left">next-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Tab&gt;</td> <td>→</td> <td border="0" align="left">next-new-then-unread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-n&gt;</td> <td>→</td> <td border="0" align="left">next-subthread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-N&gt;</td> <td>→</td> <td border="0" align="left">next-thread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Down&gt;</td> <td>→</td> <td border="0" align="left">next-undeleted</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">j</td> <td>→</td> <td border="0" align="left">next-undeleted</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">P</td> <td>→</td> <td border="0" align="left">parent-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">|</td> <td>→</td> <td border="0" align="left">pipe-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">K</td> <td>→</td> <td border="0" align="left">previous-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-Tab&gt;</td> <td>→</td> <td border="0" align="left">previous-new-then-unread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-p&gt;</td> <td>→</td> <td border="0" align="left">previous-subthread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-P&gt;</td> <td>→</td> <td border="0" align="left">previous-thread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Up&gt;</td> <td>→</td> <td border="0" align="left">previous-undeleted</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">k</td> <td>→</td> <td border="0" align="left">previous-undeleted</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">p</td> <td>→</td> <td border="0" align="left">print-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">Q</td> <td>→</td> <td border="0" align="left">query</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">q</td> <td>→</td> <td border="0" align="left">quit</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-r&gt;</td> <td>→</td> <td border="0" align="left">read-subthread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-R&gt;</td> <td>→</td> <td border="0" align="left">read-thread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">R</td> <td>→</td> <td border="0" align="left">recall-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">r</td> <td>→</td> <td border="0" align="left">reply</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-e&gt;</td> <td>→</td> <td border="0" align="left">resend-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">s</td> <td>→</td> <td border="0" align="left">save-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">w</td> <td>→</td> <td border="0" align="left">set-flag</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-l&gt;</td> <td>→</td> <td border="0" align="left">show-limit</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">M</td> <td>→</td> <td border="0" align="left">show-log-messages</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">o</td> <td>→</td> <td border="0" align="left">sort-mailbox</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">O</td> <td>→</td> <td border="0" align="left">sort-reverse</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">$</td> <td>→</td> <td border="0" align="left">sync-mailbox</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">T</td> <td>→</td> <td border="0" align="left">tag-pattern</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-t&gt;</td> <td>→</td> <td border="0" align="left">tag-thread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">N</td> <td>→</td> <td border="0" align="left">toggle-new</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">%</td> <td>→</td> <td border="0" align="left">toggle-write</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">u</td> <td>→</td> <td border="0" align="left">undelete-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">U</td> <td>→</td> <td border="0" align="left">undelete-pattern</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-u&gt;</td> <td>→</td> <td border="0" align="left">undelete-subthread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-U&gt;</td> <td>→</td> <td border="0" align="left">undelete-thread</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-T&gt;</td> <td>→</td> <td border="0" align="left">untag-pattern</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">v</td> <td>→</td> <td border="0" align="left">view-attachments</td> </tr> -->
+		</table>>
+	];
+}

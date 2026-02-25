@@ -1,0 +1,85 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_attach [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpAttachment[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">bounce-message</td> <td border="0" align="left">OP_BOUNCE_MESSAGE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">check-traditional-pgp</td> <td border="0" align="left">OP_CHECK_TRADITIONAL</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">collapse-parts</td> <td border="0" align="left">OP_ATTACHMENT_COLLAPSE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">compose-to-sender</td> <td border="0" align="left">OP_COMPOSE_TO_SENDER</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">delete-entry</td> <td border="0" align="left">OP_ATTACHMENT_DELETE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">display-toggle-weed</td> <td border="0" align="left">OP_DISPLAY_HEADERS</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+23 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-type</td> <td border="0" align="left">OP_ATTACHMENT_EDIT_TYPE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">exit</td> <td border="0" align="left">OP_EXIT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">extract-keys</td> <td border="0" align="left">OP_EXTRACT_KEYS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">followup-message</td> <td border="0" align="left">OP_FOLLOWUP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">forget-passphrase</td> <td border="0" align="left">OP_FORGET_PASSPHRASE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">forward-message</td> <td border="0" align="left">OP_FORWARD_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">forward-to-group</td> <td border="0" align="left">OP_FORWARD_TO_GROUP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">group-chat-reply</td> <td border="0" align="left">OP_GROUP_CHAT_REPLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">group-reply</td> <td border="0" align="left">OP_GROUP_REPLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">list-reply</td> <td border="0" align="left">OP_LIST_REPLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">list-subscribe</td> <td border="0" align="left">OP_LIST_SUBSCRIBE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">list-unsubscribe</td> <td border="0" align="left">OP_LIST_UNSUBSCRIBE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">pipe-entry</td> <td border="0" align="left">OP_PIPE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">pipe-message</td> <td border="0" align="left">OP_PIPE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">print-entry</td> <td border="0" align="left">OP_ATTACHMENT_PRINT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">reply</td> <td border="0" align="left">OP_REPLY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">resend-message</td> <td border="0" align="left">OP_RESEND</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">save-entry</td> <td border="0" align="left">OP_ATTACHMENT_SAVE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">undelete-entry</td> <td border="0" align="left">OP_ATTACHMENT_UNDELETE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-attach</td> <td border="0" align="left">OP_ATTACHMENT_VIEW</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-mailcap</td> <td border="0" align="left">OP_ATTACHMENT_VIEW_MAILCAP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-pager</td> <td border="0" align="left">OP_ATTACHMENT_VIEW_PAGER</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-text</td> <td border="0" align="left">OP_ATTACHMENT_VIEW_TEXT</td> </tr> -->
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>AttachmentDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="right">b</td> <td>→</td> <td border="0" align="left">bounce-message</td> </tr>
+		<tr> <td border="0" align="right">&lt;Alt-P&gt;</td> <td>→</td> <td border="0" align="left">check-traditional-pgp</td> </tr>
+		<tr> <td border="0" align="right">v</td> <td>→</td> <td border="0" align="left">collapse-parts</td> </tr>
+		<tr> <td border="0" align="right">d</td> <td>→</td> <td border="0" align="left">delete-entry</td> </tr>
+		<tr> <td border="0" align="right">h</td> <td>→</td> <td border="0" align="left">display-toggle-weed</td> </tr>
+		<tr> <td border="0" align="right">&lt;Ctrl-E&gt;</td> <td>→</td> <td border="0" align="left">edit-type</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+17 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="right">q</td> <td>→</td> <td border="0" align="left">exit</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-K&gt;</td> <td>→</td> <td border="0" align="left">extract-keys</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-F&gt;</td> <td>→</td> <td border="0" align="left">forget-passphrase</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">f</td> <td>→</td> <td border="0" align="left">forward-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">g</td> <td>→</td> <td border="0" align="left">group-reply</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">L</td> <td>→</td> <td border="0" align="left">list-reply</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">|</td> <td>→</td> <td border="0" align="left">pipe-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">p</td> <td>→</td> <td border="0" align="left">print-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">r</td> <td>→</td> <td border="0" align="left">reply</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-e&gt;</td> <td>→</td> <td border="0" align="left">resend-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">s</td> <td>→</td> <td border="0" align="left">save-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">u</td> <td>→</td> <td border="0" align="left">undelete-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Enter&gt;</td> <td>→</td> <td border="0" align="left">view-attach</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;KeypadEnter&gt;</td> <td>→</td> <td border="0" align="left">view-attach</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Return&gt;</td> <td>→</td> <td border="0" align="left">view-attach</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">m</td> <td>→</td> <td border="0" align="left">view-mailcap</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">T</td> <td>→</td> <td border="0" align="left">view-text</td> </tr> -->
+		</table>>
+	];
+}

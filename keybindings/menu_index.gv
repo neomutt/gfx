@@ -1,0 +1,35 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	menu_index [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#80ff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>MenuDefinition</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left">id</td>
+			<td border="0">=</td>
+			<td border="0" align="left">MENU_INDEX</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">name</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"index"</td>
+		</tr>
+		</table>>
+	];
+}

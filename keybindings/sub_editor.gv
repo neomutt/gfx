@@ -1,0 +1,91 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_editor [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpEditor[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">backspace</td> <td border="0" align="left">OP_EDITOR_BACKSPACE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">backward-char</td> <td border="0" align="left">OP_EDITOR_BACKWARD_CHAR</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">backward-word</td> <td border="0" align="left">OP_EDITOR_BACKWARD_WORD</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">bol</td> <td border="0" align="left">OP_EDITOR_BOL</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">capitalize-word</td> <td border="0" align="left">OP_EDITOR_CAPITALIZE_WORD</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+21 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="left" colspan="2">complete</td> <td border="0" align="left">OP_EDITOR_COMPLETE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">complete-query</td> <td border="0" align="left">OP_EDITOR_COMPLETE_QUERY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">delete-char</td> <td border="0" align="left">OP_EDITOR_DELETE_CHAR</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">downcase-word</td> <td border="0" align="left">OP_EDITOR_DOWNCASE_WORD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">eol</td> <td border="0" align="left">OP_EDITOR_EOL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">forward-char</td> <td border="0" align="left">OP_EDITOR_FORWARD_CHAR</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">forward-word</td> <td border="0" align="left">OP_EDITOR_FORWARD_WORD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">help</td> <td border="0" align="left">OP_HELP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">history-down</td> <td border="0" align="left">OP_EDITOR_HISTORY_DOWN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">history-search</td> <td border="0" align="left">OP_EDITOR_HISTORY_SEARCH</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">history-up</td> <td border="0" align="left">OP_EDITOR_HISTORY_UP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">kill-eol</td> <td border="0" align="left">OP_EDITOR_KILL_EOL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">kill-eow</td> <td border="0" align="left">OP_EDITOR_KILL_EOW</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">kill-line</td> <td border="0" align="left">OP_EDITOR_KILL_LINE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">kill-whole-line</td> <td border="0" align="left">OP_EDITOR_KILL_WHOLE_LINE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">kill-word</td> <td border="0" align="left">OP_EDITOR_KILL_WORD</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">mailbox-cycle</td> <td border="0" align="left">OP_EDITOR_MAILBOX_CYCLE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">quote-char</td> <td border="0" align="left">OP_EDITOR_QUOTE_CHAR</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">redraw-screen</td> <td border="0" align="left">OP_REDRAW</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">transpose-chars</td> <td border="0" align="left">OP_EDITOR_TRANSPOSE_CHARS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">upcase-word</td> <td border="0" align="left">OP_EDITOR_UPCASE_WORD</td> </tr> -->
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>EditorDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="right">&lt;BackSpace&gt;</td> <td>→</td> <td border="0" align="left">backspace</td> </tr>
+		<tr> <td border="0" align="right">&lt;Ctrl-H&gt;</td> <td>→</td> <td border="0" align="left">backspace</td> </tr>
+		<tr> <td border="0" align="right">&lt;Ctrl-B&gt;</td> <td>→</td> <td border="0" align="left">backward-char</td> </tr>
+		<tr> <td border="0" align="right">&lt;Left&gt;</td> <td>→</td> <td border="0" align="left">backward-char</td> </tr>
+		<tr> <td border="0" align="right">&lt;Alt-b&gt;</td> <td>→</td> <td border="0" align="left">backward-word</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+27 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-A&gt;</td> <td>→</td> <td border="0" align="left">bol</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Home&gt;</td> <td>→</td> <td border="0" align="left">bol</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-c&gt;</td> <td>→</td> <td border="0" align="left">capitalize-word</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Tab&gt;</td> <td>→</td> <td border="0" align="left">complete</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-T&gt;</td> <td>→</td> <td border="0" align="left">complete-query</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-D&gt;</td> <td>→</td> <td border="0" align="left">delete-char</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Delete&gt;</td> <td>→</td> <td border="0" align="left">delete-char</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-l&gt;</td> <td>→</td> <td border="0" align="left">downcase-word</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-E&gt;</td> <td>→</td> <td border="0" align="left">eol</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;End&gt;</td> <td>→</td> <td border="0" align="left">eol</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-F&gt;</td> <td>→</td> <td border="0" align="left">forward-char</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Right&gt;</td> <td>→</td> <td border="0" align="left">forward-char</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-f&gt;</td> <td>→</td> <td border="0" align="left">forward-word</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-?&gt;</td> <td>→</td> <td border="0" align="left">help</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-N&gt;</td> <td>→</td> <td border="0" align="left">history-down</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Down&gt;</td> <td>→</td> <td border="0" align="left">history-down</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-R&gt;</td> <td>→</td> <td border="0" align="left">history-search</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-P&gt;</td> <td>→</td> <td border="0" align="left">history-up</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Up&gt;</td> <td>→</td> <td border="0" align="left">history-up</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-K&gt;</td> <td>→</td> <td border="0" align="left">kill-eol</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-d&gt;</td> <td>→</td> <td border="0" align="left">kill-eow</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-U&gt;</td> <td>→</td> <td border="0" align="left">kill-line</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-W&gt;</td> <td>→</td> <td border="0" align="left">kill-word</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Space&gt;</td> <td>→</td> <td border="0" align="left">mailbox-cycle</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-V&gt;</td> <td>→</td> <td border="0" align="left">quote-char</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-L&gt;</td> <td>→</td> <td border="0" align="left">redraw-screen</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-u&gt;</td> <td>→</td> <td border="0" align="left">upcase-word</td> </tr> -->
+		</table>>
+	];
+}

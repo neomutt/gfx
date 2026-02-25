@@ -221,3 +221,9 @@
   </tr>
 </table>
 
+## Graphviz sources
+
+[menu_alias.gv](menu_alias.gv) [menu_attach.gv](menu_attach.gv) [menu_autocrypt.gv](menu_autocrypt.gv) [menu_browser.gv](menu_browser.gv) [menu_compose.gv](menu_compose.gv) [menu_dialog.gv](menu_dialog.gv) [menu_editor.gv](menu_editor.gv) [menu_generic.gv](menu_generic.gv) [menu_index.gv](menu_index.gv) [menu_pager.gv](menu_pager.gv) [menu_pgp.gv](menu_pgp.gv) [menu_postpone.gv](menu_postpone.gv) [menu_query.gv](menu_query.gv) [menu_sidebar.gv](menu_sidebar.gv) [menu_smime.gv](menu_smime.gv)
+
+[sub_alias.gv](sub_alias.gv) [sub_attach.gv](sub_attach.gv) [sub_autocrypt.gv](sub_autocrypt.gv) [sub_browser.gv](sub_browser.gv) [sub_compose.gv](sub_compose.gv) [sub_dialog.gv](sub_dialog.gv) [sub_editor.gv](sub_editor.gv) [sub_generic.gv](sub_generic.gv) [sub_index.gv](sub_index.gv) [sub_pager.gv](sub_pager.gv) [sub_pgp.gv](sub_pgp.gv) [sub_postpone.gv](sub_postpone.gv) [sub_query.gv](sub_query.gv) [sub_sidebar.gv](sub_sidebar.gv) [sub_smime.gv](sub_smime.gv)
+

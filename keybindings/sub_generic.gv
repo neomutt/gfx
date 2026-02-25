@@ -1,0 +1,102 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_generic [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpGeneric[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">bottom-page</td> <td border="0" align="left">OP_BOTTOM_PAGE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">check-stats</td> <td border="0" align="left">OP_CHECK_STATS</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">current-bottom</td> <td border="0" align="left">OP_CURRENT_BOTTOM</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">current-middle</td> <td border="0" align="left">OP_CURRENT_MIDDLE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">current-top</td> <td border="0" align="left">OP_CURRENT_TOP</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+30 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="left" colspan="2">end-cond</td> <td border="0" align="left">OP_END_COND</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">enter-command</td> <td border="0" align="left">OP_ENTER_COMMAND</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">exit</td> <td border="0" align="left">OP_EXIT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">first-entry</td> <td border="0" align="left">OP_FIRST_ENTRY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">half-down</td> <td border="0" align="left">OP_HALF_DOWN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">half-up</td> <td border="0" align="left">OP_HALF_UP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">help</td> <td border="0" align="left">OP_HELP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">jump</td> <td border="0" align="left">OP_JUMP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">last-entry</td> <td border="0" align="left">OP_LAST_ENTRY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">middle-page</td> <td border="0" align="left">OP_MIDDLE_PAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">next-entry</td> <td border="0" align="left">OP_NEXT_ENTRY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">next-line</td> <td border="0" align="left">OP_NEXT_LINE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">next-page</td> <td border="0" align="left">OP_NEXT_PAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">previous-entry</td> <td border="0" align="left">OP_PREV_ENTRY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">previous-line</td> <td border="0" align="left">OP_PREV_LINE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">previous-page</td> <td border="0" align="left">OP_PREV_PAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">redraw-screen</td> <td border="0" align="left">OP_REDRAW</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">search</td> <td border="0" align="left">OP_SEARCH</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">search-next</td> <td border="0" align="left">OP_SEARCH_NEXT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">search-opposite</td> <td border="0" align="left">OP_SEARCH_OPPOSITE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">search-reverse</td> <td border="0" align="left">OP_SEARCH_REVERSE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">select-entry</td> <td border="0" align="left">OP_GENERIC_SELECT_ENTRY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">shell-escape</td> <td border="0" align="left">OP_SHELL_ESCAPE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">show-log-messages</td> <td border="0" align="left">OP_SHOW_LOG_MESSAGES</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">show-version</td> <td border="0" align="left">OP_VERSION</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">tag-entry</td> <td border="0" align="left">OP_TAG</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">tag-prefix</td> <td border="0" align="left">OP_TAG_PREFIX</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">tag-prefix-cond</td> <td border="0" align="left">OP_TAG_PREFIX_COND</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">top-page</td> <td border="0" align="left">OP_TOP_PAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">what-key</td> <td border="0" align="left">OP_WHAT_KEY</td> </tr> -->
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>GenericDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="right">L</td> <td>→</td> <td border="0" align="left">bottom-page</td> </tr>
+		<tr> <td border="0" align="right">:</td> <td>→</td> <td border="0" align="left">enter-command</td> </tr>
+		<tr> <td border="0" align="right">&lt;Home&gt;</td> <td>→</td> <td border="0" align="left">first-entry</td> </tr>
+		<tr> <td border="0" align="right">=</td> <td>→</td> <td border="0" align="left">first-entry</td> </tr>
+		<tr> <td border="0" align="right">]</td> <td>→</td> <td border="0" align="left">half-down</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+29 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="right">[</td> <td>→</td> <td border="0" align="left">half-up</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">?</td> <td>→</td> <td border="0" align="left">help</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">*</td> <td>→</td> <td border="0" align="left">last-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;End&gt;</td> <td>→</td> <td border="0" align="left">last-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">M</td> <td>→</td> <td border="0" align="left">middle-page</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Down&gt;</td> <td>→</td> <td border="0" align="left">next-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">j</td> <td>→</td> <td border="0" align="left">next-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&gt;</td> <td>→</td> <td border="0" align="left">next-line</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;PageDown&gt;</td> <td>→</td> <td border="0" align="left">next-page</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Right&gt;</td> <td>→</td> <td border="0" align="left">next-page</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">z</td> <td>→</td> <td border="0" align="left">next-page</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Up&gt;</td> <td>→</td> <td border="0" align="left">previous-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">k</td> <td>→</td> <td border="0" align="left">previous-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;</td> <td>→</td> <td border="0" align="left">previous-line</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Left&gt;</td> <td>→</td> <td border="0" align="left">previous-page</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;PageUp&gt;</td> <td>→</td> <td border="0" align="left">previous-page</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">Z</td> <td>→</td> <td border="0" align="left">previous-page</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-L&gt;</td> <td>→</td> <td border="0" align="left">redraw-screen</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">/</td> <td>→</td> <td border="0" align="left">search</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">n</td> <td>→</td> <td border="0" align="left">search-next</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-/&gt;</td> <td>→</td> <td border="0" align="left">search-reverse</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Enter&gt;</td> <td>→</td> <td border="0" align="left">select-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;KeypadEnter&gt;</td> <td>→</td> <td border="0" align="left">select-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Return&gt;</td> <td>→</td> <td border="0" align="left">select-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">!</td> <td>→</td> <td border="0" align="left">shell-escape</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">V</td> <td>→</td> <td border="0" align="left">show-version</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">t</td> <td>→</td> <td border="0" align="left">tag-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">;</td> <td>→</td> <td border="0" align="left">tag-prefix</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">H</td> <td>→</td> <td border="0" align="left">top-page</td> </tr> -->
+		</table>>
+	];
+}

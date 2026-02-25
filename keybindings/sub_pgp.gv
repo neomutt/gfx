@@ -1,0 +1,37 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_pgp [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpPgp[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">exit</td> <td border="0" align="left">OP_EXIT</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">verify-key</td> <td border="0" align="left">OP_VERIFY_KEY</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">view-name</td> <td border="0" align="left">OP_VIEW_ID</td> </tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>PgpDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="right">q</td> <td>→</td> <td border="0" align="left">exit</td> </tr>
+		<tr> <td border="0" align="right">c</td> <td>→</td> <td border="0" align="left">verify-key</td> </tr>
+		<tr> <td border="0" align="right">%</td> <td>→</td> <td border="0" align="left">view-name</td> </tr>
+		</table>>
+	];
+}

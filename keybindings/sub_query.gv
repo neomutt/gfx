@@ -1,0 +1,54 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_query [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpQuery[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">create-alias</td> <td border="0" align="left">OP_CREATE_ALIAS</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">exit</td> <td border="0" align="left">OP_EXIT</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">limit</td> <td border="0" align="left">OP_MAIN_LIMIT</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">mail</td> <td border="0" align="left">OP_MAIL</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">query</td> <td border="0" align="left">OP_QUERY</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+5 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="left" colspan="2">query-append</td> <td border="0" align="left">OP_QUERY_APPEND</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sort</td> <td border="0" align="left">OP_SORT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sort-reverse</td> <td border="0" align="left">OP_SORT_REVERSE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">tag-pattern</td> <td border="0" align="left">OP_MAIN_TAG_PATTERN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">untag-pattern</td> <td border="0" align="left">OP_MAIN_UNTAG_PATTERN</td> </tr> -->
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>QueryDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="right">a</td> <td>→</td> <td border="0" align="left">create-alias</td> </tr>
+		<tr> <td border="0" align="right">q</td> <td>→</td> <td border="0" align="left">exit</td> </tr>
+		<tr> <td border="0" align="right">l</td> <td>→</td> <td border="0" align="left">limit</td> </tr>
+		<tr> <td border="0" align="right">m</td> <td>→</td> <td border="0" align="left">mail</td> </tr>
+		<tr> <td border="0" align="right">Q</td> <td>→</td> <td border="0" align="left">query</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+6 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="right">A</td> <td>→</td> <td border="0" align="left">query-append</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">o</td> <td>→</td> <td border="0" align="left">sort</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">O</td> <td>→</td> <td border="0" align="left">sort-reverse</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Space&gt;</td> <td>→</td> <td border="0" align="left">tag-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">T</td> <td>→</td> <td border="0" align="left">tag-pattern</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-T&gt;</td> <td>→</td> <td border="0" align="left">untag-pattern</td> </tr> -->
+		</table>>
+	];
+}

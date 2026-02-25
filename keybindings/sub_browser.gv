@@ -1,0 +1,76 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_browser [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpBrowser[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">catchup</td> <td border="0" align="left">OP_CATCHUP</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">change-dir</td> <td border="0" align="left">OP_CHANGE_DIRECTORY</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">check-new</td> <td border="0" align="left">OP_CHECK_NEW</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">create-mailbox</td> <td border="0" align="left">OP_CREATE_MAILBOX</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">delete-mailbox</td> <td border="0" align="left">OP_DELETE_MAILBOX</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+20 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="left" colspan="2">descend-directory</td> <td border="0" align="left">OP_DESCEND_DIRECTORY</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">display-filename</td> <td border="0" align="left">OP_BROWSER_TELL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">enter-mask</td> <td border="0" align="left">OP_ENTER_MASK</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">exit</td> <td border="0" align="left">OP_EXIT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">goto-folder</td> <td border="0" align="left">OP_BROWSER_GOTO_FOLDER</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">goto-parent</td> <td border="0" align="left">OP_GOTO_PARENT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">mailbox-list</td> <td border="0" align="left">OP_MAILBOX_LIST</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">reload-active</td> <td border="0" align="left">OP_LOAD_ACTIVE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">rename-mailbox</td> <td border="0" align="left">OP_RENAME_MAILBOX</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">select-new</td> <td border="0" align="left">OP_BROWSER_NEW_FILE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sort</td> <td border="0" align="left">OP_SORT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sort-reverse</td> <td border="0" align="left">OP_SORT_REVERSE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">subscribe</td> <td border="0" align="left">OP_BROWSER_SUBSCRIBE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">subscribe-pattern</td> <td border="0" align="left">OP_SUBSCRIBE_PATTERN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">toggle-mailboxes</td> <td border="0" align="left">OP_TOGGLE_MAILBOXES</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">toggle-subscribed</td> <td border="0" align="left">OP_BROWSER_TOGGLE_LSUB</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">uncatchup</td> <td border="0" align="left">OP_UNCATCHUP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">unsubscribe</td> <td border="0" align="left">OP_BROWSER_UNSUBSCRIBE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">unsubscribe-pattern</td> <td border="0" align="left">OP_UNSUBSCRIBE_PATTERN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-file</td> <td border="0" align="left">OP_BROWSER_VIEW_FILE</td> </tr> -->
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>BrowserDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="right">c</td> <td>→</td> <td border="0" align="left">change-dir</td> </tr>
+		<tr> <td border="0" align="right">C</td> <td>→</td> <td border="0" align="left">create-mailbox</td> </tr>
+		<tr> <td border="0" align="right">d</td> <td>→</td> <td border="0" align="left">delete-mailbox</td> </tr>
+		<tr> <td border="0" align="right">@</td> <td>→</td> <td border="0" align="left">display-filename</td> </tr>
+		<tr> <td border="0" align="right">m</td> <td>→</td> <td border="0" align="left">enter-mask</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+13 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="right">q</td> <td>→</td> <td border="0" align="left">exit</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">=</td> <td>→</td> <td border="0" align="left">goto-folder</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">p</td> <td>→</td> <td border="0" align="left">goto-parent</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">.</td> <td>→</td> <td border="0" align="left">mailbox-list</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">r</td> <td>→</td> <td border="0" align="left">rename-mailbox</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">N</td> <td>→</td> <td border="0" align="left">select-new</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">o</td> <td>→</td> <td border="0" align="left">sort</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">O</td> <td>→</td> <td border="0" align="left">sort-reverse</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">s</td> <td>→</td> <td border="0" align="left">subscribe</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Tab&gt;</td> <td>→</td> <td border="0" align="left">toggle-mailboxes</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">T</td> <td>→</td> <td border="0" align="left">toggle-subscribed</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">u</td> <td>→</td> <td border="0" align="left">unsubscribe</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Space&gt;</td> <td>→</td> <td border="0" align="left">view-file</td> </tr> -->
+		</table>>
+	];
+}

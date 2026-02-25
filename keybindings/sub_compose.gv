@@ -1,0 +1,145 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_compose [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpCompose[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">attach-file</td> <td border="0" align="left">OP_ATTACHMENT_ATTACH_FILE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">attach-key</td> <td border="0" align="left">OP_ATTACHMENT_ATTACH_KEY</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">attach-message</td> <td border="0" align="left">OP_ATTACHMENT_ATTACH_MESSAGE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">attach-news-message</td> <td border="0" align="left">OP_ATTACHMENT_ATTACH_NEWS_MESSAGE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">autocrypt-menu</td> <td border="0" align="left">OP_COMPOSE_AUTOCRYPT_MENU</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+54 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="left" colspan="2">copy-file</td> <td border="0" align="left">OP_ATTACHMENT_SAVE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">detach-file</td> <td border="0" align="left">OP_ATTACHMENT_DETACH</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">display-toggle-weed</td> <td border="0" align="left">OP_DISPLAY_HEADERS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-bcc</td> <td border="0" align="left">OP_ENVELOPE_EDIT_BCC</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-cc</td> <td border="0" align="left">OP_ENVELOPE_EDIT_CC</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-content-id</td> <td border="0" align="left">OP_ATTACHMENT_EDIT_CONTENT_ID</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-description</td> <td border="0" align="left">OP_ATTACHMENT_EDIT_DESCRIPTION</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-encoding</td> <td border="0" align="left">OP_ATTACHMENT_EDIT_ENCODING</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-fcc</td> <td border="0" align="left">OP_ENVELOPE_EDIT_FCC</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-file</td> <td border="0" align="left">OP_COMPOSE_EDIT_FILE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-followup-to</td> <td border="0" align="left">OP_ENVELOPE_EDIT_FOLLOWUP_TO</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-from</td> <td border="0" align="left">OP_ENVELOPE_EDIT_FROM</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-headers</td> <td border="0" align="left">OP_ENVELOPE_EDIT_HEADERS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-language</td> <td border="0" align="left">OP_ATTACHMENT_EDIT_LANGUAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-message</td> <td border="0" align="left">OP_COMPOSE_EDIT_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-mime</td> <td border="0" align="left">OP_ATTACHMENT_EDIT_MIME</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-newsgroups</td> <td border="0" align="left">OP_ENVELOPE_EDIT_NEWSGROUPS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-reply-to</td> <td border="0" align="left">OP_ENVELOPE_EDIT_REPLY_TO</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-subject</td> <td border="0" align="left">OP_ENVELOPE_EDIT_SUBJECT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-to</td> <td border="0" align="left">OP_ENVELOPE_EDIT_TO</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-type</td> <td border="0" align="left">OP_ATTACHMENT_EDIT_TYPE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">edit-x-comment-to</td> <td border="0" align="left">OP_ENVELOPE_EDIT_X_COMMENT_TO</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">exit</td> <td border="0" align="left">OP_EXIT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">filter-entry</td> <td border="0" align="left">OP_ATTACHMENT_FILTER</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">forget-passphrase</td> <td border="0" align="left">OP_FORGET_PASSPHRASE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">get-attachment</td> <td border="0" align="left">OP_ATTACHMENT_GET_ATTACHMENT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">group-alternatives</td> <td border="0" align="left">OP_ATTACHMENT_GROUP_ALTS</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">group-multilingual</td> <td border="0" align="left">OP_ATTACHMENT_GROUP_LINGUAL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">group-related</td> <td border="0" align="left">OP_ATTACHMENT_GROUP_RELATED</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">ispell</td> <td border="0" align="left">OP_COMPOSE_ISPELL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">move-down</td> <td border="0" align="left">OP_ATTACHMENT_MOVE_DOWN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">move-up</td> <td border="0" align="left">OP_ATTACHMENT_MOVE_UP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">new-mime</td> <td border="0" align="left">OP_ATTACHMENT_NEW_MIME</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">pgp-menu</td> <td border="0" align="left">OP_COMPOSE_PGP_MENU</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">pipe-entry</td> <td border="0" align="left">OP_PIPE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">pipe-message</td> <td border="0" align="left">OP_PIPE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">postpone-message</td> <td border="0" align="left">OP_COMPOSE_POSTPONE_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">preview-page-down</td> <td border="0" align="left">OP_PREVIEW_PAGE_DOWN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">preview-page-up</td> <td border="0" align="left">OP_PREVIEW_PAGE_UP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">print-entry</td> <td border="0" align="left">OP_ATTACHMENT_PRINT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">rename-attachment</td> <td border="0" align="left">OP_ATTACHMENT_RENAME_ATTACHMENT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">rename-file</td> <td border="0" align="left">OP_COMPOSE_RENAME_FILE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">send-message</td> <td border="0" align="left">OP_COMPOSE_SEND_MESSAGE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">smime-menu</td> <td border="0" align="left">OP_COMPOSE_SMIME_MENU</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">toggle-disposition</td> <td border="0" align="left">OP_ATTACHMENT_TOGGLE_DISPOSITION</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">toggle-recode</td> <td border="0" align="left">OP_ATTACHMENT_TOGGLE_RECODE</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">toggle-unlink</td> <td border="0" align="left">OP_ATTACHMENT_TOGGLE_UNLINK</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">ungroup-attachment</td> <td border="0" align="left">OP_ATTACHMENT_UNGROUP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">update-encoding</td> <td border="0" align="left">OP_ATTACHMENT_UPDATE_ENCODING</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-attach</td> <td border="0" align="left">OP_ATTACHMENT_VIEW</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-mailcap</td> <td border="0" align="left">OP_ATTACHMENT_VIEW_MAILCAP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-pager</td> <td border="0" align="left">OP_ATTACHMENT_VIEW_PAGER</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">view-text</td> <td border="0" align="left">OP_ATTACHMENT_VIEW_TEXT</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">write-fcc</td> <td border="0" align="left">OP_COMPOSE_WRITE_MESSAGE</td> </tr> -->
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>ComposeDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="right">a</td> <td>→</td> <td border="0" align="left">attach-file</td> </tr>
+		<tr> <td border="0" align="right">&lt;Alt-k&gt;</td> <td>→</td> <td border="0" align="left">attach-key</td> </tr>
+		<tr> <td border="0" align="right">A</td> <td>→</td> <td border="0" align="left">attach-message</td> </tr>
+		<tr> <td border="0" align="right">o</td> <td>→</td> <td border="0" align="left">autocrypt-menu</td> </tr>
+		<tr> <td border="0" align="right">C</td> <td>→</td> <td border="0" align="left">copy-file</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+48 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="right">D</td> <td>→</td> <td border="0" align="left">detach-file</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">h</td> <td>→</td> <td border="0" align="left">display-toggle-weed</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">b</td> <td>→</td> <td border="0" align="left">edit-bcc</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">c</td> <td>→</td> <td border="0" align="left">edit-cc</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-i&gt;</td> <td>→</td> <td border="0" align="left">edit-content-id</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">d</td> <td>→</td> <td border="0" align="left">edit-description</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-E&gt;</td> <td>→</td> <td border="0" align="left">edit-encoding</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">f</td> <td>→</td> <td border="0" align="left">edit-fcc</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-e&gt;</td> <td>→</td> <td border="0" align="left">edit-file</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Alt-f&gt;</td> <td>→</td> <td border="0" align="left">edit-from</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">E</td> <td>→</td> <td border="0" align="left">edit-headers</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-L&gt;</td> <td>→</td> <td border="0" align="left">edit-language</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">e</td> <td>→</td> <td border="0" align="left">edit-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">m</td> <td>→</td> <td border="0" align="left">edit-mime</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">r</td> <td>→</td> <td border="0" align="left">edit-reply-to</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">s</td> <td>→</td> <td border="0" align="left">edit-subject</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">t</td> <td>→</td> <td border="0" align="left">edit-to</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-T&gt;</td> <td>→</td> <td border="0" align="left">edit-type</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">q</td> <td>→</td> <td border="0" align="left">exit</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">F</td> <td>→</td> <td border="0" align="left">filter-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-F&gt;</td> <td>→</td> <td border="0" align="left">forget-passphrase</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">G</td> <td>→</td> <td border="0" align="left">get-attachment</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&amp;</td> <td>→</td> <td border="0" align="left">group-alternatives</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">^</td> <td>→</td> <td border="0" align="left">group-multilingual</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">%</td> <td>→</td> <td border="0" align="left">group-related</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">i</td> <td>→</td> <td border="0" align="left">ispell</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">+</td> <td>→</td> <td border="0" align="left">move-down</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">-</td> <td>→</td> <td border="0" align="left">move-up</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">n</td> <td>→</td> <td border="0" align="left">new-mime</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">p</td> <td>→</td> <td border="0" align="left">pgp-menu</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">|</td> <td>→</td> <td border="0" align="left">pipe-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">P</td> <td>→</td> <td border="0" align="left">postpone-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;PageDown&gt;</td> <td>→</td> <td border="0" align="left">preview-page-down</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;PageUp&gt;</td> <td>→</td> <td border="0" align="left">preview-page-up</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">l</td> <td>→</td> <td border="0" align="left">print-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-O&gt;</td> <td>→</td> <td border="0" align="left">rename-attachment</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">R</td> <td>→</td> <td border="0" align="left">rename-file</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">y</td> <td>→</td> <td border="0" align="left">send-message</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">S</td> <td>→</td> <td border="0" align="left">smime-menu</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">T</td> <td>→</td> <td border="0" align="left">tag-entry</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Ctrl-D&gt;</td> <td>→</td> <td border="0" align="left">toggle-disposition</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">u</td> <td>→</td> <td border="0" align="left">toggle-unlink</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">#</td> <td>→</td> <td border="0" align="left">ungroup-attachment</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">U</td> <td>→</td> <td border="0" align="left">update-encoding</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Enter&gt;</td> <td>→</td> <td border="0" align="left">view-attach</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;KeypadEnter&gt;</td> <td>→</td> <td border="0" align="left">view-attach</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">&lt;Return&gt;</td> <td>→</td> <td border="0" align="left">view-attach</td> </tr> -->
+		<!-- <tr> <td border="0" align="right">w</td> <td>→</td> <td border="0" align="left">write-fcc</td> </tr> -->
+		</table>>
+	];
+}

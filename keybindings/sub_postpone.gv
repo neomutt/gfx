@@ -1,0 +1,37 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_postpone [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpPostponed[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">exit</td> <td border="0" align="left">OP_EXIT</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">delete-entry</td> <td border="0" align="left">OP_DELETE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">undelete-entry</td> <td border="0" align="left">OP_UNDELETE</td> </tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>PostponedDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="right">d</td> <td>→</td> <td border="0" align="left">delete-entry</td> </tr>
+		<tr> <td border="0" align="right">q</td> <td>→</td> <td border="0" align="left">exit</td> </tr>
+		<tr> <td border="0" align="right">u</td> <td>→</td> <td border="0" align="left">undelete-entry</td> </tr>
+		</table>>
+	];
+}

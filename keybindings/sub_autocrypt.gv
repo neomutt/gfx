@@ -1,0 +1,42 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_autocrypt [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpAutocrypt[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">create-account</td> <td border="0" align="left">OP_AUTOCRYPT_CREATE_ACCT</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">delete-account</td> <td border="0" align="left">OP_AUTOCRYPT_DELETE_ACCT</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">exit</td> <td border="0" align="left">OP_EXIT</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">toggle-active</td> <td border="0" align="left">OP_AUTOCRYPT_TOGGLE_ACTIVE</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">toggle-prefer-encrypt</td> <td border="0" align="left">OP_AUTOCRYPT_TOGGLE_PREFER</td> </tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>AutocryptDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="right">c</td> <td>→</td> <td border="0" align="left">create-account</td> </tr>
+		<tr> <td border="0" align="right">D</td> <td>→</td> <td border="0" align="left">delete-account</td> </tr>
+		<tr> <td border="0" align="right">d</td> <td>→</td> <td border="0" align="left">delete-mailbox</td> </tr>
+		<tr> <td border="0" align="right">q</td> <td>→</td> <td border="0" align="left">exit</td> </tr>
+		<tr> <td border="0" align="right">a</td> <td>→</td> <td border="0" align="left">toggle-active</td> </tr>
+		<tr> <td border="0" align="right">p</td> <td>→</td> <td border="0" align="left">toggle-prefer-encrypt</td> </tr>
+		</table>>
+	];
+}

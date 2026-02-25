@@ -1,0 +1,44 @@
+digraph keybindings
+{
+	graph [
+		rankdir="LR"
+		nodesep="0.5"
+		ranksep="1.5"
+	];
+
+	node [
+		shape="plain"
+	];
+
+	edge [
+		penwidth="1.0"
+		arrowsize="1.0"
+		color="#000000"
+	];
+	sub_sidebar [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="20"><b>SubMenu</b></font> </td>
+		</tr>
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>OpSidebar[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="2">sidebar-first</td> <td border="0" align="left">OP_SIDEBAR_FIRST</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">sidebar-last</td> <td border="0" align="left">OP_SIDEBAR_LAST</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">sidebar-next</td> <td border="0" align="left">OP_SIDEBAR_NEXT</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">sidebar-next-new</td> <td border="0" align="left">OP_SIDEBAR_NEXT_NEW</td> </tr>
+		<tr> <td border="0" align="left" colspan="2">sidebar-open</td> <td border="0" align="left">OP_SIDEBAR_OPEN</td> </tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">+6 more</font></td> </tr>
+		<!-- <tr> <td border="0" align="left" colspan="2">sidebar-page-down</td> <td border="0" align="left">OP_SIDEBAR_PAGE_DOWN</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sidebar-page-up</td> <td border="0" align="left">OP_SIDEBAR_PAGE_UP</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sidebar-prev</td> <td border="0" align="left">OP_SIDEBAR_PREV</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sidebar-prev-new</td> <td border="0" align="left">OP_SIDEBAR_PREV_NEW</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sidebar-toggle-virtual</td> <td border="0" align="left">OP_SIDEBAR_TOGGLE_VIRTUAL</td> </tr> -->
+		<!-- <tr> <td border="0" align="left" colspan="2">sidebar-toggle-visible</td> <td border="0" align="left">OP_SIDEBAR_TOGGLE_VISIBLE</td> </tr> -->
+		<tr>
+			<td border="0" align="left" bgcolor="#ffff80" port="top" colspan="3"><font color="#000000" point-size="12"><b>SidebarDefaultBindings[]</b></font> </td>
+		</tr>
+		<tr> <td border="0" align="left" colspan="3"><font color="#303030" point-size="10">none</font></td> </tr>
+		</table>>
+	];
+}
